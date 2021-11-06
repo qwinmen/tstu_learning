@@ -1,0 +1,47 @@
+                       -= In Russian =-
+
+    Программирование в 256-ти цветных графических видео режимах VESA
+
+VESA.ASM                Внешние подпрограммы на ассемблере для модуля VESA.PAS
+VESA.OBJ                Компилированный файл VESA.ASM
+VESA.PAS                Главный модуль
+MEMORY.PAS              Модуль для примера V.PAS
+
+VESA_USE.PAS            Пример 1
+V.PAS                   Пример 2 (для реального режима)
+VP.PAS                  Пример 3 = Пример 2 (для защищенного режима)
+SPRITE.PAS              Пример 4
+VF.PAS                  Пример 5
+POLY.PAS                Пример 6
+
+*.FNT                   Файлы со шрифтами для модуля VESA.PAS и примера VF.PAS
+
+VESA.DOC                Документик на VESA-BIOS
+
+                                                 Автор: Алексей Фрунзе
+
+
+                       -= In English =-
+
+          Programming in the 256-color graphic video VESA modes
+
+VESA.ASM                External asm-routines for the VESA.PAS unit
+VESA.OBJ                Compiled VESA.ASM file
+VESA.PAS                Main unit
+MEMORY.PAS              Memory alloc/free unit for the V.PAS example
+
+VESA_USE.PAS            Example 1
+V.PAS                   Example 2 (for the Real mode)
+VP.PAS                  Example 3 = Example 2 (for the Protected mode)
+SPRITE.PAS              Example 4
+VF.PAS                  Example 5
+POLY.PAS                Example 6
+
+*.FNT                   Files with fonts for the VESA.PAS unit & VF.PAS example
+
+VESA.DOC                VESA-BIOS Document
+
+                                              Author: Alexei A. Frounze
+
+Homepage: http://www.chat.ru/~alexfru
+E-mail  : alexfru@chat.ru

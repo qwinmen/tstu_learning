@@ -1,0 +1,643 @@
+********************************************************************************
+***                            MC-9 GUAP Edition                             ***
+***                                                                          ***
+***                                                                          ***
+***     Анализ переходных процессов Transient analysis of RazborOMPLAB4      ***
+********************************************************************************
+Limits
+======
+Time Range           1u
+Maximum Time Step    0
+Number of Points     51
+Temperature          Linear 27
+Run Options          Normal
+State Variables      Zero
+Operating Point      On
+Operating Point Only Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+Model parameters for devices of type Diode
+==========================================
+Instance:            D5_X6            D3_X6            D4_X6            D1_X6   
+LEVEL                    1(*)             1(*)             1(*)             1(*)
+AF                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+BV                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+CJO                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+EG                  1.110 (*)        1.110 (*)        1.110 (*)        1.110 (*)
+FC                500.000m(*)      500.000m(*)      500.000m(*)      500.000m(*)
+IBV               100.000p(*)      100.000p(*)      100.000p(*)      100.000p(*)
+IBVL                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+IKF                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+IS                 10.000f(*)       10.000f(*)       10.000f(*)       10.000f(*)
+ISR                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+KF                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+M                 500.000m(*)      500.000m(*)      500.000m(*)      500.000m(*)
+N                   1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+NBV                 1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+NBVL                1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+NR                  2.000 (*)        2.000 (*)        2.000 (*)        2.000 (*)
+RL                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+RS                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+T_ABS            UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_MEASURED       UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_REL_GLOBAL     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_REL_LOCAL      UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+TBV1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TBV2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TIKF                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRS1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRS2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TT                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+VJ                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+XTI                 3.000 (*)        3.000 (*)        3.000 (*)        3.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            D2_X6   
+LEVEL                    1(*)
+AF                  1.000 (*)
+BV                  0.000 (*)
+CJO                 0.000 (*)
+EG                  1.110 (*)
+FC                500.000m(*)
+IBV               100.000p(*)
+IBVL                0.000 (*)
+IKF                 0.000 (*)
+IS                 10.000f(*)
+ISR                 0.000 (*)
+KF                  0.000 (*)
+M                 500.000m(*)
+N                   1.000 (*)
+NBV                 1.000 (*)
+NBVL                1.000 (*)
+NR                  2.000 (*)
+RL                  0.000 (*)
+RS                  0.000 (*)
+T_ABS            UNDEFINED(*)
+T_MEASURED       UNDEFINED(*)
+T_REL_GLOBAL     UNDEFINED(*)
+T_REL_LOCAL      UNDEFINED(*)
+TBV1                0.000 (*)
+TBV2                0.000 (*)
+TIKF                0.000 (*)
+TRS1                0.000 (*)
+TRS2                0.000 (*)
+TT                  0.000 (*)
+VJ                  1.000 (*)
+XTI                 3.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Sine Source
+================================================
+Instance:               V2               V3              V13   
+Using model:       GENERAL          GENERAL          GENERAL   
+A                   1.000 (*)        1.000 (*)        1.000 (*)
+DC                  0.000 (*)        0.000 (*)        0.000 (*)
+F                10.000MEG        10.000MEG        10.000MEG   
+PH                  0.000 (*)        0.000 (*)        0.000 (*)
+RP                  0.000 (*)        0.000 (*)        0.000 (*)
+RS                  1.000m(*)        1.000m(*)        1.000m(*)
+TAU                 0.000 (*)        0.000 (*)        0.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:               Q1               Q3               Q4               Q6   
+Using model:    $GENERIC_N       $GENERIC_N       $GENERIC_N       $GENERIC_N   
+LEVEL                    1(*)             1(*)             1(*)             1(*)
+AF                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+BF                200.000          200.000          200.000          200.000    
+BR                  2.000            2.000            2.000            2.000    
+CJC                30.000p          30.000p          30.000p          30.000p   
+CJE                40.000p          40.000p          40.000p          40.000p   
+CJS                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+EG                  1.110 (*)        1.110 (*)        1.110 (*)        1.110 (*)
+FC                500.000m(*)      500.000m(*)      500.000m(*)      500.000m(*)
+IKF               100.000m         100.000m         100.000m         100.000m   
+IKR                35.000           35.000           35.000           35.000    
+IRB                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+IS                  5.000p           5.000p           5.000p           5.000p   
+ISC                10.000f          10.000f          10.000f          10.000f   
+ISE                 2.000p           2.000p           2.000p           2.000p   
+ISS                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+ITF                10.000m          10.000m          10.000m          10.000m   
+KF                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+MJC               500.000m         500.000m         500.000m         500.000m   
+MJE               500.000m         500.000m         500.000m         500.000m   
+MJS                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+NC                  2.000 (*)        2.000 (*)        2.000 (*)        2.000 (*)
+NE                  1.500 (*)        1.500 (*)        1.500 (*)        1.500 (*)
+NF                  1.200            1.200            1.200            1.200    
+NK                500.000m(*)      500.000m(*)      500.000m(*)      500.000m(*)
+NR                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+NS                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+PTF                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+RB                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+RBM                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+RC                  1.000m           1.000m           1.000m           1.000m   
+RE                500.000m         500.000m         500.000m         500.000m   
+T_ABS            UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_MEASURED       UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_REL_GLOBAL     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_REL_LOCAL      UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+TF                400.000p         400.000p         400.000p         400.000p   
+TR                200.000n         200.000n         200.000n         200.000n   
+TRB1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRB2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRC1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRC2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRE1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRE2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRM1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRM2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+VAF               100.000          100.000          100.000          100.000    
+VAR                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+VJC               700.000m         700.000m         700.000m         700.000m   
+VJE               700.000m         700.000m         700.000m         700.000m   
+VJS               750.000m(*)      750.000m(*)      750.000m(*)      750.000m(*)
+VTF                10.000           10.000           10.000           10.000    
+XCJC                1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+XTB                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+XTF               500.000m         500.000m         500.000m         500.000m   
+XTI                 3.000 (*)        3.000 (*)        3.000 (*)        3.000 (*)
+(*) Default Parameter
+
+
+
+Instance:               Q7              Q10              Q11   
+Using model:    $GENERIC_N       $GENERIC_N       $GENERIC_N   
+LEVEL                    1(*)             1(*)             1(*)
+AF                  1.000 (*)        1.000 (*)        1.000 (*)
+BF                200.000          200.000          200.000    
+BR                  2.000            2.000            2.000    
+CJC                30.000p          30.000p          30.000p   
+CJE                40.000p          40.000p          40.000p   
+CJS                 0.000 (*)        0.000 (*)        0.000 (*)
+EG                  1.110 (*)        1.110 (*)        1.110 (*)
+FC                500.000m(*)      500.000m(*)      500.000m(*)
+IKF               100.000m         100.000m         100.000m   
+IKR                35.000           35.000           35.000    
+IRB                 0.000 (*)        0.000 (*)        0.000 (*)
+IS                  5.000p           5.000p           5.000p   
+ISC                10.000f          10.000f          10.000f   
+ISE                 2.000p           2.000p           2.000p   
+ISS                 0.000 (*)        0.000 (*)        0.000 (*)
+ITF                10.000m          10.000m          10.000m   
+KF                  0.000 (*)        0.000 (*)        0.000 (*)
+MJC               500.000m         500.000m         500.000m   
+MJE               500.000m         500.000m         500.000m   
+MJS                 0.000 (*)        0.000 (*)        0.000 (*)
+NC                  2.000 (*)        2.000 (*)        2.000 (*)
+NE                  1.500 (*)        1.500 (*)        1.500 (*)
+NF                  1.200            1.200            1.200    
+NK                500.000m(*)      500.000m(*)      500.000m(*)
+NR                  1.000 (*)        1.000 (*)        1.000 (*)
+NS                  1.000 (*)        1.000 (*)        1.000 (*)
+PTF                 0.000 (*)        0.000 (*)        0.000 (*)
+RB                  0.000 (*)        0.000 (*)        0.000 (*)
+RBM                 0.000 (*)        0.000 (*)        0.000 (*)
+RC                  1.000m           1.000m           1.000m   
+RE                500.000m         500.000m         500.000m   
+T_ABS            UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_MEASURED       UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_REL_GLOBAL     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_REL_LOCAL      UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+TF                400.000p         400.000p         400.000p   
+TR                200.000n         200.000n         200.000n   
+TRB1                0.000 (*)        0.000 (*)        0.000 (*)
+TRB2                0.000 (*)        0.000 (*)        0.000 (*)
+TRC1                0.000 (*)        0.000 (*)        0.000 (*)
+TRC2                0.000 (*)        0.000 (*)        0.000 (*)
+TRE1                0.000 (*)        0.000 (*)        0.000 (*)
+TRE2                0.000 (*)        0.000 (*)        0.000 (*)
+TRM1                0.000 (*)        0.000 (*)        0.000 (*)
+TRM2                0.000 (*)        0.000 (*)        0.000 (*)
+VAF               100.000          100.000          100.000    
+VAR                 0.000 (*)        0.000 (*)        0.000 (*)
+VJC               700.000m         700.000m         700.000m   
+VJE               700.000m         700.000m         700.000m   
+VJS               750.000m(*)      750.000m(*)      750.000m(*)
+VTF                10.000           10.000           10.000    
+XCJC                1.000 (*)        1.000 (*)        1.000 (*)
+XTB                 0.000 (*)        0.000 (*)        0.000 (*)
+XTF               500.000m         500.000m         500.000m   
+XTI                 3.000 (*)        3.000 (*)        3.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Bipolar Junction Transistors PNP
+=====================================================================
+Instance:               Q8               Q9            Q1_X6            Q2_X6   
+Using model:    $GENERIC_P       $GENERIC_P              N\A              N\A   
+LEVEL                    1(*)             1(*)             1(*)             1(*)
+AF                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+BF                190.000          190.000          100.000 (*)      100.000 (*)
+BR                  2.000            2.000            1.000 (*)        1.000 (*)
+CJC                 7.000p           7.000p           0.000 (*)        0.000 (*)
+CJE                 6.000p           6.000p           0.000 (*)        0.000 (*)
+CJS                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+EG                  1.110 (*)        1.110 (*)        1.110 (*)        1.110 (*)
+FC                500.000m(*)      500.000m(*)      500.000m(*)      500.000m(*)
+IKF                30.000m          30.000m           0.000 (*)        0.000 (*)
+IKR                10.000K          10.000K           0.000 (*)        0.000 (*)
+IRB                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+IS                 20.000f          20.000f           0.100f(*)        0.100f(*)
+ISC               500.000p         500.000p           0.000 (*)        0.000 (*)
+ISE                25.000f          25.000f           0.000 (*)        0.000 (*)
+ISS                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+ITF                10.000m          10.000m           0.000 (*)        0.000 (*)
+KF                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+MJC               350.000m         350.000m         330.000m(*)      330.000m(*)
+MJE               300.000m         300.000m         330.000m(*)      330.000m(*)
+MJS                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+NC                  2.000 (*)        2.000 (*)        2.000 (*)        2.000 (*)
+NE                  1.300            1.300            1.500 (*)        1.500 (*)
+NF                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+NK                500.000m(*)      500.000m(*)      500.000m(*)      500.000m(*)
+NR                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+NS                  1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+PTF                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+RB                  0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+RBM                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+RC                  1.000            1.000            0.000 (*)        0.000 (*)
+RE                700.000m         700.000m           0.000 (*)        0.000 (*)
+T_ABS            UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_MEASURED       UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_REL_GLOBAL     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+T_REL_LOCAL      UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)     UNDEFINED(*)
+TF                  1.000n           1.000n           0.000 (*)        0.000 (*)
+TR                200.000n         200.000n           0.000 (*)        0.000 (*)
+TRB1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRB2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRC1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRC2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRE1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRE2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRM1                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+TRM2                0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+VAF                90.000           90.000            0.000 (*)        0.000 (*)
+VAR                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+VJC               690.000m         690.000m         750.000m(*)      750.000m(*)
+VJE               690.000m         690.000m         750.000m(*)      750.000m(*)
+VJS               750.000m(*)      750.000m(*)      750.000m(*)      750.000m(*)
+VTF                10.000           10.000            0.000 (*)        0.000 (*)
+XCJC                1.000 (*)        1.000 (*)        1.000 (*)        1.000 (*)
+XTB                 0.000 (*)        0.000 (*)        0.000 (*)        0.000 (*)
+XTF               500.000m         500.000m           0.000 (*)        0.000 (*)
+XTI                 3.000 (*)        3.000 (*)        3.000 (*)        3.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Opamp
+==========================================
+Instance:               X6   
+Using model:       LT1012M   
+LEVEL                    3   
+A                 2.000MEG   
+C                  30.000p(*)
+CMRR              3.981MEG   
+GBW               1.000MEG(*)
+IBIAS              25.000p   
+IOFF               15.000p   
+IOSC               20.000m(*)
+PD                 25.000m(*)
+PM                 60.000 (*)
+ROUTAC             50.000    
+ROUTDC             75.000    
+SRN               2.500MEG   
+SRP               2.500MEG   
+T_ABS            UNDEFINED(*)
+T_MEASURED       UNDEFINED(*)
+T_REL_GLOBAL     UNDEFINED(*)
+T_REL_LOCAL      UNDEFINED(*)
+TYPE                2.000    
+VCC                15.000 (*)
+VEE               -15.000 (*)
+VNS               -13.400    
+VOFF                8.000u   
+VPS                13.400    
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+INV_IN       -0.003f  OUT      -2.176E-023  3             0.000  
+4             0.440f  5          -725.626f  6           -28.494f 
+VC           -1.874n  8            -4.055p  9            -0.008f 
+OUT_INC      -4.080p  11           -4.069p  VE       -1.456E-020 
+13       -3.956E-032  14       -3.956E-032  15        1.058E-028 
+16        8.877E-029  17       -3.046E-028  18       -1.763E-028 
+19        1.989E-028  20            0.000   21           -1.725m 
+22           -1.743m  VE1          -1.000   VC1         996.841m 
+25            0.000   26            0.000  
+
+
+Operating point for devices of type Diode
+=========================================
+Instance:               D5_X6            D3_X6            D4_X6            D1_X6
+ID                    -2.006p         125.529u         125.206u         -20.044p
+VD                    -1.997          601.417m         601.350m         -20.035 
+REQ                    1.000T         206.042          206.573            1.000T
+CAP                    0.000            0.000            0.000            0.000 
+
+DC Power Terms:
+PD                     4.003p          75.496u          75.294u         401.553p
+PS                     0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Id                    -2.006p         125.529u         125.206u         -20.044p
+
+Condition:
+State                     HOT              HOT              HOT              HOT
+
+
+Instance:               D2_X6
+ID                   -19.976p
+VD                   -19.965 
+REQ                    1.000T
+CAP                    0.000 
+
+DC Power Terms:
+PD                   398.849p
+PS                     0.000 
+
+DC Pin Currents:
+Id                   -19.976p
+
+Condition:
+State                     HOT
+
+
+
+Operating point for devices of type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                  Q1               Q3               Q4               Q6
+Using model:       $GENERIC_N       $GENERIC_N       $GENERIC_N       $GENERIC_N
+IB                     0.013f           0.003f       1.818E-019           0.047f
+IC                     0.031f           0.001f          -0.001f          -0.141f
+VBE                  725.622f          28.494f          -4.055p          -0.008f
+VBC                   -0.443f          -0.440f           1.870n           4.080p
+VCE                  726.066f          28.934f          -1.874n          -4.080p
+BETADC                 2.483          330.326m          -3.003           -2.996 
+GM                   -32.219p         -32.220p         -32.220p         -32.223p
+RPI                   19.098G          19.098G          19.098G          19.098G
+RX                     0.000            0.000            0.000            0.000 
+RO                     5.146G           5.146G           5.146G           5.146G
+CPI                   40.000p          40.000p          40.000p          40.000p
+CMU                   30.000p          30.000p          30.000p          30.000p
+CBX                    0.000            0.000            0.000            0.000 
+CJS                    0.000            0.000            0.000            0.000 
+BETAAC              -615.303m        -615.324m        -615.326m        -615.395m
+FT                   -73.253m         -73.256m         -73.256m         -73.264m
+
+DC Power Terms:
+PD                 9.139E-024       9.659E-026       1.023E-027       6.823E-023
+PS                     0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Ib                     0.013f           0.003f       1.818E-019           0.047f
+Ic                     0.031f           0.001f          -0.001f          -0.141f
+Ie                    -0.044f          -0.004f       3.642E-019           0.094f
+Is                     0.000            0.000            0.000            0.000 
+
+Condition:
+State                     OFF              OFF              OFF              OFF
+
+
+Instance:                  Q7              Q10              Q11
+Using model:       $GENERIC_N       $GENERIC_N       $GENERIC_N
+IB                     0.050f       1.048E-026       7.793E-027
+IC                    -0.150f       6.507E-026       7.065E-026
+VBE                   -0.008f       4.104E-028       5.035E-028
+VBC                    4.055p       1.700E-029       3.751E-028
+VCE                   -4.055p       3.934E-028       1.284E-028
+BETADC                -2.996            6.211            9.066 
+GM                   -32.223p         -32.220p         -32.220p
+RPI                   19.098G          19.098G          19.098G
+RX                     0.000            0.000            0.000 
+RO                     5.146G           5.146G           5.146G
+CPI                   40.000p          40.000p          40.000p
+CMU                   30.000p          30.000p          30.000p
+CBX                    0.000            0.000            0.000 
+CJS                    0.000            0.000            0.000 
+BETAAC              -615.399m        -615.326m        -615.326m
+FT                   -73.264m         -73.256m         -73.256m
+
+DC Power Terms:
+PD                 7.678E-023       2.652E-041       2.867E-041
+PS                     0.000            0.000            0.000 
+
+DC Pin Currents:
+Ib                     0.050f       1.048E-026       7.793E-027
+Ic                    -0.150f       6.507E-026       7.065E-026
+Ie                     0.100f      -7.554E-026      -7.844E-026
+Is                     0.000            0.000            0.000 
+
+Condition:
+State                     OFF              OFF              OFF
+
+
+
+Operating point for devices of type Bipolar Junction Transistors PNP
+====================================================================
+Instance:                  Q8               Q9            Q1_X6            Q2_X6
+Using model:       $GENERIC_P       $GENERIC_P              N\A              N\A
+IB                    -0.142f           0.142f          31.701p          16.546p
+IC                     0.143f          -0.141f          37.500u          37.177u
+VBE                   -3.344p          -4.041p        -689.286m        -689.053m
+VBC                  -14.258f          10.098f         799.724m         803.165m
+VCE                   -3.330p          -4.051p          -1.489           -1.492 
+BETADC                -1.009         -991.536m         1.183MEG         2.247MEG
+GM                     0.015f           0.014f           1.450m           1.437m
+RPI                    1.328T           1.328T       795.820MEG           1.491G
+RX                     0.000            0.000            0.000            0.000 
+RO                   563.930G         563.930G         999.875G         999.875G
+CPI                    6.000p           6.000p           0.000            0.000 
+CMU                    7.000p           7.000p           0.000            0.000 
+CBX                    0.000            0.000            0.000            0.000 
+CJS                    0.000            0.000            0.000            0.000 
+BETAAC                19.899u          18.740u         1.154MEG         2.143MEG
+FT                   183.411n         172.734n       23075.604T       22876.542T
+
+DC Power Terms:
+PD                 2.728E-024       2.656E-024          55.812u          55.450u
+PS                     0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Ib                     0.142f          -0.142f         -31.701p         -16.546p
+Ic                    -0.143f           0.141f         -37.500u         -37.177u
+Ie                     0.001f           0.001f          37.500u          37.177u
+Is                     0.000            0.000            0.000            0.000 
+
+Condition:
+State                     OFF              OFF              HOT              HOT
+
+
+
+Operating point for devices of type Resistor
+============================================
+Instance:                   R4              R20              R22              R23
+DC Power Terms:
+PD                  1.811E-041       9.469E-048       1.059E-042       1.439E-039
+
+DC Pin Currents:
+Ir                 -5.738E-024      -4.352E-025       7.278E-023       1.697E-022
+
+
+Instance:                  R24              R25              R26              R27
+DC Power Terms:
+PD                  1.408E-042           0.000        2.889E-058       7.025E-056
+
+DC Pin Currents:
+Ir                 -9.690E-023           0.000        1.700E-029      -2.650E-028
+
+
+Instance:                  R28              R29              R30              R31
+DC Power Terms:
+PD                  9.280E-056       1.119E-056       3.955E-056       1.212E-056
+
+DC Pin Currents:
+Ir                 -3.046E-028       1.058E-028       1.989E-028       1.101E-028
+
+
+Instance:                  R32              R33            RS_V2            RS_V3
+DC Power Terms:
+PD                  4.734E-046       8.608E-052       1.565E-060           0.000 
+
+DC Pin Currents:
+Ir                 -2.176E-023       3.956E-029      -3.956E-029           0.000 
+
+
+Instance:                  R21              R34           Rc1_X6           Rc2_X6
+DC Power Terms:
+PD                      0.000            0.553f           7.460u           7.332u
+
+DC Pin Currents:
+Ir                      0.000           31.700p         -37.500u         -37.177u
+
+
+Instance:               Re1_X6           Re2_X6            Re_X6            Rp_X6
+DC Power Terms:
+PD                      6.491u           6.379u         278.911n         100.832u
+
+DC Pin Currents:
+Ir                    -37.500u         -37.177u         323.406n          50.486u
+
+
+Instance:                R2_X6           Ro2_X6        ROUTAC_X6              R35
+DC Power Terms:
+PD                     10.462n         114.666n          59.616n          60.738n
+
+DC Pin Currents:
+Ir                   -323.454n         -67.725u         -34.530u         -34.853u
+
+
+Instance:                  R36           RS_V13
+DC Power Terms:
+PD                      0.000            0.000 
+
+DC Pin Currents:
+Ir                      0.000            0.000 
+
+
+
+Operating point for devices of type Capacitor
+=============================================
+Instance:                   C7               C8               C9              C10
+DC Power Terms:
+PS                      0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Ic                      0.000            0.000            0.000            0.000 
+
+
+Instance:                  C11              C12            C1_X6            Ce_X6
+DC Power Terms:
+PS                      0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Ic                      0.000            0.000            0.000            0.000 
+
+
+Instance:                C3_X6              C13              C14
+DC Power Terms:
+PS                      0.000            0.000            0.000 
+
+DC Pin Currents:
+Ic                      0.000            0.000            0.000 
+
+
+
+Operating point for devices of type Opamp
+=========================================
+Instance:                  X6
+Using model:          LT1012M
+Condition:
+State                     SAT
+
+
+
+Operating point for devices of type Sine Source
+===============================================
+Instance:                   V2               V3              V13
+Using model:           GENERAL          GENERAL          GENERAL
+DC Power Terms:
+PG                      0.000            0.000            0.000 
+
+DC Pin Currents:
+ISource            -3.956E-029           0.000            0.000 
+
+
+
+Operating point for devices of type SPICE Poly
+==============================================
+Instance:               I3_X6            V2_X6            V1_X6            I1_X6
+DC Power Terms:
+PG                   173.129n          61.901n           2.385f          -1.318p
+
+DC Pin Currents:
+ISource              102.255u          34.853u          69.060f          40.750p
+
+
+Instance:               I2_X6
+DC Power Terms:
+PG                    10.464n
+
+DC Pin Currents:
+ISource              323.495n
+
+
+
+Operating point for devices of type SPICE Source
+================================================
+Instance:              IEE_X6           VS1_X6            VC_X6            VE_X6
+DC Power Terms:
+PG                   -10.215u           0.000          200.777u         200.260u
+
+DC Pin Currents:
+ISource              -75.000u        -323.454n        -125.486u        -125.162u
+
+
+Instance:              VLP_X6           VLN_X6           VS2_X6
+DC Power Terms:
+PG                   400.891p         399.509p           0.000 
+
+DC Pin Currents:
+ISource              -20.045p         -19.975p         -34.530u
+
+
