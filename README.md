@@ -1,4 +1,5 @@
 # tstu_learning
+wiki: https://github.com/qwinmen/tstu_learning/wiki/Оглавление
 Учебный курс.
 Содержание [предмет (каталог)]:
 1курс Янв-Июл:
