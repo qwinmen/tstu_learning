@@ -1,0 +1,115 @@
+c#include <stdio.h>
+#include<iostream.h>
+#include<math.h>
+#include<stdlib.h>
+#include<conio.h>
+struct ring
+{struct ring*n,*p;
+int i;
+}*first,*other,*del;
+void main()
+{
+int i,j,n;
+char c;
+first=NULL;
+while(c!='5')
+{
+cout<<"MAIN MENU\n"<<"1-dobavlenie\n"<<"2-udalenie\n"<<"3-ochistka spiska\n"<<"4-vivod spicka\n"<<"5-vihod\n";
+c=getch(); clrscr();
+if(c=='1')
+{if(!first)
+{first=(struct ring*)malloc(sizeof(struct ring));
+first->n=first->p=first;
+cout<<"vvedite kluch\n";
+cin>>n;
+first->i=n;
+}
+else if(first->p==first)
+{cout<<"vedite kluch\n";
+cin>>n;
+del=(struct ring*)malloc(sizeof(struct ring));
+del->p=del->n=first; first->p=first->n=del;
+del->i=n;}
+else
+{cout<<"MENU DOBAVLENIYA\n"<<"1-pered kluchom\n"<<"2-posle klucha\n"<<"3-v konetz\n";
+c=getch();
+cout<<"vvedite kluch\n";
+cin>>n;
+if(c=='1' ||c=='2') {cout<<"vvedite soderzhimoe\n";
+cin>>j;}
+if(c=='1')
+{other=first;
+while(other->i!=n)
+other=other->n;
+del=(struct ring*)malloc(sizeof(struct ring));
+del->p=other->p; del->n=other;
+other->p->n=del; other->p=del;
+del->i=j;
+}
+if(c=='2')
+{other=first;
+while(other->i!=n)
+other=other->n;
+del=(struct ring*)malloc(sizeof(struct ring));
+del->p=other; del->n=other->n;
+other->n->p=del; other->n=del;
+del->i=j;
+}
+if(c=='3')
+{del=(struct ring*)malloc(sizeof(struct ring));
+del->p=first->p; del->n=first;
+first->p->n=del; first->p=del;
+del->i=n;
+}
+}
+c='1';
+}
+if(c=='2')
+{cout<<"vvedite n\n";
+cin>>n;
+if(!first) cout<<"spisok pust\n";
+else if(first->i==n)
+if(first->p==first){free(first); first=NULL;}
+else {del=first; first=first->n; first->p=del->p; del->p->n=first; free(del);}
+else
+{other=first;
+while(other->i!=n)
+other=other->n;
+other->n->p=other->p;
+other->p->n=other->n;
+free(other);
+} 
+}
+if(c=='3' || c=='5')
+{if(first)
+{while(first->p!=first)
+{del=first;
+first=first->n;
+first->p=del->p; del->p->n=first;
+free(del);
+}
+free(first);
+first=NULL;
+cout<<"TERMINATED!!!\n";
+getch();}
+}
+if(c=='4')
+{if(!first) cout<<"spisok pust";
+else
+if(first->p==first)
+cout<<first->i;
+else
+{other=first;
+while(other->n!=first)
+{cout<<"->"<<other->i;
+other=other->n;
+}
+cout<<"->"<<other->i<<"->";
+}
+getch();
+}
+
+clrscr();
+}
+return;
+}

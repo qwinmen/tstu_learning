@@ -1,0 +1,16 @@
+if(c=='2')
+{cout<<"vvedite n\n";
+cin>>n;
+if(!first) cout<<"spisok pust\n";
+else if(first->i==n)
+if(first->p==first){free(first); first=NULL;}
+else {del=first; first=first->n; first->p=del->p; del->p->n=first; free(del);}
+else
+{other=first;
+while(other->i!=n)
+other=other->n;
+other->n->p=other->p;
+other->p->n=other->n;
+free(other);
+} 
+}

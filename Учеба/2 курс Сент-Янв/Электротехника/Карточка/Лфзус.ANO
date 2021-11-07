@@ -1,0 +1,53 @@
+********************************************************************************
+***                            MC-9 GUAP Edition                             ***
+***                                                                          ***
+***                                                                          ***
+***                  „астотный анализ AC Analysis of Ћфзус                   ***
+********************************************************************************
+Limits
+======
+Frequency Range  1E8,1Meg
+Number of Points 51
+Temperature      Linear 27
+Maximum Change % 5
+Noise Input      NONE
+Noise Output     2
+Run Options      Normal
+State Variables  Zero
+Frequency Step   Auto
+Operating Point  On
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1            20.020   2            20.000  
+
+
+Operating point for devices of type Resistor
+============================================
+Instance:          R_METER1      R_METER2            R1
+DC Power Terms:
+PD                 400.000m      400.000p      400.000 
+
+DC Pin Currents:
+Ir                  20.000        20.000p      -20.000 
+
+
+
+Operating point for devices of type SPICE Source
+================================================
+Instance:         V_METER1      V_METER2            I1
+DC Power Terms:
+PG                  0.000         0.000       400.400 
+
+DC Pin Currents:
+ISource            20.000        20.002p       20.000 
+
+
