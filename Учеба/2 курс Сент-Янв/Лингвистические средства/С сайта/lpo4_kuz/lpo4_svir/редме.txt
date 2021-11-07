@@ -1,0 +1,10 @@
+Организация таблиц символов.
+TEXT:
+i1:char;
+cuf:integer;
+uc:array[1..5] of char;
+ucf:int;
+ypd:real;
+i3:integer;
+i3:array[1..3] of int;
+q:boolean; 

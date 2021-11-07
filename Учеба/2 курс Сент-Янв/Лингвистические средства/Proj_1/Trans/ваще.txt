@@ -1,0 +1,1 @@
+﻿if ( x > 0 ) THEN y := 1 else if ( x < 0 ) THEN y := 2 else y := 0

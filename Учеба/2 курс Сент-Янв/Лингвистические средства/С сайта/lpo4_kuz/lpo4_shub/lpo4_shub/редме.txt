@@ -1,0 +1,5 @@
+var a,d,j:integer;
+x,y:real;
+r,u,q:boolean;
+f,l,i:array [1..50] of byte;
+c,k:array [0..60] of longint;

@@ -1,0 +1,2 @@
+﻿if M > N THEN M := M + 2 / N
+if B := 0 THEN writeln ( N )

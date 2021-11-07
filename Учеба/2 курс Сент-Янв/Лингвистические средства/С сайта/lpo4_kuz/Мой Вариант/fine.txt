@@ -1,0 +1,6 @@
+hello:int;
+bada:string;
+ca:array;
+adab:array of string[80];
+daba:variant;
+abda:char;

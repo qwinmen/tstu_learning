@@ -1,0 +1,4 @@
+VAR i32, j: Integer;
+i23:integer;
+ab,c,ba: Real;
+zc: array[1..10] of byte;

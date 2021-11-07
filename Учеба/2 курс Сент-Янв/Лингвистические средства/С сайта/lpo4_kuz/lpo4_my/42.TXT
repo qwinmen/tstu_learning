@@ -1,0 +1,7 @@
+nn	Хеш	Имя	Тип                 Цепочка
+1	4	i	integer;                  6
+2	5	j	integer;                  3
+3	5	pr	text;                  0
+4	3	b	text;                  0
+5	6	sim	simbol;                  0
+6	4	qwer	file of byte;                         0

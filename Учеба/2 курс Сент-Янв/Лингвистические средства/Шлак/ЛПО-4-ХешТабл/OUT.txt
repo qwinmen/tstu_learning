@@ -1,0 +1,9 @@
+a:int
+b:double
+c:char
+d:int
+k:int
+m:int
+g:int
+u:int
+l:char

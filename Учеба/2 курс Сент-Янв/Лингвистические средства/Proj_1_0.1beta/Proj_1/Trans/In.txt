@@ -1,0 +1,4 @@
+﻿if ( 2.5 + 0.68 <= 2.8 ) OR Y
+AND X OR Z AND NOT Y 
+THEN 
+writeln ( 'Верно' )

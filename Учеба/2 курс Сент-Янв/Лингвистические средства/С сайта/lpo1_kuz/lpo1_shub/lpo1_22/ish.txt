@@ -1,0 +1,3 @@
+max=0
+if (x.gt.max) max=x
+type *,max

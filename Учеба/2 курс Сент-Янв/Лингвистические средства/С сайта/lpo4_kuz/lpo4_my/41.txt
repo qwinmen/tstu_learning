@@ -1,0 +1,5 @@
+var
+   i,j:integer;
+   pr,b:text;
+   sim:simbol;
+   qwer:file of byte;       

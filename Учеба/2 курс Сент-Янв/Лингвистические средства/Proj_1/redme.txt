@@ -1,0 +1,19 @@
+Лаб_1 ЛПО
+EXEшник:
+..\Proj_1\Trans\bin\Debug\Trans.exe
+Италон_файл:
+..\Proj_1\Trans\bin\Debug\intro.txt
+++++++++++++++++++++++++++++
+Изменение проэкта:
+..\Proj_1\Trans\Trans.csproj
+(Открывать только Visual Studio)
+	Сорцы:
+..\Proj_1\Trans\FHelp.cs
+..\Proj_1\Trans\Form1.cs
+*лексика*
+..\Proj_1\Trans\FormTable.cs
+*синтаксис*
+..\Proj_1\Trans\fParserLexical.cs
+++++++++++++++++++++++++++++
+
+QwinCor

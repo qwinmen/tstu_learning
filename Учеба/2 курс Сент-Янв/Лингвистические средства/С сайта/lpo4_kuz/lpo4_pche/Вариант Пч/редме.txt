@@ -1,0 +1,7 @@
+h:integer;
+c:int;
+q:real;
+h:type;
+u:ui;
+u:byte;
+z:array[1..11] of byte.

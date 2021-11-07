@@ -1,0 +1,4 @@
+z = z + 1 ;
+if z > n then do z = z / n ;
+Put Data ( z )
+end ;
