@@ -1,0 +1,31 @@
+/*
+массив - это совокупность элементов одинакового типа.
+в памяти все элементы массива находятся в последовательном состоянии т.е идут друг з адругом независимо от размерности массива.
+*/
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+	const int N = 5;
+	int A[N];
+	clrscr();
+	printf("enter %d digits\n", N);
+	int i;
+	for (i = 0; i < N; i++)
+		scanf("%d", &A[i]);
+
+	int b = A[0] < 0;
+	int cnt = 0;
+	for (i = 1; i < N; i++)
+	{
+		if ((A[i] < 0) != b)
+		{
+			b = !b;
+			cnt++;
+		}
+	}
+	printf("\n%d", cnt);
+	getch();
+}

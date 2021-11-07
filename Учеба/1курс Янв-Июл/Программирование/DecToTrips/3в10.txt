@@ -1,0 +1,32 @@
+string trip = "210";    // 2*9 + 1*3 + 0 = 21
+int dec = TripToDec(int.Parse(trip));
+trip = DecToTrip(dec).ToString();
+////////////////////////////////////////////////////
+
+/// перевод из троичной в десятичную
+/// <param name="value"> переводимое число </param>
+private static int TripToDec(int value)
+{
+    int res = 0, k = 1;
+    while (value > 0)
+    {
+        res += (value % 10) * k;
+        value /= 10;
+        k *= 3;
+    }
+    return res;
+}
+ 
+/// перевод из десятичной в троичную
+/// <param name="value"> переводимое число </param>
+private static int DecToTrip(int value)
+{
+    int res = 0, k = 1;
+    while (value > 0)
+    {
+        res = res +  (value % 3) * k;
+        k *= 10;
+        value /= 3;
+    }
+    return res;
+}
