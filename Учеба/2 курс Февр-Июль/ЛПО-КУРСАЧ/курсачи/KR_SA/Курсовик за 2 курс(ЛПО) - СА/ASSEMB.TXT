@@ -1,0 +1,35 @@
+title k
+.mcall .exit
+A1:
+    call rd
+    mov   SUM,n
+    mov   #1,R1
+    mov   R1,f
+    mov   #1,R1
+    mov   R1,i
+1:
+    mov   f,R1
+    mov   i,R2
+    mul   R1,R2
+    mov   R2,s1
+    mov   s1,R1
+    mov   R1,f
+    mov   i,R1
+    mov   #1,R2
+    add   R1,R2
+    mov   R2,s1
+    mov   s1,R1
+    mov   R1,i
+    cmp   i,n
+    bmi   3
+    call wd
+    mov   SUM,f
+    br   end
+3:
+    br   1
+end:
+.exit
+i:word
+f:word
+n:word
+.end A1

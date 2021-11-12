@@ -1,0 +1,9 @@
+Program K16;
+var i,n: integer;
+	p, a:real;
+begin
+read(n);
+p:=1;
+for i:=1 to n do p:=p*(a+i-1);
+write(p)
+end.

@@ -1,0 +1,11 @@
+PROGRAM K16
+ INTEGER I, N
+ REAL P,A
+ READ(*,*) N
+ P = 1
+	DO 1 I=1, N
+	P=P*(A+I-1)
+	1 CONTINUE
+ WRITE(*,*) P
+ STOP
+END

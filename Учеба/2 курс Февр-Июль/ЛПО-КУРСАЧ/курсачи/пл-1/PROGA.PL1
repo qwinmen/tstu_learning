@@ -1,0 +1,17 @@
+main options PC;
+dcl (x,y,m) dec float;
+do;
+getlist(x)(y);
+if x>y then do;
+y=(x+y)/2;
+x=x*y/2;
+end;
+else do;
+x=(x+y)/2;
+y=x*y/2;
+end;
+m=x-27;
+if m>y then m=0;
+else m=1;
+putlist(x)(y)(m);
+end;

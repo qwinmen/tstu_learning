@@ -1,0 +1,3 @@
+﻿READ(H,B,M);
+PI:=3.14;
+V:=PI*H*(B*B+M*M+B*M)/3

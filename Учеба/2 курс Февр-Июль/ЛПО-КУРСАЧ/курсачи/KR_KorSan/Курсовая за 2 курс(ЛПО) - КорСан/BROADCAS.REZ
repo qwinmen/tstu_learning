@@ -1,0 +1,21 @@
+MAIN: PROC OPTIONS(MAIN)
+ DCL (i,j) FIXED ;
+ DCL (a,b) FLOAT ;
+GET EDIT(a,b) (F(9),F(9));
+s1=0;
+s2=0;i=0;
+DO WHILE (i<=10)
+s1=s2+a;
+s2=0;
+PUT EDIT(s1,s2) (F(9) ,F(9) );j=1;
+DO WHILE (j<=20)
+s2=s2+6;j=j+1;
+END;
+i=i+2;
+END;
+
+a=i;
+b=j;
+PUT EDIT(a,b) (F(9) ,F(9) );
+PUT EDIT(s1,s2) (F(9) ,F(9) );
+END;
