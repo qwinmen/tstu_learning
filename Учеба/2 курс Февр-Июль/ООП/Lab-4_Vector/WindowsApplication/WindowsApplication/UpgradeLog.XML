@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WindowsApplication1">
+</Property><Property Name="Файл решения" Value="C:\Users\Даша\Downloads\WindowsApplication\WindowsApplication1.sln">
+</Property><Property Name="Date" Value="4 июня 2014 г.">
+</Property><Property Name="Time" Value="7:34:42">
+</Property></Properties><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1.csproj" Description="Успешно создана резервная копия файла проекта: C:\Users\Даша\Downloads\WindowsApplication\Backup\WindowsApplication1.csproj">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1.csproj.user" Description="Резервная копия проекта успешно создана как C:\Users\Даша\Downloads\WindowsApplication\Backup\WindowsApplication1.csproj.user">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Anteprima.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Anteprima.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Anteprima.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Anteprima.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="PenPropEditForm.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\PenPropEditForm.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="PenPropEditForm.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\PenPropEditForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Help.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Help.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Help.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Help.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="myTypeEditor.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\myTypeEditor.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="PenWR.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\PenWR.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="PropEditForm.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\PropEditForm.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="PropEditForm.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\PropEditForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Resource1.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Resource1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="richForm2.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\richForm2.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="richForm2.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\richForm2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="RichTextBoxPrintCtrl.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\RichTextBoxPrintCtrl.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Settings.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Settings.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Shapes.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Shapes.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Form1.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Form1.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Program.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Properties\AssemblyInfo.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Properties\Resources.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Properties\Settings.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Handle.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Handle.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="toolBox.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\toolBox.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="toolBox.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\toolBox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="vectShapes.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\vectShapes.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="vectShapes.Designer.cs" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\vectShapes.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Properties\Settings.settings" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Anteprima.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Anteprima.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="PenPropEditForm.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\PenPropEditForm.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Form1.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Help.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Help.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="PropEditForm.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\PropEditForm.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Properties\Resources.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Resource1.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Resource1.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="richForm2.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\richForm2.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="toolBox.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\toolBox.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="vectShapes.resx" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\vectShapes.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="Properties\app.manifest" Description="Успешно создана резервная копия файла C:\Users\Даша\Downloads\WindowsApplication\Backup\Properties\app.manifest">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="WindowsApplication1" Source="WindowsApplication1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>
