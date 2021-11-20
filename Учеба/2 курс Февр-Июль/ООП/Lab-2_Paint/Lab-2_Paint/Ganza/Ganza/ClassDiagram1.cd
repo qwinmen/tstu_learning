@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ganza.Elipsise">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Elipsise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.FormGanza">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAASEEkBFSAAQCgAgKCASHBGgAQgAAkBICAAAQBREIg=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.Karandash">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Ganza.Shape" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="3.277" />
+        <Point X="8" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Karandash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.Line">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.PolyGon">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolyGon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.Program" Collapsed="true">
+    <Position X="16" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.Rect">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.RoundRectangle">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAgAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoundRectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.Shape">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABAAAACA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.Triangle">
+    <Position X="6.25" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="Ganza.Shape" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="3.277" />
+        <Point X="8" Y="3.377" />
+        <Point X="7" Y="3.377" />
+        <Point X="7" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.Properties.Resources" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAEAAAAAAAACABEEAAAQAgAAAAACAAAAARAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ganza.Properties.Settings" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

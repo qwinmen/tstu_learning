@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP2K", "OOP2K.vcxproj", "{BF9B7AA7-F823-48A0-9F30-EF340AAC32ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF9B7AA7-F823-48A0-9F30-EF340AAC32ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF9B7AA7-F823-48A0-9F30-EF340AAC32ED}.Debug|Win32.Build.0 = Debug|Win32
+		{BF9B7AA7-F823-48A0-9F30-EF340AAC32ED}.Release|Win32.ActiveCfg = Release|Win32
+		{BF9B7AA7-F823-48A0-9F30-EF340AAC32ED}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

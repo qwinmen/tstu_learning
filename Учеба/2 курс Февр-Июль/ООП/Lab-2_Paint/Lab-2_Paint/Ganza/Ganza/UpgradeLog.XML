@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Ganza">
+</Property><Property Name="Файл решения" Value="C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\Ganza\Ganza.sln">
+</Property><Property Name="Date" Value="3 марта 2014 г.">
+</Property><Property Name="Time" Value="18:19">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Ganza.sln" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Ganza.sln">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Ganza.csproj" Description="Успешно создана резервная копия файла проекта: C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Ganza.csproj">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Elipsise.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Elipsise.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Form1.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Form1.Designer.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Karandash.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Karandash.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Line.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Line.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="PolyGon.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\PolyGon.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Program.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Properties\AssemblyInfo.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Properties\Resources.Designer.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Properties\Settings.Designer.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Rect.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Rect.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="RoundRectangle.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\RoundRectangle.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Shape.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Shape.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Triangle.cs" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Triangle.cs">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Properties\Settings.settings" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnPen.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnPen.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnBrush.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnBrush.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnRectangle.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnRectangle.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnLine.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnLine.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnElipsise.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnElipsise.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnRoundRectangle.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnRoundRectangle.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnPolyGon.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnPolyGon.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnSterka.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnSterka.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="bin\Debug\btnTriangle.bmp" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\bin\Debug\btnTriangle.bmp">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Form1.resx" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Properties\Resources.resx" Description="Успешно создана резервная копия файла C:\Documents and Settings\Admin\Рабочий стол\Guest\Lab-2_Paint\Ganza\CopyRezerv\Ganza\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Ganza.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="Ganza" Source="Ganza.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Ganza.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="Ganza.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Ganza" Source="Ganza.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>

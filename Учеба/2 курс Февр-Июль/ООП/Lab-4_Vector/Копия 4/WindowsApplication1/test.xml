@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WindowsApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WindowsApplication1.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:WindowsApplication1.toolBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.toolBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsApplication1.toolBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsApplication1.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsApplication1.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Resource1">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:WindowsApplication1.Resource1.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:WindowsApplication1.Resource1.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="F:WindowsApplication1.PenPropEditForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.PenPropEditForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsApplication1.PenPropEditForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsApplication1.vectShapes.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.vectShapes.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsApplication1.vectShapes.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.vectShapes.saveBmp">
+            <summary>
+            Testing save to *bmp
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.vectShapes.redraw(System.Boolean)">
+            <summary>
+            redraws this.s on this control
+            All=true : redraw all graphic
+            All=false : redraw only selected objects
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Draw(System.Drawing.Graphics,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Draw this shape to a graphic ogj. 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.AddGraphPath(System.Drawing.Drawing2D.GraphicsPath,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Add this shape to a graphic path. 
+            </summary>        
+        </member>
+        <member name="M:WindowsApplication1.Ele.AddGp(System.Drawing.Drawing2D.GraphicsPath,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Add this shape to a graphic path. 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.deGroup">
+            <summary>
+            Used to degroup a grouped shape. Returns a list of shapes.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Select">
+            <summary>
+            Select this shape.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Select(System.Windows.Forms.RichTextBox)">
+            <summary>
+            Select this shape.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Select(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Select this shape.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.DeSelect">
+            <summary>
+            Deselct this shape.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.AfterLoad">
+            <summary>
+            Used after the load from file. Manage here the creation of object not serialized.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.CopyFrom(WindowsApplication1.Ele)">
+            <summary>
+            Copy the properties from another shape
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Copy">
+            <summary>
+            Clone this shape
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.copyGradprop(WindowsApplication1.Ele)">
+            <summary>
+            Copy the gradient properties. 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.FillWithLines(System.Drawing.Graphics,System.Int32,System.Int32,System.Single,System.Drawing.Drawing2D.GraphicsPath,System.Single,System.Single)">
+            <summary>
+            To fill a shape with parallel lines 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.scaledPenWidth(System.Single)">
+            <summary>
+            Used to define pen with. 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Fit2grid(System.Int32)">
+            <summary>
+            Adapt the shape at the gridsize 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.CommitRotate(System.Single,System.Single)">
+            <summary>
+            Confirm the rotation 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Rotate(System.Single,System.Single)">
+            <summary>
+            Rotate
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.rotatePoint(System.Drawing.PointF,System.Int32)">
+            <summary>
+            Return a point obtained rotating p by RotAng respect 0,0 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele._rotate(System.Single,System.Single)">
+            <summary>
+            Gets a rotation angle from a vertical line from the center of the shape and a line
+            from the center to the point (x,y)
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.getBrush(System.Int32,System.Int32,System.Single)">
+            <summary>
+            gets a brush from the properties of the shape
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.copyStdProp(WindowsApplication1.Ele,WindowsApplication1.Ele)">
+            <summary>
+            Copy the properties common to all shapes. 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Dist(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            2 points distance
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.dark(System.Drawing.Color,System.Int32,System.Int32)">
+            <summary>
+            Make a color darker or lighter
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.Trasparency(System.Drawing.Color,System.Int32)">
+            <summary>
+            Make a color Tresparent/Solid
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.contains(System.Int32,System.Int32)">
+            <summary>
+            true if the shape contains the point x,y
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.move(System.Int32,System.Int32)">
+            <summary>
+            Moves the shape by x,y
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.redim(System.Int32,System.Int32,System.String)">
+            <summary>
+            Redim the shape 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Ele.endMoveRedim">
+            <summary>
+            Called at the end of move/redim of the shape. Stores startX|Y|X1|Y1 
+            for a correct rendering during object move/redim
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.AbSel">
+            <summary>
+            
+            Handle tool for redim/move/rotate shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.AbSel.isOver(System.Int32,System.Int32)">
+            <summary>
+            Su quale maniglia cade il punto x,y? 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.SelRectBK">
+            <summary>
+            
+            Handle tool for redim/move/rotate shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.SelRectBK.isOver(System.Int32,System.Int32)">
+            <summary>
+            Su quale maniglia cade il punto x,y? 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.OLine">
+            <summary>
+            OLinea //TEST!!!
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Linea">
+            <summary>
+            Linea ( estende Ele ) 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.VLine">
+            <summary>
+            VLine //TEST!!!
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Arc">
+            <summary>
+            Arc 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Group">
+            <summary>
+            Group ( extends Ele ) 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Group.#ctor(System.Collections.ArrayList)">
+            <summary>
+            .Ctor) 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.PointSet">
+            <summary>
+            PointSet ( extends Ele ) 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Graph">
+            <summary>
+            Graph ( extends Ele ) 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.PointColorSet">
+            <summary>
+            A set of color point for Path Gradient Path management 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Stext">
+            <summary>
+            Simple Text 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Rect">
+            <summary>
+            Rectangle ( extends Ele ) 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Link">
+            <summary>
+            Rectangle ( extends Ele ) 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.ImgBox">
+            <summary>
+            Box Immagine ( estende Ele ) 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.BoxTesto">
+            <summary>
+            Text Box ( estende Ele ) 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Ell">
+            <summary>
+            Ellipse  
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.RRect">
+            <summary>
+            Rettangolo smussato ( estende Ele ) 
+            </summary>
+            
+        </member>
+        <member name="T:WindowsApplication1.Shapes">
+            <summary>
+            Gestisce l'insieme degli oggetti vettoriali 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.CopyMultiSelected(System.Int32,System.Int32)">
+            <summary>
+            Copy all selected Items
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.CpSelected">
+            <summary>
+            returns a Copy of selected element
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.CopySelected(System.Int32,System.Int32)">
+            <summary>
+            Copy selected Item 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.rmSelected">
+            <summary>
+            Elimina oggetto selezioanto
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.groupSelected">
+            <summary>
+            Grup selected objs
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.deGroupSelected">
+            <summary>
+            Grup selected objs
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.getSelectedArray">
+            <summary>
+            Returns an array with the selected item. Used for property grid.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.getSelectedList">
+            <summary>
+            Returns a List with the selected items. Used for SaveObj.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.setList(System.Collections.ArrayList)">
+            <summary>
+            Returns a List with the selected items. Used for SaveObj.
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.primoPiano">
+            <summary>
+            2 front
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.secondoPiano">
+            <summary>
+            2 back
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.deSelect">
+            <summary>
+            Deselect 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.Draw(System.Drawing.Graphics,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Draw all shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.DrawUnselected(System.Drawing.Graphics,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Draw all Unselected shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.DrawUnselected(System.Drawing.Graphics)">
+            <summary>
+            Draw all Unselected shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.DrawSelected(System.Drawing.Graphics,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Draw all Selected shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.DrawSelected(System.Drawing.Graphics)">
+            <summary>
+            Draw all Selected shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addPoly(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean,System.Collections.ArrayList,System.Boolean)">
+            <summary>
+            Adds Polygon
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addGraph(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean,System.Collections.ArrayList)">
+            <summary>
+            Adds Graph
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addColorPoinySet(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean,System.Collections.ArrayList,System.Boolean)">
+            <summary>
+            Adds Polygon
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean)">
+            <summary>
+            Adds Rect
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addLink(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean,System.Collections.ArrayList,System.Boolean)">
+            <summary>
+            Adds Link 
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean)">
+            <summary>
+            Adds Arc
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addLine(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)">
+            <summary>
+            Adds Line
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addVLine(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)">
+            <summary>
+            Adds VLine
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addOLine(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)">
+            <summary>
+            Adds OLine
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addTextBox(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.RichTextBox,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean)">
+            <summary>
+            Adds TextBox
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addSimpleTextBox(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.RichTextBox,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean)">
+            <summary>
+            Adds SimpleTextBox
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addRRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean)">
+            <summary>
+            Adds RoundRect
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addImgBox(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Drawing.Color,System.Single)">
+            <summary>
+            Adds ImageBox
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.addEllipse(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Single,System.Boolean)">
+            <summary>
+            Adds Ellipse
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.click(System.Int32,System.Int32,System.Windows.Forms.RichTextBox)">
+            <summary>
+            Selects last shape containing x,y
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.Shapes.multiSelect(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.RichTextBox)">
+            <summary>
+            Selects all shapes in imput rectangle 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.buffEle">
+            <summary>
+            Undo buffer Ele element.
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.buffObj">
+            <summary>
+            Two Linked List Element
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.UndoBuffer">
+            <summary>
+            Undo buffer. (Two Linked List)
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:WindowsApplication1.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:WindowsApplication1.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.RedimHandle">
+            <summary>
+            
+            Handle object for redim/move/rotate shapes
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.AbstractSel">
+            <summary>
+            
+            Abstract Handle collection for redim/move/rotate shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.AbstractSel.isOver(System.Int32,System.Int32)">
+            <summary>
+            On wich handle is point x,y 
+            </summary>
+        </member>
+        <member name="T:WindowsApplication1.SelRect">
+            <summary>
+            Handle tool for redim/move/rotate shapes
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.SelRect.setup">
+             <summary>
+            set ups handles
+             </summary>
+        </member>
+        <member name="T:WindowsApplication1.SelPoly">
+            <summary>
+            Handle tool for redim/move/rotate Polygons
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.SelPoly.setup(WindowsApplication1.PointSet)">
+             <summary>
+            set ups handles
+             </summary>
+        </member>
+        <member name="M:WindowsApplication1.SelPoly.reCreateCreationHandles(WindowsApplication1.PointSet)">
+             <summary>
+            set ups handles
+             </summary>
+        </member>
+        <member name="T:WindowsApplication1.SelGraph">
+            <summary>
+            Handle tool for redim/move/rotate Graphs
+            </summary>
+        </member>
+        <member name="M:WindowsApplication1.SelGraph.setup(WindowsApplication1.Graph)">
+             <summary>
+            set ups handles
+             </summary>
+        </member>
+        <member name="M:WindowsApplication1.SelGraph.reCreateCreationHandles(WindowsApplication1.Graph)">
+             <summary>
+            set ups handles
+             </summary>
+        </member>
+    </members>
+</doc>
