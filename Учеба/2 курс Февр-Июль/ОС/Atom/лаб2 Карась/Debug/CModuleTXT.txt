@@ -1,0 +1,4 @@
+[File Handle] 76
+[File Size in Byte] 2
+[FileMapping Handle] 68
+[ViewOfFile Pointer] 2293760

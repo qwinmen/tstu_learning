@@ -1,0 +1,24 @@
+[File Handle] 244
+[File Size in Byte] 6
+[FileMapping Handle] 248
+[ViewOfFile Pointer] 196608
+[File Handle] 244
+[File Size in Byte] 6
+[FileMapping Handle] 248
+[ViewOfFile Pointer] 196608
+[File Handle] 244
+[File Size in Byte] 6
+[FileMapping Handle] 248
+[ViewOfFile Pointer] 196608
+[File Handle] 244
+[File Size in Byte] 6
+[FileMapping Handle] 248
+[ViewOfFile Pointer] 196608
+[File Handle] 244
+[File Size in Byte] 6
+[FileMapping Handle] 248
+[ViewOfFile Pointer] 196608
+[File Handle] 244
+[File Size in Byte] 6
+[FileMapping Handle] 248
+[ViewOfFile Pointer] 196608
