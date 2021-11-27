@@ -1,5 +1,5 @@
 # tstu_learning
-wiki: https://github.com/qwinmen/tstu_learning/wiki/Оглавление
+Удобный переход по ссылкам есть в wiki: https://github.com/qwinmen/tstu_learning/wiki/Оглавление
 
 Учебный курс.
 Содержание [предмет (каталог)]:
