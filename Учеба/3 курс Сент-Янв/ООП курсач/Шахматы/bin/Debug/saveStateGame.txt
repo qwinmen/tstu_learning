@@ -1,0 +1,65 @@
+False
+null
+null
+null
+null
+null
+БЕЛ_СЛОН_F8 False
+null
+null
+null
+null
+null
+null
+БЕЛ_КАРОЛЬ_D8 False
+null
+null
+null
+null
+null
+null
+null
+null
+null
+БЕЛ_ЛАДЬЯ_H8 False
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+ЧЕР_ПЕШКА_H2 True
+null
+null
+null
+null
+null
+null
+null
+null
+null
+ЧЕР_СЛОН_C1 False
+null
+null
+null
+ЧЕР_ПЕШКА_F2 False
+ЧЕР_ПЕШКА_G2 False
+null
+null
+ЧЕР_КОНЬ_B1 False
+null
+null
+ЧЕР_КАРОЛЬ_D1 False
+null
+null
+ЧЕР_ЛАДЬЯ_H1 False

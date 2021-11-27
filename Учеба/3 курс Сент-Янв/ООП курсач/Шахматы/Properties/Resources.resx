@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="белый_король" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\белый_король.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_слон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\черный_слон.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_Ладья" xml:space="preserve">
+    <value>Ладья ходит вверх, вниз, влево или вправо на любое число полей по прямой линии.</value>
+  </data>
+  <data name="bpc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Hmini\bpc.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="board1_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\board1_mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="board1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\board1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_Конь" xml:space="preserve">
+    <value>Конь ходит на одно поле вверх или вниз и на два поля в сторону, либо наоборот. Конь - это единственная фигура, которая может перескакивать через другие фигуры.</value>
+  </data>
+  <data name="Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="board" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\board.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="board2_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\board2_mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fig1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_пешка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\белый_пешка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="board_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\board_mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bishop48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Hmini\bishop48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="king26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Hmini\king26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achievement10_rollover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\achievement10-rollover.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_ладья" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\черный_ладья.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knight48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Hmini\knight48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="queen48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Hmini\queen48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_король" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\черный_король.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_Кароль" xml:space="preserve">
+    <value>Кароль ходит на одно поле в любом направлении.</value>
+  </data>
+  <data name="черный_ферзь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\черный_ферзь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_ферзь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\белый_ферзь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achievement10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\achievement10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pawn128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Hmini\pawn128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_SHAX" xml:space="preserve">
+    <value>Ващему королю объявлен шах. Допустимые ходы: 1. Взять атакующую фигуру; 2. Поместить свою фигуру между атакующей фигурой и королем (если атакующая фигура не является конем); 3. Переместить короля на безопасное поле.</value>
+  </data>
+  <data name="alert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Hmini\alert.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_Ферзь" xml:space="preserve">
+    <value>Ферзь ходит в любом из восьми направлений по прямой линии.</value>
+  </data>
+  <data name="черный_пешка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\черный_пешка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnFig_stok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\btnFig_stok.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_конь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\белый_конь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_WhiteGo" xml:space="preserve">
+    <value>Ход белых, щелкните белую фигуру, чтобы сделать ход.</value>
+  </data>
+  <data name="alien1dn_bmp_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\alien1dn_bmp_0.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fig_deff_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_deff_mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="board_deff_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\board_deff_mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rook26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Hmini\rook26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_Пешка" xml:space="preserve">
+    <value>Пешка ходит только вперед на одно поле либо, если она стоит на начальной позиции, на два поля. Пешка может брать другие фигуры, перемещаясь на одно поле по диагонали.</value>
+  </data>
+  <data name="board2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\board2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fig_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_слон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\белый_слон.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_ладья" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\белый_ладья.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_BlackGo" xml:space="preserve">
+    <value>Ход черных, щелкните черную фигуру, чтобы сделать ход.</value>
+  </data>
+  <data name="черный_конь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\черный_конь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="board_deff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\board_deff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_Слон" xml:space="preserve">
+    <value>Слон ходит по диагонали на любое число полей по прямой линии.</value>
+  </data>
+  <data name="btnFig_classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\btnFig_classic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMain_showBall_Ne" xml:space="preserve">
+    <value>Путь перекрыт другой фигурой.</value>
+  </data>
+  <data name="btnFig_autor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\btnFig_autor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fMenu_SelectedTypeFigures_Click_QwinCor_Style_Pak" xml:space="preserve">
+    <value>QwinCor Style Pak</value>
+  </data>
+  <data name="fMenu_SelectedTypeFigures_Click_Korolev_Style_Pak" xml:space="preserve">
+    <value>Korolev Style Pak</value>
+  </data>
+  <data name="Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_конь1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\белый_конь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_конь2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\белый_конь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_король1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\белый_король.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_король2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\белый_король.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_ладья1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\белый_ладья.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_ладья2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\белый_ладья.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_пешка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\белый_пешка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_пешка2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\белый_пешка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_слон1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\белый_слон.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_слон2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\белый_слон.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_ферзь1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\белый_ферзь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белый_ферзь2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\белый_ферзь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_конь1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\черный_конь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_конь2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\черный_конь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_король1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\черный_король.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_король2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\черный_король.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_ладья1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\черный_ладья.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_ладья2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\черный_ладья.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_пешка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\черный_пешка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_пешка2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\черный_пешка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_слон1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\черный_слон.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_слон2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\черный_слон.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_ферзь1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak\черный_ферзь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный_ферзь2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IFigures\fig_pak1\черный_ферзь.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyControl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyControl.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
+  </data>
+</root>

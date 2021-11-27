@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF031DAF-5B12-4358-AFAE-76CC01FA8C94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Шахматы</RootNamespace>
+    <AssemblyName>Шахматы</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>CRITTER2_ICO_0.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>C9F08822E177B57868AE91D2E4C66951ECEB1562</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Шахматы_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>C:\Users\user\Desktop\Учеба\3 курс Сент-Янв\ООП курсач\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvButton, Version=1.0.5156.41135, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 9.0\VC#\DllAddon\AdvButton.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HeaparEssential, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 9.0\VC#\DllAddon\HeaparEssential.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clCopyAsValue.cs" />
+    <Compile Include="clFigure.cs" />
+    <Compile Include="clImagePakFigures.cs" />
+    <Compile Include="clNewGame.cs" />
+    <Compile Include="clStack.cs" />
+    <Compile Include="clWorkFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clXod.cs" />
+    <Compile Include="fMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMenu.Designer.cs">
+      <DependentUpon>fMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTransformPawnToN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTransformPawnToN.Designer.cs">
+      <DependentUpon>fTransformPawnToN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyControlsDeff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fMenu.resx">
+      <DependentUpon>fMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTransformPawnToN.resx">
+      <DependentUpon>fTransformPawnToN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Rose.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\белый_ладья.png" />
+    <None Include="bin\Debug\черный_ладья.png" />
+    <None Include="bin\Debug\черный_пешка.png" />
+    <None Include="bin\Debug\белый_пешка.png" />
+    <None Include="bin\Debug\черный_конь.png" />
+    <None Include="bin\Debug\белый_конь.png" />
+    <None Include="bin\Debug\черный_слон.png" />
+    <None Include="bin\Debug\белый_слон.png" />
+    <None Include="bin\Debug\черный_король.png" />
+    <None Include="bin\Debug\белый_король.png" />
+    <None Include="bin\Debug\черный_ферзь.png" />
+    <None Include="bin\Debug\белый_ферзь.png" />
+    <None Include="bin\Debug\alien1dn_bmp_0.bmp" />
+    <None Include="bin\Debug\Hmini\pawn128.png" />
+    <None Include="bin\Debug\Hmini\bishop48.png" />
+    <None Include="bin\Debug\Hmini\king26.png" />
+    <None Include="bin\Debug\Hmini\knight48.png" />
+    <None Include="bin\Debug\Hmini\queen48.png" />
+    <None Include="bin\Debug\Hmini\rook26.png" />
+    <None Include="bin\Debug\Hmini\alert.png" />
+    <None Include="bin\Debug\Up.png" />
+    <None Include="bin\Debug\Down.png" />
+    <None Include="bin\Debug\Right.png" />
+    <None Include="bin\Debug\Left.png" />
+    <None Include="bin\Debug\achievement10.png" />
+    <None Include="bin\Debug\achievement10-rollover.png" />
+    <None Include="bin\Debug\Hmini\bpc.bmp" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="bin\Debug\IFigures\board_deff.png" />
+    <None Include="bin\Debug\IFigures\board_deff_mini.png" />
+    <None Include="bin\Debug\IFigures\board_mini.png" />
+    <None Include="bin\Debug\IFigures\board1_mini.png" />
+    <None Include="bin\Debug\IFigures\board2_mini.png" />
+    <None Include="bin\Debug\IFigures\fig_deff_mini.png" />
+    <None Include="bin\Debug\IFigures\btnFig_stok.png" />
+    <None Include="bin\Debug\IFigures\btnFig_autor.png" />
+    <None Include="bin\Debug\IFigures\btnFig_classic.png" />
+    <None Include="bin\Debug\IFigures\board.png" />
+    <None Include="bin\Debug\IFigures\board1.png" />
+    <None Include="bin\Debug\IFigures\board2.png" />
+    <None Include="bin\Debug\IFigures\fig_mini.png" />
+    <None Include="bin\Debug\IFigures\fig1.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\белый_пешка.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\белый_конь.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\белый_король.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\белый_ладья.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\белый_слон.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\белый_ферзь.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\черный_конь.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\черный_король.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\черный_ладья.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\черный_пешка.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\черный_слон.png" />
+    <None Include="bin\Debug\IFigures\fig_pak\черный_ферзь.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\белый_конь.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\белый_король.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\белый_ладья.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\белый_пешка.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\белый_слон.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\белый_ферзь.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\черный_конь.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\черный_король.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\черный_ладья.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\черный_пешка.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\черный_слон.png" />
+    <None Include="bin\Debug\IFigures\fig_pak1\черный_ферзь.png" />
+    <None Include="Шахматы_TemporaryKey.pfx" />
+    <None Include="bin\Debug\keyControl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="CRITTER2_ICO_0.ico" />
+    <Resource Include="Resources\keyControl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <None Include="Resources\save.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,37 @@
+﻿
+K0 = [x1; x2]
+2:
+	K1 = [min; K0x2]
+	K2 = [K1x1; min]
+
+	hx1 = K2x1 - K0x1
+	hx2 = K2x2 - K0x2
+
+	K3 = [K2x1+hx1; K2x2+hx2]
+	while(f(K4)<f(K3))
+	{
+		K4 = [K3x1+hx1; K3x2+hx2]
+	}
+	//выход при:
+	if(|f(k4)-f(k3)|<epsilon) Break;
+	
+	//если непроизошел выход, то откат на одну точку:
+	K4 = K3
+
+goto 2;
+
+	K5 = [min; K4x2]
+	K6 = [K5x1; min]
+	hx1 = K6x1-K4x1
+	hx2 = K6x2-K4x2
+
+	K7 = [K6x1+hx1; K6x2+hx2]
+	while(f(K8)<f(K7))
+	{
+		K8 = [K7x1+hx1; K7x2+hx2]
+	}
+	if(|f(k8)-f(k7)|<epsilon) Break;
+
+	K8 = K7
+
+goto 2;

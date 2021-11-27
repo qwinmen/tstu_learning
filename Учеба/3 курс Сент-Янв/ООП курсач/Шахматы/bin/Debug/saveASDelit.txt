@@ -1,0 +1,65 @@
+False
+БЕЛ_ЛАДЬЯ_A8 False
+null
+БЕЛ_СЛОН_C8 False
+БЕЛ_КАРОЛЬ_D8 False
+БЕЛ_ФЕРЗЬ_E8 False
+БЕЛ_СЛОН_F8 False
+БЕЛ_КОНЬ_G8 False
+БЕЛ_ЛАДЬЯ_H8 False
+null
+null
+БЕЛ_ПЕШКА_C7 False
+БЕЛ_ПЕШКА_D7 False
+БЕЛ_ПЕШКА_E7 False
+БЕЛ_ПЕШКА_F7 False
+БЕЛ_ПЕШКА_G7 False
+БЕЛ_ПЕШКА_H7 False
+null
+null
+БЕЛ_КОНЬ_B8 False
+null
+null
+null
+null
+null
+null
+ЧЕР_btnIFerz_1 False
+null
+null
+null
+null
+null
+null
+БЕЛ_ПЕШКА_A7 True
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+ЧЕР_ПЕШКА_B2 False
+ЧЕР_ПЕШКА_C2 False
+ЧЕР_ПЕШКА_D2 False
+ЧЕР_ПЕШКА_E2 False
+ЧЕР_ПЕШКА_F2 False
+ЧЕР_ПЕШКА_G2 False
+ЧЕР_ПЕШКА_H2 False
+ЧЕР_ЛАДЬЯ_A1 False
+ЧЕР_КОНЬ_B1 False
+ЧЕР_СЛОН_C1 False
+ЧЕР_КАРОЛЬ_D1 False
+ЧЕР_ФЕРЗЬ_E1 False
+ЧЕР_СЛОН_F1 False
+ЧЕР_КОНЬ_G1 False
+ЧЕР_ЛАДЬЯ_H1 False
