@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="application/javascript">
+   function hello_world() {
+      var n = parseInt(document.getElementById('num').value);
+      for(var i=1; i<=n; i++) {
+         alert("Привет, мир!")
+          }
+   }
+</script>
+</head>
+<body>
+Поздороваться с миром <input type="text" id="num" size="4" value="1"/> раз.
+<br/>
+<input type="button" onclick="hello_world();" value="Поздороваться"/>
+</body>
+</html>

@@ -1,0 +1,6 @@
+в Desinger пишем
+
+this.metroShell1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem1});
+
+где buttonItem1 кнопка которой невидно на форме

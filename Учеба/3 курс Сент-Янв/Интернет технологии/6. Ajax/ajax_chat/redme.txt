@@ -1,0 +1,4 @@
+http://codediscuss.ru/blogs/14-ajax-chat-na-php-i-mysql
+AJAX: Чат на php и mysql
+
+Ещё одна статья, на тему AJAX. Напишем простой чат без фреймов и перезагрузки страницы. 

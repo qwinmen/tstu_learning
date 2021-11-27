@@ -1,0 +1,3 @@
+http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/teksturirovanie-opengl-vvedenie/
+
+http://compgraph.tpu.ru/ogl_textures.htm

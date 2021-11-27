@@ -1,0 +1,49 @@
+--Создать таблицу
+
+CREATE TABLE test.microsxema
+(
+    name VARCHAR(100) PRIMARY KEY NOT NULL,
+    ik0 DOUBLE NOT NULL,
+    ik1 DOUBLE NOT NULL,
+    uk0 DOUBLE NOT NULL,
+    uk1 DOUBLE NOT NULL,
+    uk2 DOUBLE NOT NULL,
+    pk DOUBLE NOT NULL,
+    tc0 DOUBLE NOT NULL,
+    tc1 DOUBLE NOT NULL,
+    tc2 DOUBLE NOT NULL,
+    h21 VARCHAR(100) NOT NULL,
+    ukb DOUBLE NOT NULL,
+    ikb DOUBLE NOT NULL,
+    uke DOUBLE NOT NULL,
+    ikbo DOUBLE NOT NULL,
+    fgr DOUBLE NOT NULL,
+    kh DOUBLE NOT NULL,
+    ck DOUBLE NOT NULL,
+    ca DOUBLE NOT NULL,
+    tpac DOUBLE NOT NULL,
+    rtnc DOUBLE NOT NULL,
+    title LONGTEXT NOT NULL,
+    picture VARCHAR(100) NOT NULL
+);
+
+--Изменить кодировку:
+
+ALTER TABLE `microsxema` CHANGE `name` `name` VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, CHANGE `h21` `h21` VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, CHANGE `title` `title` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, CHANGE `picture` `picture` VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
+
+--Удалить строку
+
+DELETE FROM `test`.`microsxema` WHERE `microsxema`.`name` = \'kp140ma2\'
+
+--Вставить строку
+
+Insert into microsxema(`name`,
+`ik0`,`ik1`,`uk0`,`uk1`,`uk2`,`pk`,`tc0`,`tc1`,`tc2`,`h21`,
+`ukb`,`ikb`,`uke`,`ikbo`,`fgr`,`kh`,`ck`,`ca`,`tpac`,`rtnc`,
+`title`,
+`picture`) values
+('kp140ma1',
+ 12.0, 2.8, 2.8, 14.0, 30.0, 10.0, 2.0, 50.0, 15.0, '201.14-1',
+ 5.3,  7.3, 1.0, 0.0,  0.0 , 0.0 , 0.0, 0.0 , 0.0 , 0.0,
+ 'Балансный модулятор', 'kp140ma1')
+;Select * From microsxema

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<title>test PHP site</title>
+<link href="style.css" rel="stylesheet"></link>
+<script src="switchBar.js" language="javaScript" type="text/javaScript"></script>
+</head>
+<body bgcolor="Papayawhip" >
+
+<div style="background-color: Oldlace">
+	<hr color='Lightpink'><p align=center>LABAr 4 PHP</p><hr color='Lightpink'>
+	
+	
+	<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;'>
+	<tr>
+	<td width=600 colspan=4>
+	<p align="center"><span style="font-weight: bold">Задание:</span> произвести численное интегрирование нескольких функций по правилу Симпсона.</p>
+	</td>
+	</tr>
+	
+	<form name="formPHPin" method=POST>
+	
+	<tr>
+	<td><input type=radio  name="fun" value="1" checked>1 / (1 + p * p) </td>
+	<td><input type=radio  name="fun" value="2">2 / (1 + p * p) </td>
+	<td><input type=radio  name="fun" value="3">3 / (1 + p * p) </td>
+ 	</tr>	
+	
+	<tr>
+	<td colspan=3>Отрезок интегрирования [a,b] &rarr; (a) =<input type=text name="intA" size=70></td>
+ 	</tr>
+	
+	<tr>
+	<td colspan=3>Отрезок интегрирования [a,b] &rarr; (b) =<input type=text name="intB" size=70></td>
+ 	</tr>
+	
+	<tr>
+	<td colspan=3>На сколько частей нужно разделить отрезок? n=<input type=text name="intN" size=58></td>	
+	</tr>
+	
+	<tr bgcolor='red'><td colspan=4 align=center><input type=submit  value="[&Xi;&Xi;&Xi;&Xi;OK&Xi;&Xi;&Xi;&Xi;]" name="btn"></td></tr>
+	
+	</form> 
+	
+	<tr><td colspan=3><?php include("algoritmic.php"); ?><?php include("tmp.php"); ?>
+	<?php include("btnCh.php"); ?></td></tr>
+	
+	</table>
+	
+	
+	
+</div>
+
+
+
+<div>
+
+<table border=1 bgcolor="green">
+
+<form name=BtnCh  method=POST><!--Отдельно form дабы нерушить созданный на фоне php класс-->
+<tr>
+	<td><button style="width:40px;height:40px" name="btn1" id="1"  value=1 ><?php if($work->btn1 == "" && $DSbtn1 == "") print $gloB1;else print $work->btn1."".$DSbtn1;  ?></button></td>
+	<td><button style="width:40px;height:40px" name="btn2" id="2"  value=2 ><?php if($work->btn2 == "" && $DSbtn2 == "") print $gloB2;else print $work->btn2."".$DSbtn2;  ?></button></td>
+	<td><button style="width:40px;height:40px" name="btn3" id="3"  value=3 ><?php if($work->btn3 == "" && $DSbtn3 == "") print $gloB3;else print $work->btn3."".$DSbtn3;  ?></button></td>
+	
+</tr>
+<tr>
+	<td><button style="width:40px;height:40px" name="btn4" id="4"  value=4 ><?php if($work->btn4 == "" && $DSbtn4 == "") print $gloB4;else print $work->btn4."".$DSbtn4;  ?></button></td>
+	<td><button style="width:40px;height:40px" name="btn5" id="5"  value=5 ><?php if($work->btn5 == "" && $DSbtn5 == "") print $gloB5;else print $work->btn5."".$DSbtn5;  ?></button></td>
+	<td><button style="width:40px;height:40px" name="btn6" id="6"  value=6 ><?php if($work->btn6 == "" && $DSbtn6 == "") print $gloB6;else print $work->btn6."".$DSbtn6;  ?></button></td>
+</tr>
+<tr>
+	<td><button style="width:40px;height:40px" name="btn7" id="7"  value=7 ><?php if($work->btn7 == "" && $DSbtn7 == "") print $gloB7;else print $work->btn7."".$DSbtn7;  ?></button></td>
+	<td><button style="width:40px;height:40px" name="btn8" id="8"  value=8 ><?php if($work->btn8 == "" && $DSbtn8 == "") print $gloB8;else print $work->btn8."".$DSbtn8;  ?></button></td>
+	<td><button style="width:40px;height:40px" name="btn-" id="9"  value=9><?php if($gloB9==0) print "";else print $gloB9; ?></button></td>
+</tr>
+<tr bgcolor='red'>
+	<td colspan=4 align=center style='background:red;'>
+	
+		<button name="newGame" id="123"  value=123 >[&Xi;&Xi;&Xi;&Xi;New game&Xi;&Xi;&Xi;&Xi;]</button><br>
+	
+		<button name="btnSAVE" id="200"  value=200 >[&Xi;&Xi;&Xi;&Xi;Save state&Xi;&Xi;&Xi;&Xi;]</button><br>		
+	
+		<button name="btnLOAD" id="300"  value=300>[&Xi;&Xi;&Xi;&Xi;Load state&Xi;&Xi;&Xi;&Xi;]</button><br>		
+	
+	</td>	
+</tr>
+
+</tr>
+</form>
+<!--Все кнопки типо input type=submit--> 
+<!--нажатие на кнопку "Новая игра" посылает в php, там рандомом назначим числа кнопкам,
+на html при помощи js опросим php назначеные кнопки
+<!--Смена Value у кнопок через скрипт JS--> 
+
+<script>
+
+//alert( document.getElementById(1).value )
+//alert("<?php echo $sBtn->btn1 ?>");
+
+</script>
+</table>
+
+
+</div>
+
+
+
+
+
+
+<div style="background-color: Turquoise">   
+  <hr color='Lightpink'><p align=center>LABAr 3 JS</p><hr color='Lightpink'>
+  
+  <table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;'>
+ <tr>
+  <td width=638 colspan=2>
+  <p align="center">Клик на каждый checkbox применяет соответствующее форматирование, повторный клик убирает его</p>
+  </td>
+ </tr>
+ <tr >
+ 
+  <td width=319 >
+    <textarea name="10" id="10" cols="72" rows="7" onclick="kodimg(id)">Инструкция на арабское сальто.
+  Старайтесь вылететь как можно выше, чтобы при приземлении вы встали почти на прямые ноги. Боковое сальто выполняйте в ту сторону, в которую вам удобнее делать колесо. Начните делать сальто лицом и грудью вперед по ходу движения. Наиболее рациональный вариант движения руками при отталкивании следующий: правой рукой двигайте спереди вниз, вверх, а левой - от плеча вперед и круговым движением вниз.
+  </textarea>
+  
+  <div id="11" onclick="kodimg(id)" class="just">
+  Перед отталкиванием левую ногу поставьте на пол пяткой и перекатывайтесь на носок. Хоть в этом случае труднее сделать сильный толчок, но зато из такой позиции толчок будет продолжительнее, а мах ногой - полнее. Мах должен заканчиваться сгибанием ноги в колене. Не допустите ошибку, преждевременно согнув ногу.
+  Чтобы правильно и быстро перевернуться, постарайтесь сгруппироваться как можно раньше. При группировке тянитесь левым плечом к левой ноге.
+  </div>
+  
+  <div id="22" onclick="kodimg(id)" class="just">
+  В арабском сальто не стоит делать слишком плотную группировку. Чтобы облегчить себе ориентирование в пространстве, смотрите в начале сальто как можно дальше вперед, а уже потом поверните голову так, чтобы видеть перед собой пол.
+  </div>
+  
+  <div id="33" onclick="kodimg(id)" class="just">
+  Приземление в этом виде сальто - всегда трудность. При неточном приземлении велика вероятность получить травму коленных суставов. Во избежание этого, потренируйтесь. Проделайте следующее упражнение: лягте спиной на какую-нибудь возвышенность, желательно на краю, сгруппируйтесь и перекатитесь с обрыва на ноги, отрабатывая чистое приземление.
+  </div>
+  </td>
+  
+  <td width=319 valign="top">
+  <form name="GetStyle" onclick="SwitchCheked()">
+  <p><input type="checkbox" id="red" name="a" value="Сделать красным">		<label for="red">Сделать красным</label></p>
+  <p><input type="checkbox" id="bold" name="b" value="Сделать жирным">		<label for="bold">Сделать жирным</label></p>
+  <p><input type="checkbox" id="crossed" name="c" value="Зачеркнуть текст">	<label for="crossed">Зачеркнуть текст</label></p>
+  <p><input type="checkbox" id="background" name="d" value="Сменить фон">	<label for="background">Сменить фон</label></p>
+  <p><input type="checkbox" id="font" name="e" value="Сменить шрифт">		<label for="font">Сменить шрифт</label></p>
+  <p><input type="checkbox" id="weight" name="f" value="Шрифт">				<label for="weight">Жирность_грань_толщина</label></p>
+  <p><input type="checkbox" id="cursor" name="g" value="Меняем стрелку">	<label for="cursor">Курсор_толщина_цвет</label></p>  
+  <p><input type="checkbox" id="vseVodin" name="h" value="Меняем xny">		<label for="vseVodin">Цвет_тип_стиль</label></p>
+  <p><input type="checkbox" id="nocoment" name="j" value="Меняем вариант">	<label for="nocoment">Тип_толщина_пробелы</label></p>
+  <p><input type="checkbox" id="overflow" name="k" value="Меняем потолок">	<label for="overflow">Верх_верх_пробелы</label></p>
+ </form>
+  </td>
+ </tr>
+</table>     
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

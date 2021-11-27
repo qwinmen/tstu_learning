@@ -1,0 +1,238 @@
+#include <GL/glut.h>
+#include <cmath>
+    /*здесь в программе 2 режима: первый отображает график с помощю алгоритмa плавающего горизонта, второй - просто этот 3D график такой как есть*/
+GLfloat valueZ(GLfloat, GLfloat);
+GLfloat** arrTwoCreate(int, int);
+void floatingHorizon();
+void simpleGraph();
+ 
+GLfloat rangeView = 7.5f; // розмер картини
+GLfloat angle = -360.f; // максимальний угол повороту изображення
+GLfloat speed = 0.1f; // скорость движение изображення
+GLfloat valueZoom = 1.0f;
+GLfloat zoom = 0.01f;
+GLfloat rangeFunc = rangeView * 0.75;
+ 
+GLboolean enableMethod = true;
+GLboolean enableRotation = false;
+GLfloat a = 0.0f;
+GLfloat b = 0.0f;
+ 
+void Reshape(GLsizei width, GLsizei height) {
+    
+    if (!height) 
+        height = 1;
+    glViewport(0, 0, width, height);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    if (width <= height)
+        glOrtho(-rangeView, rangeView, -rangeView * height / width, rangeView * height / width,
+                -rangeView, rangeView);
+    else
+        glOrtho(-rangeView * width / height, rangeView * width / height, -rangeView, rangeView,
+                -rangeView, rangeView);
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+}
+ 
+void menu(int value) {
+    switch(value) {
+        case 1:
+            enableMethod = true;
+            enableRotation = false;
+            break;
+        case 2:
+            enableMethod = false;
+            enableRotation = true;
+            break;
+    }
+}
+ 
+void draw(void) {
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glLoadIdentity();
+    
+    glEnable(GL_DEPTH_TEST);
+    glScalef(valueZoom, valueZoom, valueZoom);
+    GLfloat rangeAxis = rangeView * 0.875f;
+    if(enableRotation)
+        glRotatef(angle, 0.0f, 1.0f, 0.0f); 
+    
+    glLineWidth(1);
+    glBegin(GL_LINES);
+        glColor3f(1.0f, 0.0f, 0.0f); // Oz
+        glVertex3f(0.0f, -rangeAxis, 0.0f);
+        glVertex3f(0.0f, rangeAxis, 0.f);
+        
+        glColor3f(0.0f, 0.0f, 1.0f); // Ox
+        glVertex3f(-rangeAxis, 0.f, 0.f);
+        glVertex3f(rangeAxis, 0.0f, 0.f);
+        
+        glColor3f(0.0f, 1.0f, 0.0f); // Oy
+        glVertex3f(0.0f, 0.0f, -rangeAxis);
+        glVertex3f(0.0f, 0.0f, rangeAxis);
+    glEnd();
+    
+    if (enableMethod) {
+        floatingHorizon();
+    }
+    else {
+        simpleGraph();
+    }
+    glutSwapBuffers();
+}
+ 
+GLfloat freq = 0.2f; // frequency - частота  (сетка)
+    
+void floatingHorizon () {
+    gluLookAt(0.0f, 0.0f, 0.0f, 5.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f);
+    int size = (int)(2.0f*rangeFunc / 0.2f) + 1;
+    GLfloat z = 0.0f;
+    GLfloat **arrRangeZ = arrTwoCreate(size, 2);
+    glColor3f(1.0f, 0.5f, 0.4f);
+    int i = 0;
+    glBegin(GL_LINE_STRIP);
+    for (GLfloat y = rangeFunc; i < size ; y -= freq , i++) {
+        z = valueZ(rangeFunc, y);
+        glVertex3f(rangeFunc, z, y);
+        arrRangeZ[i][0] = z; // min
+        arrRangeZ[i][1] = z; // max
+    }
+    glEnd();
+ 
+    i = 0;
+    for (GLfloat x = rangeFunc - freq; x >= -rangeFunc; x -= freq) {
+        glBegin(GL_LINE_STRIP);
+        for(GLfloat y = rangeFunc; y >= -rangeFunc; y -= freq, i++) {
+            GLfloat X = x*cos(a) - y*sin(a);
+            GLfloat Y = x*sin(a) + y*cos(a);
+            z = valueZ(X, Y);
+            if (arrRangeZ[i][1] < z) {
+                glVertex3f(X, z, Y);
+                arrRangeZ[i][1] = z;
+            }
+            else if (arrRangeZ[i][0] > z) {
+                glVertex3f(X, z, Y);
+                arrRangeZ[i][0] = z;
+            }
+            else {
+                glVertex3f(X, z, Y);
+                glEnd();
+                glBegin(GL_LINE_STRIP);
+            }
+        }
+        glEnd();
+        i = 0;
+    }
+    
+    i = 0;
+    glColor3f(0.3f, 0.5f, 1.0f);
+    glBegin(GL_LINE_STRIP);
+    for (GLfloat y = rangeFunc; i < size ; y -= freq , i++) {
+        z = valueZ(rangeFunc, y);
+        glVertex3f(rangeFunc, z, y);
+        arrRangeZ[i][0] = z; // min
+        arrRangeZ[i][1] = z; // max
+    }
+    glEnd();
+    
+    i = 0;
+    for (GLfloat y = rangeFunc - freq; y >= -rangeFunc; y -= freq, i++) {
+        glBegin(GL_LINE_STRIP);
+        for(GLfloat x = rangeFunc; x >= -rangeFunc; x -= freq) {
+            z = valueZ(x, y);
+            if (arrRangeZ[i][1] < z) {
+                glVertex3f(x, z, y);
+                arrRangeZ[i][1] = z;
+            }
+            else if (arrRangeZ[i][0] > z) {
+                glVertex3f(x, z, y);
+                arrRangeZ[i][0] = z;
+            }
+            else {
+                glVertex3f(x, z, y);
+                glEnd();
+                glBegin(GL_LINE_STRIP);
+            }
+        }
+        glEnd();
+    }
+}
+ 
+void simpleGraph() {
+    GLfloat z = 0.0f;
+    glColor3f(1.0f, 0.5f, 0.4f);
+    glPolygonMode(GL_FRONT_AND_BACK,GL_LINE); 
+    for (GLfloat y = -rangeFunc ; y <= rangeFunc; y += freq ) {
+        glBegin(GL_LINE_STRIP);
+        for (GLfloat x = -rangeFunc; x <= rangeFunc; x += freq) {
+            z = valueZ(x, y);
+            glVertex3f(x, z, y);
+        }
+        glEnd();
+    }
+ 
+    glColor3f(0.3f, 0.5f, 1.0f);
+    for (GLfloat x = -rangeFunc ; x <= rangeFunc; x += freq ) {
+        glBegin(GL_LINE_STRIP);
+        for (GLfloat y = -rangeFunc; y <= rangeFunc; y += freq) {
+            z = valueZ(x, y);
+            glVertex3f(x, z, y);
+        }
+        glEnd();    
+    }
+    glEnd();
+}
+ 
+GLfloat Pi = 3.14159;
+ 
+void rotation() {
+    angle += speed;
+    if (angle > 360.f)
+        angle = -360.f;
+    draw();
+}
+ 
+GLfloat valueZ(GLfloat X, GLfloat Y) {
+//  GLfloat a = (GLfloat)(pow(X - Pi, 2) + pow(Y - Pi, 2));
+//  return 0.2f * sin(X) * cos(Y) - 1.5 * cos(7*a/4) * exp(-a);
+//  return X*X/4.0f - Y*Y/9.0f;
+    return 0.5f*X*X + Y*Y - 5;
+}
+ 
+GLfloat** arrTwoCreate(int row, int col)
+{
+    GLfloat **arr = new GLfloat* [row];
+    for (int i = 0; i < row; i++)
+        arr[i] = new GLfloat [col];
+    return arr;
+}
+ 
+void mouse (int button, int state, int x, int y) {
+    if (button == 3) 
+        valueZoom += zoom;
+    else if (button == 4)
+        valueZoom -= zoom;
+}
+ 
+int main(int argc, char** argv) {
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
+    glutInitWindowSize(860, 600);
+    glutInitWindowPosition(383, 184);
+    glutCreateWindow("RGR");
+    
+    glutCreateMenu(menu);
+    glutAddMenuEntry("Enable method of floating horizon", 1);
+    glutAddMenuEntry("Disable method of floating horizon", 2);
+    glutAttachMenu(GLUT_RIGHT_BUTTON);
+    
+    glClearColor(0, 0, 0, 0);
+    glutReshapeFunc(Reshape);
+    glutDisplayFunc(draw);
+    glutIdleFunc(rotation);
+    glutMouseFunc(mouse);
+    glEnable(GL_DEPTH_TEST);
+    glutMainLoop();
+    return 0;
+}

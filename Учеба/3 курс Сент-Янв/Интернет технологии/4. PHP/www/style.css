@@ -1,0 +1,11 @@
+.just { text-align: justify; width: 600px; border: solid 1px black;}
+    .apply-red { color: red; border-style: dashed;}
+    .apply-bold { font-weight: bold; border-style: dotted;}
+    .apply-crossed { text-decoration: line-through; border-style: solid;}
+    .apply-background { background-color: silver; border-style: double;}
+	.apply-font { font-family: Times New Roman; border-style: groove; border-color: green}
+	.apply-weight { font-weight: thick; border-left-color: yellow; line-height: 50%;}
+	.apply-cursor { cursor: help; font-size: 200%; color: Cyan;}	
+	.apply-vseVodin { background-color: Firebrick; font-family:Tahoma, sans-serif; font-style:italic;}
+	.apply-nocoment { font-variant:small-caps; font-weight:bold; letter-spacing:2px;}
+	.apply-overflow { word-spacing:7px; text-decoration:underline; vertical-align:super;}	

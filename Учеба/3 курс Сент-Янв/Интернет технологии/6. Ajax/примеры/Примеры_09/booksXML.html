@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Author Navigator</title>
+<script type="application/javascript">
+var request = null;
+function createRequest(){
+try
+ {
+ request = new XMLHttpRequest();
+ }
+ catch(trymicrosoft)
+  {
+   try
+    {
+	request = new AciveXObject("Msxml2.XMLHTTP");
+	}
+	catch(othermicrosoft)
+	 {
+	 try
+	  {
+	   request = new ActiveXObject("Microsoft.XMLHTTP");
+	  }
+	  catch(failed)
+	   {
+	   request = null;
+	   }
+	 }
+  }
+if (request == null)
+ {
+ alert("Error creating request object!");
+ } 
+}
+
+function getBooks(){
+var skey = search.key.value;
+createRequest();
+var url = "getBooksXML.php?sauthor="+encodeURI(skey);
+request.onreadystatechange = updatePage;
+request.open("GET",url,true);
+request.send(null);
+}
+
+function updatePage(){
+if (request.readyState == 4){
+if (request.status==200){
+var response = request.responseText;
+var resEl = document.getElementById('result');
+if (response!="false")
+ {
+ var xmldoc = request.responseXML;
+ var num_ = xmldoc.getElementsByTagName("num")[0];
+ var pages_ = xmldoc.getElementsByTagName("pages")[0];
+ var textin = 'Количество найденных книг - '+num_.firstChild.nodeValue+'<br/>'+'Суммарное количество страниц - '+pages_.firstChild.nodeValue;
+ var textin2 = '<br/><br/>Названия книг:';
+ var books_ = xmldoc.getElementsByTagName("books_name");
+ for (var i=0;i<books_.length;i++) textin2 = textin2+'<br/>\"'+books_[i].firstChild.nodeValue+'\"';
+ resEl.innerHTML = '<h3>Результаты поиска:</h3>'+textin+textin2;
+ }
+ else resEl.innerHTML = 'Ничего не найдено.'; 
+ }else alert("Error! Request status is "+request.status);
+ }
+}
+</script>
+</head>
+<body>
+<h1>Поиск книг по автору</h1>
+<div id='find'>
+<form name='search'>
+<input type='text' name='key' size='30' value=''/>
+<input type='button' value='Найти книги автора' onClick='getBooks();'/>
+</form>
+</div>
+<div id='result'>
+</div>
+</body>
+</html>

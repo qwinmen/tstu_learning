@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+<title>Простой пример DOM</title>
+</head>
+
+<body>
+  <img src="alt_files/europe.png" align="left" alt="Европа" usemap="#Map" border="0" height="387" width="422">
+  <map name="Map">
+   <area shape="poly" coords="34,83,42,90,52,87,64,85,71,81,79,87,84,95,75,110,61,120,42,116,37,110,25,94,32,82" 
+         href="#" onmouseover="states('1');" alt="Исландия">
+   <area shape="poly" coords="168,262,173,254,180,254,207,272,201,290,206,309,197,318,182,316,182,323,165,320,152,317,154,292,138,276,168,263" 
+         href="#" onmouseover="states('2');" alt="Франция">
+   <area shape="poly" coords="250,223,264,217,274,222,295,221,298,235,301,257,290,269,274,268,247,254,243,241,243,241" 
+         href="#" onmouseover="states('3');" alt="Польша">
+  </map>
+
+<div id="state" style="background-color: #ffffff; width:422px">
+</div>
+<script type="application/javascript">
+function states(num){
+var div = document.getElementById('state');
+if (num == '1'){div.style.backgroundColor='#d8bfd8'; div.innerHTML='Исландия. <br> Островное государство, расположенное в северной части Атлантического океана. Территория государства состоит из острова Исландия и небольших островков около него. Название страны буквально означает ледяная страна.';}
+if (num == '2'){div.style.backgroundColor='#ceceff'; div.innerHTML='Франция. <br> Государство в Западной Европе. Столица — город Париж. Франция также имеет заморские территории в Северной и Южной Америке, Вест-Индии, Индийском и Тихом океане и в Антарктиде. Название страны происходит по этнониму германского племени — франки.';}
+if (num == '3'){div.style.backgroundColor='#ffe4c4';div.innerHTML='Польша. <br> Государство в Восточной Европе. Название происходит от этнонима народа — поляки.<br>На севере омывается Балтийским морем, на западе граничит с Германией, на юго-западе с Чехией, на юге со Словакией, на юго-востоке с Украиной, на востоке с Беларусью, на северо-востоке с Литвой, а также на севере с Россией.';}
+return;
+}
+</script>
+ </body></html>

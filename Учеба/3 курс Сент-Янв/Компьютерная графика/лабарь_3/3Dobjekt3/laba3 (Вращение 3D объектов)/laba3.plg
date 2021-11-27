@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: laba3 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "F:\DOCUME~1\АЛЕКСА~1\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/laba3.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Пример\Visual C++_6.0\MyProjects\laba3 (Вращение 3D объектов)\laba3.cpp"
+]
+Creating command line "cl.exe @"F:\DOCUME~1\АЛЕКСА~1\LOCALS~1\Temp\RSP10.tmp"" 
+Creating temporary file "F:\DOCUME~1\АЛЕКСА~1\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib glaux.lib /nologo /subsystem:console /incremental:no /pdb:"Release/laba3.pdb" /machine:I386 /out:"Release/laba3.exe" 
+".\Release\laba3.obj"
+]
+Creating command line "link.exe @"F:\DOCUME~1\АЛЕКСА~1\LOCALS~1\Temp\RSP11.tmp""
+<h3>Output Window</h3>
+Compiling...
+laba3.cpp
+E:\Пример\Visual C++_6.0\MyProjects\laba3 (Вращение 3D объектов)\laba3.cpp(423) : warning C4101: 'k' : unreferenced local variable
+E:\Пример\Visual C++_6.0\MyProjects\laba3 (Вращение 3D объектов)\laba3.cpp(569) : warning C4101: 'i' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+laba3.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

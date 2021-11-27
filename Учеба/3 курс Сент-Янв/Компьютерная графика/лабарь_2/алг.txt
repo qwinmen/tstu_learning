@@ -1,0 +1,53 @@
+#include <windows.h>
+#include <gl\gl.h>
+#include <gl\glu.h>
+#include <gl\glaux.h>
+#include <math.h>
+//Программа вывода функции y=F(cos(x),z) 
+void CALLBACK resize (int width,int height)
+//инициализация функции вызываемой при изменении размеров окна
+{glViewport (0,0,width, height);
+//определение параметров окна приложения
+glMatrixMode (GL_PROJECTION);
+//определение текущей матрицы
+glLoadIdentity();
+//преобразование текущей матрицы в единичную, для перегона координат к нормальному виду
+glOrtho(-5,5,- 5,5, 2,12);
+// определение типа проекции, и определение видимого объема
+gluLookAt(5,5,5, 0,0,0, 0,1,0);
+// определение камеры, точка, откуда смотрим - 0,0,5
+//направление куда смотрим - 0,0,0
+//вектор, принимаемый за направление вверх - 0,1,0
+glMatrixMode(GL_MODELVIEW);
+//загрузка матрицы вида
+}
+
+
+static void CALLBACK Draw(void)
+// основная функция вывода изображения, здесь создается диспл список
+{  glClearColor(0.75f, 0.75f, 0.75f, 1.0f);
+//задание цвета фона
+  glClear(GL_COLOR_BUFFER_BIT);
+// задание цвета для последующих объектов
+  glColor3f(1.0,0.0,0.0);
+
+  for (int z=-40; z<40; z++)
+  {  glBegin(GL_LINE_STRIP );
+  for (int i=-80; i<80; i++)
+  { float angle=i*0.9;
+  glVertex3f(i,0.8*cos(angle),z);
+    }
+  glEnd();
+  }
+
+  glFinish();  //ожидание завершения всех команд OpenGL
+  auxSwapBuffers(); //вывод на экран содержимого внеэкранного буфера
+}
+
+void main(int argc, char **argv)
+{    auxInitPosition(200, 100, 550, 600);
+    auxInitDisplayMode(AUX_RGB | AUX_DOUBLE);
+  auxInitWindow("Линии, линии, линии ...") ;
+    auxReshapeFunc(resize);
+    auxMainLoop(Draw);
+}

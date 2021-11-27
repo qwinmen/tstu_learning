@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC  "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Пример</title>
+<script type="application/javascript">
+function time_scroll()
+{
+  var d = new Date();
+  document.write(d.getHours()
+          + ':' + d.getMinutes()
+          + ':' + d.getSeconds());
+  setTimeout('time_scroll()',1000);
+}
+</script>
+</head>
+<body onLoad="time_scroll()">
+<h1>Часы в строке статуса</h1>
+</body>
+</html>

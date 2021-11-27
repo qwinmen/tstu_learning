@@ -1,0 +1,2 @@
+Создать сервлет через Maven из IDEA
+http://devcolibri.com/1043

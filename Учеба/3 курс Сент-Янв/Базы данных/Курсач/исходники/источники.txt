@@ -1,0 +1,10 @@
+1)Справочник по биполярным транзисторам, http://www.qrz.ru/reference/kozak/bipol/bih01.shtml
+
+2)Анализ предметной области и разработка структуры базы данных, http://www.fbunion.ru/library/buh/bazy
+
+3)Базы данных. Общие понятия, http://egeinf.gym5cheb.ru/p35aa1.html
+
+4)Раскрытие тайн SQL, Э. Оппель, 2007г., Библия C#, М. Фленов, 2013г.
+
+
+5)Драйвер MySQL connector, http://dev.mysql.com/downloads/connector/net
