@@ -1,0 +1,23 @@
+Установка Mint 17
+http://laptop.ucoz.ru/news/ustanovka_linux_mint_17_na_zhjostkij_disk_kompjutera_s_live_usb_dvd/2014-05-31-4866
+
+Установка веб сервера на ubuntu
+http://help.ubuntu.ru/wiki/web-server
+
+Установка веб сервера на windows
+http://makegood.ru/tools/xampp/
+
+Блок div по центру
+https://toster.ru/q/35695
+http://www.artlebedev.ru/tools/technogrette/html/align-center/
+
+Параллакс на js
+http://www.rudebox.org.ua/interesting-effect-parallax-background-site-to-js/
+
+MODx шаблоны
+http://it-folio.ru/modx/start/mtemp
+
+301 редирект
+http://seodiz.ru/301-php-redirekt
+
+

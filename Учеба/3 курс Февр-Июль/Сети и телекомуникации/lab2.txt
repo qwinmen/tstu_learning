@@ -1,0 +1,6 @@
+C# №3: Работа с сетью. Sockets.
+http://pyha.ru/forum/topic/2945
+
+
+Работа с сокетами в .NET. Создание чата
+http://wincode.org/dotnet/sockets-in-dotnet
