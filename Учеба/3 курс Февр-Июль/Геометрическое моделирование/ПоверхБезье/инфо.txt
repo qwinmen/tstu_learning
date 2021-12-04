@@ -1,0 +1,10 @@
+Действия с матрицами
+http://www.mathprofi.ru/deistviya_s_matricami.html
+
+
+Фрагмент поверхности
+http://www.opengl.org.ru/lesson/nehe28.htm
+
+
+Многомерные поверхности
+http://cpp-delphi.ucoz.ru/Bezier_surfaces/Bezier_surfaces.html
