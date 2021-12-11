@@ -1,0 +1,235 @@
+********************************************************************************
+***                            MC-9 GUAP Edition                             ***
+***                                                                          ***
+***                                                                          ***
+***           Динамический частотный анализ Dynamic AC of lab_test           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node          Voltage  Node          Voltage  Node          Voltage 
+1                 0,0  2                 0,0  3                 0,0 
+4                 0,0  D                 0,0  C                 0,0 
+B                 0,0  A                 0,0  9                 0,0 
+11                0,0  12                0,0  14                0,0 
+$G_DPWR           0,0  $G_DGND           0,0  X1.X13$.1         0,0 
+X1.X13$.2         0,0  X1.X14$.1         0,0  X1.X14$.2         0,0 
+X2.X15$.1         0,0  X2.X15$.2         0,0  X2.X16$.1         0,0 
+X2.X16$.2         0,0 
+
+DC Operating Point Digital States
+=================================
+Node     State Node     State Node     State Node     State Node     State
+10       1     13       1     Y        0     1$DTOA   0     2$DTOA   0    
+3$DTOA   0     4$DTOA   0     5$DTOA   0     6$DTOA   0     7$DTOA   0    
+8$DTOA   0     9$ATOD   0     11$ATOD  0     12$ATOD  0     14$ATOD  0    
+
+
+AC values for Diode (Mag, Degrees)
+==================================
+Instance:          X1.X13$.D1       X1.X14$.D1       X2.X15$.D1       X2.X16$.D1
+Using model:              D74              D74              D74              D74
+
+AC Power Terms:
+PD                        0,0              0,0              0,0              0,0
+PS                        0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Id                        0,0              0,0              0,0              0,0
+
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:           R1_SWITCH1       R2_SWITCH1      _R3_SWITCH1      _R4_SWITCH1
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:          _R5_SWITCH1       R1_SWITCH2       R2_SWITCH2      _R3_SWITCH2
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:          _R4_SWITCH2      _R5_SWITCH2       R1_SWITCH3       R2_SWITCH3
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:          _R3_SWITCH3      _R4_SWITCH3      _R5_SWITCH3       R1_SWITCH4
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:           R2_SWITCH4      _R3_SWITCH4      _R4_SWITCH4      _R5_SWITCH4
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:               X5$.R1           X5$.R2           X5$.R3       X1.X13$.R1
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:           X1.X13$.R2       X1.X14$.R1       X1.X14$.R2       X2.X15$.R1
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:           X2.X15$.R2       X2.X16$.R1       X2.X16$.R2     rhigh_X4$.N1
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:          rlow_X4$.N1     rhigh_X6$.N1      rlow_X6$.N1     rhigh_X7$.N1
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:          rlow_X7$.N1     rhigh_X8$.N1      rlow_X8$.N1     rhigh_X9$.N1
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:          rlow_X9$.N1    rhigh_X10$.N1     rlow_X10$.N1    rhigh_X11$.N1
+
+AC Power Terms:
+PD                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0              0,0
+
+
+Instance:         rlow_X11$.N1    rhigh_X12$.N1     rlow_X12$.N1
+
+AC Power Terms:
+PD                         0,0              0,0              0,0
+
+AC Pin Currents:
+Ir                         0,0              0,0              0,0
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:            X4$.CLOAD        X6$.CLOAD        X7$.CLOAD        X8$.CLOAD
+
+AC Power Terms:
+PS                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ic                         0,0              0,0              0,0              0,0
+
+
+Instance:            X9$.CLOAD       X10$.CLOAD       X11$.CLOAD       X12$.CLOAD
+
+AC Power Terms:
+PS                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ic                         0,0              0,0              0,0              0,0
+
+
+Instance:           X1.X13$.C1       X1.X13$.C2       X1.X14$.C1       X1.X14$.C2
+
+AC Power Terms:
+PS                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ic                         0,0              0,0              0,0              0,0
+
+
+Instance:           X2.X15$.C1       X2.X15$.C2       X2.X16$.C1       X2.X16$.C2
+
+AC Power Terms:
+PS                         0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+Ic                         0,0              0,0              0,0              0,0
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:          V1_SWITCH1       V2_SWITCH1       V3_SWITCH1       V1_SWITCH2
+
+AC Power Terms:
+PG                        0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+ISource                   0,0              0,0              0,0              0,0
+
+
+Instance:          V2_SWITCH2       V3_SWITCH2       V1_SWITCH3       V2_SWITCH3
+
+AC Power Terms:
+PG                        0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+ISource                   0,0              0,0              0,0              0,0
+
+
+Instance:          V3_SWITCH3       V1_SWITCH4       V2_SWITCH4       V3_SWITCH4
+
+AC Power Terms:
+PG                        0,0              0,0              0,0              0,0
+
+AC Pin Currents:
+ISource                   0,0              0,0              0,0              0,0
+
+
+Instance:              X5$.V1           X5$.V2
+
+AC Power Terms:
+PG                        0,0              0,0
+
+AC Pin Currents:
+ISource                   0,0              0,0
+
+

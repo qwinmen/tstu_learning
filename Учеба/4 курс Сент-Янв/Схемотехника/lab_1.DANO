@@ -1,0 +1,166 @@
+********************************************************************************
+***                            MC-9 GUAP Edition                             ***
+***                                                                          ***
+***                                                                          ***
+***            Динамический частотный анализ Dynamic AC of lab_1             ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1                0,0  2                0,0  3                0,0 
+4                0,0  5                0,0  6                0,0 
+7                0,0  21               0,0  $G_DPWR          0,0 
+$G_DGND          0,0 
+
+DC Operating Point Digital States
+=================================
+Node     State Node     State Node     State Node     State Node     State
+8        1     9        1     10       1     11       1     12       0    
+13       0     14       0     15       0     Y        0     A        0    
+B        0     C        0     D        0     22       1     23       1    
+24       1     25       1     X6.X2.1  1     X6.X4.2  0     X6.X3.1  1    
+X6.X4.3  0     X6.X4.1  1     1$DTOA   1     2$DTOA   0     3$DTOA   0    
+4$DTOA   0     5$DTOA   0     6$DTOA   0     7$DTOA   0     21$DTOA  0    
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:              R1_SWITCH1          R2_SWITCH1          R1_SWITCH2
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+Instance:              R2_SWITCH2          R1_SWITCH3          R2_SWITCH3
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+Instance:              R1_SWITCH4          R2_SWITCH4             X10$.R1
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+Instance:                 X10$.R2             X10$.R3        rhigh_X9$.N1
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+Instance:             rlow_X9$.N1       rhigh_X11$.N1        rlow_X11$.N1
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+Instance:           rhigh_X12$.N1        rlow_X12$.N1    rhigh_X4.X13$.N1
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+Instance:         rlow_X4.X13$.N1    rhigh_X2.X14$.N1     rlow_X2.X14$.N1
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+Instance:        rhigh_X4.X15$.N1     rlow_X4.X15$.N1    rhigh_X3.X16$.N1
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+Instance:         rlow_X3.X16$.N1       rhigh_X17$.N1        rlow_X17$.N1
+
+AC Power Terms:
+PD                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ir                            0,0                 0,0                 0,0
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:               X9$.CLOAD          X11$.CLOAD          X12$.CLOAD
+
+AC Power Terms:
+PS                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ic                            0,0                 0,0                 0,0
+
+
+Instance:           X4.X13$.CLOAD       X2.X14$.CLOAD       X4.X15$.CLOAD
+
+AC Power Terms:
+PS                            0,0                 0,0                 0,0
+
+AC Pin Currents:
+Ic                            0,0                 0,0                 0,0
+
+
+Instance:           X3.X16$.CLOAD          X17$.CLOAD
+
+AC Power Terms:
+PS                            0,0                 0,0
+
+AC Pin Currents:
+Ic                            0,0                 0,0
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:             V1_SWITCH1          V1_SWITCH2          V1_SWITCH3
+
+AC Power Terms:
+PG                           0,0                 0,0                 0,0
+
+AC Pin Currents:
+ISource                      0,0                 0,0                 0,0
+
+
+Instance:             V1_SWITCH4             X10$.V1             X10$.V2
+
+AC Power Terms:
+PG                           0,0                 0,0                 0,0
+
+AC Pin Currents:
+ISource                      0,0                 0,0                 0,0
+
+

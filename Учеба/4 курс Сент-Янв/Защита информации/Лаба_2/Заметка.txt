@@ -1,0 +1,12 @@
+Один символ равен 16 бит или 2 байта
+
+Теория
+http://shaman99.narod.ru/lan/des_641.htm
+https://sites.google.com/site/anisimovkhv/learning/kripto/lecture/tema7#p73
+
+Практика
+http://www.codeproject.com/Articles/18288/Simple-Cryptographer-Simple-DES-AES-Implementation
+
+
+
+

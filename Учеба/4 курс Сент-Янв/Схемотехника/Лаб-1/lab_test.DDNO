@@ -1,0 +1,222 @@
+********************************************************************************
+***                            MC-9 GUAP Edition                             ***
+***                                                                          ***
+***                                                                          ***
+***      Динамический анализ по постоянному току Dynamic DC of lab_test      ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=270                ***
+*****************************************************
+
+Temperature=270 
+
+DC Operating Point Voltages
+===========================
+Node          Voltage  Node          Voltage  Node          Voltage 
+1            200.452m  2            200.452m  3            200.452m 
+4            200.452m  D            200.540m  C            200.540m 
+B            200.540m  A            200.540m  9            200.540m 
+11           200.540m  12           200.540m  14           200.540m 
+$G_DPWR        5.000   $G_DGND        0.000   X1.X13$.1    201.832m 
+X1.X13$.2    201.832m  X1.X14$.1    201.832m  X1.X14$.2    201.832m 
+X2.X15$.1    201.832m  X2.X15$.2    201.832m  X2.X16$.1    201.832m 
+X2.X16$.2    201.832m 
+
+DC Operating Point Digital States
+=================================
+Node     State Node     State Node     State Node     State Node     State
+10       1     13       1     Y        0     1$DTOA   0     2$DTOA   0    
+3$DTOA   0     4$DTOA   0     5$DTOA   0     6$DTOA   0     7$DTOA   0    
+8$DTOA   0     9$ATOD   0     11$ATOD  0     12$ATOD  0     14$ATOD  0    
+
+
+Operating point for devices of type Diode
+=========================================
+Instance:          X1.X13$.D1       X1.X14$.D1       X2.X15$.D1       X2.X16$.D1
+Using model:              D74              D74              D74              D74
+ID                   -12.923u         -12.923u         -12.923u         -12.923u
+VD                    -4.798           -4.798           -4.798           -4.798 
+REQ                    1.000T           1.000T           1.000T           1.000T
+CAP                    2.156p           2.156p           2.156p           2.156p
+
+DC Power Terms:
+PD                    61.970u          61.970u          61.970u          61.970u
+PS                     0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Id                   -12.923u         -12.923u         -12.923u         -12.923u
+
+Condition:
+State                     OFF              OFF              OFF              OFF
+
+
+
+Operating point for devices of type Resistor
+============================================
+Instance:           R1_SWITCH1       R2_SWITCH1      _R3_SWITCH1      _R4_SWITCH1
+DC Power Terms:
+PD                 -7.755E-024        -167.016f          40.181f          40.216f
+
+DC Pin Currents:
+Ir                  8.807E-020         -12.923u         200.452f         200.540f
+
+
+Instance:          _R5_SWITCH1       R1_SWITCH2       R2_SWITCH2      _R3_SWITCH2
+DC Power Terms:
+PD                     40.216f      -7.755E-024        -167.016f          40.181f
+
+DC Pin Currents:
+Ir                    200.540f       8.807E-020         -12.923u         200.452f
+
+
+Instance:          _R4_SWITCH2      _R5_SWITCH2       R1_SWITCH3       R2_SWITCH3
+DC Power Terms:
+PD                     40.216f          40.216f      -7.755E-024        -167.016f
+
+DC Pin Currents:
+Ir                    200.540f         200.540f       8.807E-020         -12.923u
+
+
+Instance:          _R3_SWITCH3      _R4_SWITCH3      _R5_SWITCH3       R1_SWITCH4
+DC Power Terms:
+PD                     40.181f          40.216f          40.216f      -7.755E-024
+
+DC Pin Currents:
+Ir                    200.452f         200.540f         200.540f       8.807E-020
+
+
+Instance:           R2_SWITCH4      _R3_SWITCH4      _R4_SWITCH4      _R5_SWITCH4
+DC Power Terms:
+PD                   -167.016f          40.181f          40.216f          40.216f
+
+DC Pin Currents:
+Ir                    -12.923u         200.452f         200.540f         200.540f
+
+
+Instance:               X5$.R1           X5$.R2           X5$.R3       X1.X13$.R1
+DC Power Terms:
+PD                     25.000n           0.000            0.000           16.702n
+
+DC Pin Currents:
+Ir                      5.000n           0.000            0.000          -12.923u
+
+
+Instance:           X1.X13$.R2       X1.X14$.R1       X1.X14$.R2       X2.X15$.R1
+DC Power Terms:
+PD                      0.000           16.702n           0.000           16.702n
+
+DC Pin Currents:
+Ir                      0.000          -12.923u           0.000          -12.923u
+
+
+Instance:           X2.X15$.R2       X2.X16$.R1       X2.X16$.R2     rhigh_X4$.N1
+DC Power Terms:
+PD                      0.000           16.702n           0.000          135.504m
+
+DC Pin Currents:
+Ir                      0.000          -12.923u           0.000           28.233m
+
+
+Instance:          rlow_X4$.N1     rhigh_X6$.N1      rlow_X6$.N1     rhigh_X7$.N1
+DC Power Terms:
+PD                      5.659m         135.504m           5.659m         135.504m
+
+DC Pin Currents:
+Ir                    -28.233m          28.233m         -28.233m          28.233m
+
+
+Instance:          rlow_X7$.N1     rhigh_X8$.N1      rlow_X8$.N1     rhigh_X9$.N1
+DC Power Terms:
+PD                      5.659m         135.504m           5.659m         135.499m
+
+DC Pin Currents:
+Ir                    -28.233m          28.233m         -28.233m          28.232m
+
+
+Instance:          rlow_X9$.N1    rhigh_X10$.N1     rlow_X10$.N1    rhigh_X11$.N1
+DC Power Terms:
+PD                      5.664m         135.499m           5.664m         135.499m
+
+DC Pin Currents:
+Ir                    -28.245m          28.232m         -28.245m          28.232m
+
+
+Instance:         rlow_X11$.N1    rhigh_X12$.N1     rlow_X12$.N1
+DC Power Terms:
+PD                      5.664m         135.499m           5.664m
+
+DC Pin Currents:
+Ir                    -28.245m          28.232m         -28.245m
+
+
+
+Operating point for devices of type Capacitor
+=============================================
+Instance:            X4$.CLOAD        X6$.CLOAD        X7$.CLOAD        X8$.CLOAD
+DC Power Terms:
+PS                      0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Ic                      0.000            0.000            0.000            0.000 
+
+
+Instance:            X9$.CLOAD       X10$.CLOAD       X11$.CLOAD       X12$.CLOAD
+DC Power Terms:
+PS                      0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Ic                      0.000            0.000            0.000            0.000 
+
+
+Instance:           X1.X13$.C1       X1.X13$.C2       X1.X14$.C1       X1.X14$.C2
+DC Power Terms:
+PS                      0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Ic                      0.000            0.000            0.000            0.000 
+
+
+Instance:           X2.X15$.C1       X2.X15$.C2       X2.X16$.C1       X2.X16$.C2
+DC Power Terms:
+PS                      0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+Ic                      0.000            0.000            0.000            0.000 
+
+
+
+Operating point for devices of type SPICE Source
+================================================
+Instance:          V1_SWITCH1       V2_SWITCH1       V3_SWITCH1       V1_SWITCH2
+DC Power Terms:
+PG                     0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+ISource              200.451f         -12.923u          12.923u         200.451f
+
+
+Instance:          V2_SWITCH2       V3_SWITCH2       V1_SWITCH3       V2_SWITCH3
+DC Power Terms:
+PG                     0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+ISource              -12.923u          12.923u         200.451f         -12.923u
+
+
+Instance:          V3_SWITCH3       V1_SWITCH4       V2_SWITCH4       V3_SWITCH4
+DC Power Terms:
+PG                     0.000            0.000            0.000            0.000 
+
+DC Pin Currents:
+ISource               12.923u         200.451f         -12.923u          12.923u
+
+
+Instance:              X5$.V1           X5$.V2
+DC Power Terms:
+PG                     1.130            0.000 
+
+DC Pin Currents:
+ISource             -225.911m         225.911m
+
+

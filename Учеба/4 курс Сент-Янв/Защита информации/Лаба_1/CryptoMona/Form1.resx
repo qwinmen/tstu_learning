@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtbx_Input.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Alfavit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtBox_GKey.WatermarkText" xml:space="preserve">
+    <value>gamma</value>
+  </data>
+  <data name="&gt;&gt;line1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.Line, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;sTabItem4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabItem, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="textBox_Aout.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;superTabControl1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabControl, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="superTabControlPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="groupBox_Aalf.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reflectionLabel_GN.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel3.Parent" xml:space="preserve">
+    <value>superTabControl1</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel5.Name" xml:space="preserve">
+    <value>superTabControlPanel5</value>
+  </data>
+  <data name="&gt;&gt;checkBox_GCriptMode.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.CheckBoxX, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="heaparGrid1.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>257, 81</value>
+  </data>
+  <data name="textBox_AtextIn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolTip_GMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_Ru.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonItem_ARandom.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="label1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 29</value>
+  </data>
+  <data name="&gt;&gt;radioButton_En.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tableLayoutPanel_Aalf.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Name" xml:space="preserve">
+    <value>gaugeControl1</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel1.Parent" xml:space="preserve">
+    <value>superTabControl1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="&gt;&gt;radioButton_En.Name" xml:space="preserve">
+    <value>radioButton_En</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label10.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;activePanel1.Type" xml:space="preserve">
+    <value>heaparessential.Controls.ActivePanel, HeaparEssential, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="groupPanel_Gitog.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioButton_En.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="reflectionLabel_GN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 213</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="txtBox_QuadOut.WatermarkText" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="txtBox_Gin.WatermarkText" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="&gt;&gt;sTabItem1.Name" xml:space="preserve">
+    <value>sTabItem1</value>
+  </data>
+  <data name="bevel_GMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bevel_GMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="heaparGrid2.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>257, 81</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Out.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lbl_Alfavit.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox_AtextIn.Parent" xml:space="preserve">
+    <value>superTabControlPanel4</value>
+  </data>
+  <data name="txtBox_Gin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>635, 176</value>
+  </data>
+  <data name="superTabControlPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 465</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="txtbx_Input.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBox_Gin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="label4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox_GCriptMode.Text" xml:space="preserve">
+    <value>&amp;&amp;---&gt;a</value>
+  </data>
+  <data name="line1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtBox_Gout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="superTabControlPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 465</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 29</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabControlPanel, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;txtBox_QuadIn.Parent" xml:space="preserve">
+    <value>activePanel1</value>
+  </data>
+  <data name="txtBox_QuadOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 20</value>
+  </data>
+  <data name="txtBox_GKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 16</value>
+  </data>
+  <data name="&gt;&gt;switchButtonItem_ACripto.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SwitchButtonItem, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="superTabControl1.Text" xml:space="preserve">
+    <value>superTabControl1</value>
+  </data>
+  <data name="bevel_GMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 136</value>
+  </data>
+  <data name="sTabItem3.Text" xml:space="preserve">
+    <value>&lt;b&gt;Гаммирование&lt;/b&gt;</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="superTabControlPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 0</value>
+  </data>
+  <data name="activePanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="checkBox_GCriptMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 1</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="textBox_AtextIn.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Aout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Out.Name" xml:space="preserve">
+    <value>txtbx_Out</value>
+  </data>
+  <data name="sTabItem2.Text" xml:space="preserve">
+    <value>&lt;b&gt;Магический квадрат&lt;/b&gt;</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="label5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tableLayoutPanel_Aalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="&gt;&gt;textBox_Aout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Input.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="superTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;reflectionLabel_GN.Parent" xml:space="preserve">
+    <value>groupPanel_Gitog</value>
+  </data>
+  <data name="checkBox_GCriptMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;heaparGrid2.Type" xml:space="preserve">
+    <value>HeaparGrid.HeaparGrid, HeaparGrid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="columnHeader2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 31</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 2</value>
+  </data>
+  <data name="&gt;&gt;activePanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;heaparGrid1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtBox_QuadOut.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_GCriptMode.Name" xml:space="preserve">
+    <value>checkBox_GCriptMode</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupPanel_G.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.GroupPanel, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="textBox_Aout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="groupPanel_Gitog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 199</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroStatusBar_Aalf.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;buttonItem_ARandom.Name" xml:space="preserve">
+    <value>buttonItem_ARandom</value>
+  </data>
+  <data name="&gt;&gt;txtBox_GKey.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Aalf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="line1.Text" xml:space="preserve">
+    <value>line1</value>
+  </data>
+  <data name="sTabItem4.Text" xml:space="preserve">
+    <value>&lt;b&gt;ADFGX&lt;/b&gt;</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;bevel_GMenu.Name" xml:space="preserve">
+    <value>bevel_GMenu</value>
+  </data>
+  <data name="metroStatusBar_Aalf.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="superTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 465</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="superTabControlPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 0</value>
+  </data>
+  <data name="superTabControl1.SelectedTabFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;radioButton_Ru.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="superTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtbx_Input.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 166</value>
+  </data>
+  <data name="&gt;&gt;txtBox_QuadOut.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="line1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 28</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 29</value>
+  </data>
+  <data name="cbox_QuadRen.Items2" xml:space="preserve">
+    <value>16 3 2 13 9 6 7 12 5 10 11 8 4 15 14 1</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listView_Aalf.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_GCriptMode.Parent" xml:space="preserve">
+    <value>bevel_GMenu</value>
+  </data>
+  <data name="sTabItem2.Tooltip" xml:space="preserve">
+    <value>Магический квадрат</value>
+  </data>
+  <data name="groupBox_Aout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtBox_Gin.Parent" xml:space="preserve">
+    <value>groupPanel_G</value>
+  </data>
+  <data name="gaugeControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBox_Aout.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>673, 465</value>
+  </data>
+  <data name="listView_Aalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 151</value>
+  </data>
+  <data name="&gt;&gt;txtBox_Gin.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="radioButton_Ru.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="&gt;&gt;sTabItem2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabItem, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="columnHeader4.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Name" xml:space="preserve">
+    <value>columnHeader4</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupPanel_G.Text" xml:space="preserve">
+    <value>Что шифровать</value>
+  </data>
+  <data name="&gt;&gt;groupPanel_G.Parent" xml:space="preserve">
+    <value>superTabControlPanel3</value>
+  </data>
+  <data name="txtBox_Gin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="heaparGrid2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Out.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sTabItem1.Text" xml:space="preserve">
+    <value>&lt;b&gt;Атбаш&lt;/b&gt;</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="txtBox_QuadIn.ButtonCustom.Text" xml:space="preserve">
+    <value>0k</value>
+  </data>
+  <data name="txtbx_Input.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="activePanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbx_Input.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtBox_Gout.Parent" xml:space="preserve">
+    <value>groupPanel_Gitog</value>
+  </data>
+  <data name="&gt;&gt;txtBox_Gin.Name" xml:space="preserve">
+    <value>txtBox_Gin</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Aout.Name" xml:space="preserve">
+    <value>groupBox_Aout</value>
+  </data>
+  <data name="&gt;&gt;groupPanel_Gitog.Parent" xml:space="preserve">
+    <value>superTabControlPanel3</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Input.Parent" xml:space="preserve">
+    <value>superTabControlPanel5</value>
+  </data>
+  <data name="groupPanel_G.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel3.Name" xml:space="preserve">
+    <value>superTabControlPanel3</value>
+  </data>
+  <data name="groupBox_Aalf.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBox_Aout.Parent" xml:space="preserve">
+    <value>groupBox_Aout</value>
+  </data>
+  <data name="textBox_AtextIn.Text" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="&gt;&gt;txtBox_GKey.Name" xml:space="preserve">
+    <value>txtBox_GKey</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 248</value>
+  </data>
+  <data name="&gt;&gt;splitter2.Name" xml:space="preserve">
+    <value>splitter2</value>
+  </data>
+  <data name="lbl_Alfavit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>532, 17</value>
+  </data>
+  <data name="txtBox_QuadIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 119</value>
+  </data>
+  <data name="superTabControlPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;reflectionLabel_GN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="listView_Aalf.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 16pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;activePanel1.Parent" xml:space="preserve">
+    <value>superTabControlPanel2</value>
+  </data>
+  <data name="&gt;&gt;splitter2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupPanel_Gitog.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.GroupPanel, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel2.Name" xml:space="preserve">
+    <value>superTabControlPanel2</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="txtbx_Out.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;switchButtonItem_ACripto.Name" xml:space="preserve">
+    <value>switchButtonItem_ACripto</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="listView_Aalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 36</value>
+  </data>
+  <data name="&gt;&gt;radioButton_En.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Alfavit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="heaparGrid2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 172</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 2</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="label8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;metroStatusBar_Aalf.Parent" xml:space="preserve">
+    <value>groupBox_Aalf</value>
+  </data>
+  <data name="groupPanel_Gitog.Text" xml:space="preserve">
+    <value>Итог гаммирования</value>
+  </data>
+  <data name="textBox_AtextIn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="line1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;splitter2.Parent" xml:space="preserve">
+    <value>superTabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupPanel_G.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;groupPanel_Gitog.Name" xml:space="preserve">
+    <value>groupPanel_Gitog</value>
+  </data>
+  <data name="gaugeControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 32</value>
+  </data>
+  <data name="activePanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 465</value>
+  </data>
+  <data name="&gt;&gt;sTabItem2.Name" xml:space="preserve">
+    <value>sTabItem2</value>
+  </data>
+  <data name="txtBox_GKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 21</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel_Aalf.Parent" xml:space="preserve">
+    <value>groupBox_Aalf</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabControlPanel, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="gaugeControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 61</value>
+  </data>
+  <data name="textBox_Aout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;sTabItem3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabItem, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="superTabControlPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButton_En.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 15</value>
+  </data>
+  <data name="label8.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;heaparGrid2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtBox_Gout.Name" xml:space="preserve">
+    <value>txtBox_Gout</value>
+  </data>
+  <data name="&gt;&gt;heaparGrid1.Parent" xml:space="preserve">
+    <value>activePanel1</value>
+  </data>
+  <data name="radioButton_En.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 17</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="txtBox_Gin.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="line1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 0</value>
+  </data>
+  <data name="&gt;&gt;reflectionLabel_GN.Name" xml:space="preserve">
+    <value>reflectionLabel_GN</value>
+  </data>
+  <data name="groupPanel_G.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 199</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Aalf.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel_Aalf.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="listView_Aalf" Row="1" RowSpan="5" Column="1" ColumnSpan="5" /&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label2" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="label4" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="label5" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="label6" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label7" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label8" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label9" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label10" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,16,66667,Percent,17,89474,Percent,16,31579,Percent,14,73684,Percent,17,36842,Percent,18,94737" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="label4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="line1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="switchButtonItem_ACripto.Tooltip" xml:space="preserve">
+    <value>Включить расшифровку</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox_Aout.Text" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="columnHeader5.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="txtBox_QuadIn.WatermarkText" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="&gt;&gt;txtBox_QuadOut.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="superTabControlPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textBox_AtextIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 220</value>
+  </data>
+  <data name="bevel_GMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;txtBox_Gin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="txtBox_Gout.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="superTabControlPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 0</value>
+  </data>
+  <data name="columnHeader3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 41</value>
+  </data>
+  <data name="groupBox_Aout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 251</value>
+  </data>
+  <data name="columnHeader5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtbx_Out.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 213</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel4.Name" xml:space="preserve">
+    <value>superTabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;txtBox_QuadOut.Parent" xml:space="preserve">
+    <value>activePanel1</value>
+  </data>
+  <data name="txtBox_GKey.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;superTabControl1.Name" xml:space="preserve">
+    <value>superTabControl1</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 2</value>
+  </data>
+  <data name="&gt;&gt;sTabItem4.Name" xml:space="preserve">
+    <value>sTabItem4</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupPanel_Gitog.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gaugeCircularScale1.PivotPoint" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAP5qZ2b8L
+</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel_Aalf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxItem_AKey.Name" xml:space="preserve">
+    <value>textBoxItem_AKey</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Input.Name" xml:space="preserve">
+    <value>txtbx_Input</value>
+  </data>
+  <data name="reflectionLabel_GN.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtBox_Gin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtBox_Gout.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="superTabControlPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 465</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;radioButton_Ru.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="heaparGrid1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 66</value>
+  </data>
+  <data name="&gt;&gt;txtBox_Gout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_Ru.Name" xml:space="preserve">
+    <value>radioButton_Ru</value>
+  </data>
+  <data name="&gt;&gt;lbl_Alfavit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Aalf.Name" xml:space="preserve">
+    <value>groupBox_Aalf</value>
+  </data>
+  <data name="groupPanel_G.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gaugeControl1.Text" xml:space="preserve">
+    <value>gaugeControl1</value>
+  </data>
+  <data name="label9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;metroStatusBar_Aalf.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 2</value>
+  </data>
+  <data name="cbox_QuadRen.Items1" xml:space="preserve">
+    <value>16 2 3 13 5 11 10 8 9 7 6 12 4 14 15 1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="heaparGrid1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 107</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="superTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupPanel_Gitog.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="tableLayoutPanel_Aalf.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbox_QuadRen.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButton_En.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;metroStatusBar_Aalf.Name" xml:space="preserve">
+    <value>metroStatusBar_Aalf</value>
+  </data>
+  <data name="&gt;&gt;groupPanel_Gitog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;superTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 155</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 35</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Parent" xml:space="preserve">
+    <value>activePanel1</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="sTabItem4.Tooltip" xml:space="preserve">
+    <value>ADFGX</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="superTabControlPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 0</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Aout.Parent" xml:space="preserve">
+    <value>superTabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;cbox_QuadRen.Parent" xml:space="preserve">
+    <value>activePanel1</value>
+  </data>
+  <data name="&gt;&gt;listView_Aalf.Name" xml:space="preserve">
+    <value>listView_Aalf</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="textBoxItem_AKey.ButtonCustom.Text" xml:space="preserve">
+    <value>0k</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 33</value>
+  </data>
+  <data name="&gt;&gt;listView_Aalf.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="switchButtonItem_ACripto.OffText" xml:space="preserve">
+    <value>-&gt;&amp;&amp;</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAIAAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYAACBAAAAgYAAAIIAAACCgAAAg
+        wAAAIOAAAEAAAABAIAAAQEAAAEBgAABAgAAAQKAAAEDAAABA4AAAYAAAAGAgAABgQAAAYGAAAGCAAABg
+        oAAAYMAAAGDgAACAAAAAgCAAAIBAAACAYAAAgIAAAICgAACAwAAAgOAAAKAAAACgIAAAoEAAAKBgAACg
+        gAAAoKAAAKDAAACg4AAAwAAAAMAgAADAQAAAwGAAAMCAAADAoAAAwMAAAMDgAADgAAAA4CAAAOBAAADg
+        YAAA4IAAAOCgAADgwAAA4OAAQAAAAEAAIABAAEAAQABgAEAAgABAAKAAQADAAEAA4ABAIAAAQCAgAEAg
+        QABAIGAAQCCAAEAgoABAIMAAQCDgAEBAAABAQCAAQEBAAEBAYABAQIAAQECgAEBAwABAQOAAQGAAAEBg
+        IABAYEAAQGBgAEBggABAYKAAQGDAAEBg4ABAgAAAQIAgAECAQABAgGAAQICAAECAoABAgMAAQIDgAECg
+        AABAoCAAQKBAAECgYABAoIAAQKCgAECgwABAoOAAQMAAAEDAIABAwEAAQMBgAEDAgABAwKAAQMDAAEDA
+        4ABA4AAAQOAgAEDgQABA4GAAQOCAAEDgoABA4MAAQODgAIAAAACAACAAgABAAIAAYACAAIAAgACgAIAA
+        wACAAOAAgCAAAIAgIACAIEAAgCBgAIAggACAIKAAgCDAAIAg4ACAQAAAgEAgAIBAQACAQGAAgECAAIBA
+        oACAQMAAgEDgAIBgAACAYCAAgGBAAIBgYACAYIAAgGCgAIBgwACAYOAAgIAAAICAIACAgEAAgIBgAICA
+        gACAgKAAgIDAAICA4ACAoAAAgKAgAICgQACAoGAAgKCAAICgoACAoMAAgKDgAIDAAACAwCAAgMBAAIDA
+        YACAwIAAgMCgAIDAwACAwOAAgOAAAIDgIACA4EAAgOBgAIDggACA4KAAgODAAIDg4ADAAAAAwAAgAMAA
+        QADAAGAAwACAAMAAoADAAMAAwADgAMAgAADAICAAwCBAAMAgYADAIIAAwCCgAMAgwADAIOAAwEAAAMBA
+        IADAQEAAwEBgAMBAgADAQKAAwEDAAMBA4ADAYAAAwGAgAMBgQADAYGAAwGCAAMBgoADAYMAAwGDgAMCA
+        AADAgCAAwIBAAMCAYADAgIAAwICgAMCAwADAgOAAwKAAAMCgIADAoEAAwKBgAMCggADAoKAAwKDAAMCg
+        4ADAwAAAwMAgAMDAQADAwGAAwMCAAMDAoADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAMDAAMDAwMDAwMDAwMDAwMDA6QAAAAAAAAAAAAAAAADBwAHAPv7+/v7+/v7
+        +/v7+/sHpAMAAAAAAAAAAAAAAAMABwcHAPv7+/v7+/v7+/v7+wcDpAAAAAAAAAAAAAAAA6QHpAcABwcH
+        BwcHBwcHBwf7B6QDAAAAAAAAAAAAAAAD/wCkBwD7+/v7+/v7+/v7+/sHA6QAAAAAAAAAAAAAAAMAB6QH
+        AAcHBwcHBwcHBwcH+wekAwAAAAAAAAAAAAAAAP8HpAcA+/v7+/v7+/v7+/v7BwOkAAAAAAAAAAAAAAAD
+        pAekBwAHBwcHBwcHBwcHB/sHpAMAAAAAAAAAAAAAAAOkB6SkAPv7+/v7+/v7+/v7+wcDpAAAAAAAAAAA
+        AAAAA6T//6QABwcHBwcHBwcHBwf7B6QDAAAAAAAAAAAAAACk/wcHBwcA+/v7+/v7+/v7+/sHA6QAAAAA
+        AAAAAAAApP8HB/8HB6QABwcHBwcHBwcH+wekAwAAAAAAAAAAAKT/Bwf/B/8HB6QA+/v7+/v7+/v7BwOk
+        AAAAAAAAAAAApP8H/wAAB/8HpAD7+/v7+/v7+/sHpAMAAAAAAAAAAACk/wcApP8ABwekAP//////////
+        /wcDpAAAAAAAAAAAAKT/BwCkpAAHB6QApAMDAwMD+wOkA6QAAAAAAAAAAAAAAKT/BwAABwekAKQDAwMD
+        AwP7A6QAAAAAAAAAAAAAAAAAAKT///8HpAAAA6QDAwMDA/sDAAAAAAAAAAAAAAAAAAAAAKSkpKT7AwAD
+        AwMDAwMD+wMAAAAAAAAAAAAAAAAAAAAAAAAAA/sDAAAAAAAAAAP7AwAAAAAAAAAAAAAAAAAAAAAAAAAD
+        +wMAAAAAAAAAA/sDAAAAAAAAAAAAAAAAAAAAAAAAAAP7AwAAAAAAAAAD+wMAAAAAAAAAAAAAAAAAAAAA
+        AAAAA/sDAAAAAAAAAAP7AwAAAAAAAAAAAAAAAAAAAAAAAAAD+wMAAAAAAAAAA/sDAAAAAAAAAAAAAAAA
+        AAAAAAAAAAP7BwMAAAAAAAMD+wMAAAAAAAAAAAAAAAAAAAAAAAAAAAP7BwMAAAAAB/sDAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAP7+wMDAwf7AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMD+/v7+wAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAADAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP/////8AAB/+AAAP/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gA
+        AB/wAAAf4AAAH+AAAB/gAAAf4AAAP/AAAH/4AAD//AAB//+H4f//h+H//4fh//+H4f//h+H//4PB///A
+        A///4Af///AP///8P///////
+</value>
+  </data>
+  <data name="&gt;&gt;radioButton_En.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitter2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_Alfavit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="&gt;&gt;textBoxItem_AKey.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.TextBoxItem, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;heaparGrid2.Parent" xml:space="preserve">
+    <value>activePanel1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="groupBox_Aalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 242</value>
+  </data>
+  <data name="&gt;&gt;lbl_Alfavit.Name" xml:space="preserve">
+    <value>lbl_Alfavit</value>
+  </data>
+  <data name="textBox_Aout.Text" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Aout.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 123</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent" xml:space="preserve">
+    <value>superTabControlPanel5</value>
+  </data>
+  <data name="&gt;&gt;toolTip_GMode.Name" xml:space="preserve">
+    <value>toolTip_GMode</value>
+  </data>
+  <data name="textBox_AtextIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 28</value>
+  </data>
+  <data name="label9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;textBox_AtextIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="superTabControlPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtBox_QuadIn.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="textBox_AtextIn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="metroStatusBar_Aalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 22</value>
+  </data>
+  <data name="splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="radioButton_Ru.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="superTabControlPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel4.Parent" xml:space="preserve">
+    <value>superTabControl1</value>
+  </data>
+  <data name="metroStatusBar_Aalf.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="metroStatusBar_Aalf.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.25pt, style=Bold</value>
+  </data>
+  <data name="bevel_GMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;sTabItem3.Name" xml:space="preserve">
+    <value>sTabItem3</value>
+  </data>
+  <data name="&gt;&gt;heaparGrid1.Name" xml:space="preserve">
+    <value>heaparGrid1</value>
+  </data>
+  <data name="&gt;&gt;txtBox_QuadIn.Name" xml:space="preserve">
+    <value>txtBox_QuadIn</value>
+  </data>
+  <data name="superTabControlPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 465</value>
+  </data>
+  <data name="heaparGrid1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 32</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="superTabControlPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 0</value>
+  </data>
+  <data name="superTabControl1.TabFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="activePanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_GCriptMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="heaparGrid2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Input.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 2</value>
+  </data>
+  <data name="&gt;&gt;activePanel1.Name" xml:space="preserve">
+    <value>activePanel1</value>
+  </data>
+  <data name="txtbx_Out.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 252</value>
+  </data>
+  <data name="superTabControlPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabControlPanel, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="superTabControlPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gaugeControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txtBox_GKey.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="txtBox_Gout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupPanel_G.Name" xml:space="preserve">
+    <value>groupPanel_G</value>
+  </data>
+  <data name="&gt;&gt;txtbx_Out.Parent" xml:space="preserve">
+    <value>superTabControlPanel5</value>
+  </data>
+  <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="buttonItem_ARandom.Tooltip" xml:space="preserve">
+    <value>Сгенерировать алфавит</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 96</value>
+  </data>
+  <data name="label5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtBox_QuadOut.ButtonCustom.Text" xml:space="preserve">
+    <value>0k</value>
+  </data>
+  <data name="metroStatusBar_Aalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 217</value>
+  </data>
+  <data name="&gt;&gt;cbox_QuadRen.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bevel_GMenu.Parent" xml:space="preserve">
+    <value>groupPanel_G</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel_Aalf.Name" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="&gt;&gt;listView_Aalf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 29</value>
+  </data>
+  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 207</value>
+  </data>
+  <data name="txtBox_GKey.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel5.Parent" xml:space="preserve">
+    <value>superTabControl1</value>
+  </data>
+  <data name="sTabItem3.Tooltip" xml:space="preserve">
+    <value>Гаммирование</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel2.Parent" xml:space="preserve">
+    <value>superTabControl1</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbox_QuadRen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="reflectionLabel_GN.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font size="+6"&gt;&lt;i&gt;N=&lt;/i&gt;&lt;font color="#B02B2C"&gt;44[ru]&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="listView_Aalf.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel_Aalf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 192</value>
+  </data>
+  <data name="buttonItem_ARandom.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupPanel_G.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5.Name" xml:space="preserve">
+    <value>columnHeader5</value>
+  </data>
+  <data name="columnHeader4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtbx_Input.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="radioButton_Ru.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="radioButton_En.Text" xml:space="preserve">
+    <value>En</value>
+  </data>
+  <data name="txtBox_Gout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="textBox_Aout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="superTabControlPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 465</value>
+  </data>
+  <data name="cbox_QuadRen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 118</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtBox_QuadIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 20</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox_Aalf.Text" xml:space="preserve">
+    <value>Алфавит</value>
+  </data>
+  <data name="checkBox_GCriptMode.ToolTip" xml:space="preserve">
+    <value>Включить расшифровку?</value>
+  </data>
+  <data name="&gt;&gt;splitter2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtBox_QuadOut.Name" xml:space="preserve">
+    <value>txtBox_QuadOut</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 28</value>
+  </data>
+  <data name="textBoxItem_AKey.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="reflectionLabel_GN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 29</value>
+  </data>
+  <data name="heaparGrid2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 107</value>
+  </data>
+  <data name="&gt;&gt;textBox_Aout.Name" xml:space="preserve">
+    <value>textBox_Aout</value>
+  </data>
+  <data name="&gt;&gt;textBox_AtextIn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bevel_GMenu.Type" xml:space="preserve">
+    <value>heaparessential.Controls.Bevel, HeaparEssential, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;textBox_AtextIn.Name" xml:space="preserve">
+    <value>textBox_AtextIn</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>(ryp+0M0n@</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="radioButton_Ru.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="groupPanel_Gitog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 266</value>
+  </data>
+  <data name="cbox_QuadRen.Items" xml:space="preserve">
+    <value>16 3 2 13 5 10 11 8 9 6 7 12 4 15 14 1</value>
+  </data>
+  <data name="groupPanel_G.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name" xml:space="preserve">
+    <value>splitter1</value>
+  </data>
+  <data name="groupBox_Aout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 214</value>
+  </data>
+  <data name="superTabControlPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtBox_Gout.WatermarkText" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 25</value>
+  </data>
+  <data name="textBox_Aout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 195</value>
+  </data>
+  <data name="tableLayoutPanel_Aalf.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Aalf.Parent" xml:space="preserve">
+    <value>superTabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;line1.Name" xml:space="preserve">
+    <value>line1</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabControlPanel, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Type" xml:space="preserve">
+    <value>DevComponents.Instrumentation.GaugeControl, DevComponents.Instrumentation, Version=11.3.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0</value>
+  </data>
+  <data name="label7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;txtBox_QuadIn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtBox_GKey.Parent" xml:space="preserve">
+    <value>bevel_GMenu</value>
+  </data>
+  <data name="groupBox_Aout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;reflectionLabel_GN.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ReflectionLabel, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="txtBox_QuadOut.MaxLength" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel1.Name" xml:space="preserve">
+    <value>superTabControlPanel1</value>
+  </data>
+  <data name="&gt;&gt;textBox_Aout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtbx_Out.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel_Aalf.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_Ru.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 15</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="tableLayoutPanel_Aalf.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 29</value>
+  </data>
+  <data name="lbl_Alfavit.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;listView_Aalf.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;heaparGrid2.Name" xml:space="preserve">
+    <value>heaparGrid2</value>
+  </data>
+  <data name="radioButton_En.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_Ru.Text" xml:space="preserve">
+    <value>Ru</value>
+  </data>
+  <data name="label3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;metroStatusBar_Aalf.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Metro.MetroStatusBar, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="txtBox_QuadIn.MaxLength" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;line1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtbx_Out.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 248</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxItem_AKey.WatermarkText" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="label7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox_AtextIn.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 6</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>superTabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;cbox_QuadRen.Name" xml:space="preserve">
+    <value>cbox_QuadRen</value>
+  </data>
+  <data name="checkBox_GCriptMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 15</value>
+  </data>
+  <data name="bevel_GMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 38</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="&gt;&gt;superTabControlPanel1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabControlPanel, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel_Aalf</value>
+  </data>
+  <data name="txtBox_Gout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 244</value>
+  </data>
+  <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="checkBox_GCriptMode.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;line1.Parent" xml:space="preserve">
+    <value>superTabControlPanel4</value>
+  </data>
+  <data name="&gt;&gt;sTabItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.SuperTabItem, DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b</value>
+  </data>
+  <data name="cbox_QuadRen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 21</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>superTabControlPanel5</value>
+  </data>
+  <data name="&gt;&gt;superTabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 3</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 30</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchButtonItem_ACripto.OnText" xml:space="preserve">
+    <value>a&lt;-</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="groupBox_Aalf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="label6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="heaparGrid1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBox_QuadIn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="superTabControlPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel_Aalf.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Inset</value>
+  </data>
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;heaparGrid1.Type" xml:space="preserve">
+    <value>HeaparGrid.HeaparGrid, HeaparGrid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="checkBox_GCriptMode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtBox_GKey.ButtonCustom.Text" xml:space="preserve">
+    <value>0k</value>
+  </data>
+  <data name="txtBox_QuadOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 259</value>
+  </data>
+  <metadata name="tableLayoutPanel_Aalf.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>36</value>
+  </metadata>
+  <metadata name="toolTip_GMode.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="listView_Aalf.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="groupBox_Aalf.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

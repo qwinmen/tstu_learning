@@ -1,0 +1,186 @@
+********************************************************************************
+***                            MC-9 GUAP Edition                             ***
+***                                                                          ***
+***                                                                          ***
+***        Динамический анализ по постоянному току Dynamic DC of Lab4        ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+S             5.000   R             4.996m  5             5.000  
+$G_DPWR       5.000   $G_DGND       0.000   X1.X2$.1    782.261m 
+X1.X2$.2     36.051m  X1.X2$.3     18.025m  X1.X4$.1      2.085  
+X1.X4$.2      1.309   X1.X4$.3    654.294m  X1.X5$.1    787.227m 
+X1.X5$.2     41.047m  X1.X5$.3     20.523m 
+
+DC Operating Point Digital States
+=================================
+Node     State Node     State Node     State Node     State Node     State
+F        0     4        1     0$ATOD   0     1$ATOD   1     2$ATOD   0    
+
+
+Operating point for devices of type Diode
+=========================================
+Instance:         X1.X2$.D1      X1.X2$.D2      X1.X2$.D3      X1.X4$.D1
+Using model:        D74CLMP            D74            D74        D74CLMP
+ID                   0.000         28.101f        28.101f        -5.007p
+VD                   0.000         18.025m        18.025m        -5.000 
+REQ                721.170G       563.001G       563.001G         1.000T
+CAP                  5.000p         5.046p         5.046p         2.042p
+
+DC Power Terms:
+PD                   0.000          0.507f         0.507f        25.021p
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                   0.000         28.101f        28.101f        -5.007p
+
+Condition:
+State                   OFF            OFF            OFF            OFF
+
+
+Instance:         X1.X4$.D2      X1.X4$.D3      X1.X5$.D1      X1.X5$.D2
+Using model:            D74            D74        D74CLMP            D74
+ID                 969.300u       969.300u        -6.753f        32.635f
+VD                 654.294m       654.294m        -4.996m        20.523m
+REQ                 26.683         26.683        758.310G       539.112G
+CAP                  8.162p         8.162p         4.988p         5.052p
+
+DC Power Terms:
+PD                 634.206u       634.206u         0.034f         0.670f
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                 969.300u       969.300u        -6.753f        32.635f
+
+Condition:
+State                    ON             ON            OFF            OFF
+
+
+Instance:         X1.X5$.D3
+Using model:            D74
+ID                  32.635f
+VD                  20.523m
+REQ                539.112G
+CAP                  5.052p
+
+DC Power Terms:
+PD                   0.670f
+PS                   0.000 
+
+DC Pin Currents:
+Id                  32.635f
+
+Condition:
+State                   OFF
+
+
+
+Operating point for devices of type Bipolar Junction Transistors NPN
+====================================================================
+Instance:         X1.X2$.Q1      X1.X4$.Q1      X1.X5$.Q1
+Using model:            Q74            Q74            Q74
+IB                   1.054m       728.828u         1.053m
+IC                 -22.831f      -969.341u       -27.472f
+VBE                782.261m        -2.915        782.231m
+VBC                746.211m       776.125m       746.180m
+VCE                 36.051m        -3.691         36.051m
+BETADC             -21.652p        -1.330        -26.085p
+GM                  39.689m        -9.299m        39.642m
+RPI                927.011         48.916T       928.103 
+RX                   0.000          0.000          0.000 
+RO                  76.352        107.538         76.442 
+CPI                 12.493p       485.704f        12.481p
+CMU                131.781p        93.794p       131.626p
+CBX                  0.000          0.000          0.000 
+CJS                  2.951p         2.105p         2.944p
+BETAAC              36.792       -454.874G        36.792 
+FT                43.782MEG     -15.698MEG      43.781MEG
+
+DC Power Terms:
+PD                 824.843u         1.453m       823.840u
+PS                   0.000          0.000          0.000 
+
+DC Pin Currents:
+Ib                   1.054m       728.828u         1.053m
+Ic                 -22.831f      -969.341u       -27.472f
+Ie                  -1.054m       240.513u        -1.053m
+Is                   0.000          0.000          0.000 
+
+Condition:
+State                   SAT            OFF            SAT
+
+
+
+Operating point for devices of type Resistor
+============================================
+Instance:         R1_SWITCH1     R2_SWITCH1    _R3_SWITCH1    _R4_SWITCH1
+DC Power Terms:
+PD                   24.998f        24.961m        24.998p         0.025f
+
+DC Pin Currents:
+Ir                    5.000f         4.996          5.000p         4.996f
+
+
+Instance:        _R5_SWITCH1             R1             R2      X1.X2$.R1
+Using model:             N\A          C6_5%          C6_5%            N\A
+DC Power Terms:
+PD                    0.000         24.950         57.846n         4.447m
+
+DC Pin Currents:
+Ir                    0.000         -4.995       -240.511u         1.054m
+
+
+Instance:          X1.X3$.R1      X1.X3$.R2      X1.X3$.R3      X1.X4$.R1
+DC Power Terms:
+PD                   25.000n         0.000          0.000          2.125m
+
+DC Pin Currents:
+Ir                    5.000n         0.000          0.000        728.822u
+
+
+Instance:          X1.X5$.R1
+DC Power Terms:
+PD                    4.437m
+
+DC Pin Currents:
+Ir                    1.053m
+
+
+
+Operating point for devices of type Capacitor
+=============================================
+Instance:          X1.X2$.C1      X1.X4$.C1      X1.X5$.C1
+DC Power Terms:
+PS                    0.000          0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000          0.000 
+
+
+
+Operating point for devices of type SPICE Source
+================================================
+Instance:        V1_SWITCH1     V2_SWITCH1     V3_SWITCH1             V1
+DC Power Terms:
+PG                   0.000         -0.004f         0.000         24.976 
+
+DC Pin Currents:
+ISource              5.004p         4.996         -4.996         -4.995 
+
+
+Instance:         X1.X3$.V1      X1.X3$.V2
+DC Power Terms:
+PG                  14.182m         0.000 
+
+DC Pin Currents:
+ISource             -2.836m       969.333u
+
+

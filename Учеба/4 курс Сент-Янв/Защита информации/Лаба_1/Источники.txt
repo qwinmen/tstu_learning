@@ -1,0 +1,12 @@
+Атбаш
+http://eynike.narod.ru/AtbashPage.htm
+http://kriptografea.narod.ru/atbash.html
+
+Магический квадрат
+http://neudoff.net/info/informatika/shifrovanie-po-metodu-magicheskix-kvadratov/
+http://crypto-r.narod.ru/glava2/glava2_2.html
+
+Гаммирование по модулю N
+http://www.altaev-aa.narod.ru/security/XOR.html
+http://edu.dvgups.ru/METDOC/ENF/PRMATEM/INFORMAT/METOD/KRIPTOGR_MET/Kom_4.htm
+http://edu.dvgups.ru/METDOC/ENF/PRMATEM/INFORMAT/METOD/KRIPTOGR_MET/Kom_5.htm

@@ -1,0 +1,164 @@
+********************************************************************************
+***                            MC-9 GUAP Edition                             ***
+***                                                                          ***
+***                                                                          ***
+***                 Частотный анализ AC Analysis of lab_test                 ***
+********************************************************************************
+Limits
+======
+Frequency Range  1E8,1Meg
+Number of Points 51
+Temperature      Linear 27
+Maximum Change % 5
+Noise Input      None
+Noise Output     2
+Run Options      Normal
+State Variables  Zero
+Frequency Step   Auto
+Operating Point  On
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+Model parameters for devices of type Diode
+==========================================
+Instance:       X1.X7$.D1   
+Using model:          D74   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BV                 0.000 (*)
+CJO                5.000p   
+EG                 1.110 (*)
+FC               500.000m(*)
+IBV              100.000p(*)
+IBVL               0.000 (*)
+IKF                0.000 (*)
+IS                10.000f   
+ISR                0.000 (*)
+KF                 0.000 (*)
+M                500.000m   
+N                  1.000 (*)
+NBV                1.000 (*)
+NBVL               1.000 (*)
+NR                 2.000 (*)
+RL                 0.000 (*)
+RS                 0.000 (*)
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TBV1               0.000 (*)
+TBV2               0.000 (*)
+TIKF               0.000 (*)
+TRS1               0.000 (*)
+TRS2               0.000 (*)
+TT                 0.000 (*)
+VJ                 1.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1           200.452m  A           200.452m  6           200.452m 
+$G_DPWR       5.000   $G_DGND       0.000   X1.X7$.1    200.452m 
+X1.X7$.2    200.452m 
+
+DC Operating Point Digital States
+=================================
+Node     State Node     State Node     State Node     State Node     State
+B        0     C        0     D        0     7        1     8        1    
+Y        0     1$DTOA   0     5$DTOA   0     6$ATOD   0    
+
+
+Operating point for devices of type Diode
+=========================================
+Instance:          X1.X7$.D1
+Using model:             D74
+ID                   -4.810p
+VD                   -4.800 
+REQ                   1.000T
+CAP                   2.076p
+
+DC Power Terms:
+PD                   23.084p
+PS                    0.000 
+
+DC Pin Currents:
+Id                   -4.810p
+
+Condition:
+State                    OFF
+
+
+
+Operating point for devices of type Resistor
+============================================
+Instance:          R1_SWITCH1      R2_SWITCH1     _R3_SWITCH1     _R4_SWITCH1
+DC Power Terms:
+PD                -9.814E-037     -2.123E-026         40.181f         40.181f
+
+DC Pin Currents:
+Ir                 3.133E-026         -4.607p        200.452f        200.452f
+
+
+Instance:         _R5_SWITCH1          X5$.R1          X5$.R2          X5$.R3
+DC Power Terms:
+PD                    40.181f         25.000n          0.000           0.000 
+
+DC Pin Currents:
+Ir                   200.452f          5.000n          0.000           0.000 
+
+
+Instance:           X1.X7$.R1       X1.X7$.R2    rhigh_X4$.N1     rlow_X4$.N1
+DC Power Terms:
+PD                 2.313E-021          0.000         135.504m          5.659m
+
+DC Pin Currents:
+Ir                    -4.810p          0.000          28.233m        -28.233m
+
+
+Instance:        rhigh_X6$.N1     rlow_X6$.N1
+DC Power Terms:
+PD                   135.504m          5.659m
+
+DC Pin Currents:
+Ir                    28.233m        -28.233m
+
+
+
+Operating point for devices of type Capacitor
+=============================================
+Instance:           X4$.CLOAD       X6$.CLOAD       X1.X7$.C1       X1.X7$.C2
+DC Power Terms:
+PS                     0.000           0.000           0.000           0.000 
+
+DC Pin Currents:
+Ic                     0.000           0.000           0.000           0.000 
+
+
+
+Operating point for devices of type SPICE Source
+================================================
+Instance:         V1_SWITCH1      V2_SWITCH1      V3_SWITCH1          X5$.V1
+DC Power Terms:
+PG                    0.000           0.000           0.000         282.326m
+
+DC Pin Currents:
+ISource             200.451f         -4.397p          4.810p        -56.465m
+
+
+Instance:             X5$.V2
+DC Power Terms:
+PG                    0.000 
+
+DC Pin Currents:
+ISource              56.465m
+
+

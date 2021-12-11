@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RibbonPad">
+</Property><Property Name="Solution File" Value="C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\RibbonPad.sln">
+</Property><Property Name="Date" Value="8 ноября 2015 г.">
+</Property><Property Name="Time" Value="17:41">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RibbonPad.sln" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\RibbonPad.sln">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="RibbonPad.csproj" Description="Project file successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\RibbonPad.csproj">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="BalloonSearch.cs" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\BalloonSearch.cs">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="ColorPicker.cs" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\ColorPicker.cs">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="frmAbout.cs" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\frmAbout.cs">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="frmDocument.cs" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\frmDocument.cs">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="frmMain.cs" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="Resources\Document.png" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\Resources\Document.png">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="Resources\OpenExistingPlace.png" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\Resources\OpenExistingPlace.png">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="Resources\Unpinned.png" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\Resources\Unpinned.png">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="BalloonSearch.resx" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\BalloonSearch.resx">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="ColorPicker.resx" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\ColorPicker.resx">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="frmAbout.resx" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\frmAbout.resx">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="frmDocument.resx" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\frmDocument.resx">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="frmMain.resx" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="Info.png" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\Info.png">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\user\Desktop\Учеба\4 курс Сент-Янв\Защита информации\Лаба_4\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="RibbonPad.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RibbonPad" Source="RibbonPad.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RibbonPad.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RibbonPad.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RibbonPad" Source="RibbonPad.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

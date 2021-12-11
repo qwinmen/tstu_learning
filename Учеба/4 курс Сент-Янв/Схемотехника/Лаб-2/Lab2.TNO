@@ -1,0 +1,33 @@
+********************************************************************************
+***                            MC-9 GUAP Edition                             ***
+***                                                                          ***
+***                                                                          ***
+***          Анализ переходных процессов Transient analysis of Lab2          ***
+********************************************************************************
+Limits
+======
+Time Range           15u
+Maximum Time Step    0
+Number of Points     51
+Temperature          Linear 27
+Run Options          Normal
+State Variables      Zero
+Operating Point      On
+Operating Point Only Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+DC Operating Point Digital States
+=================================
+Node     State Node     State Node     State Node     State Node     State
+Y        0     A        0     B        0     C        0     D        0    
+6        1     7        1     8        1     9        1     10       1    
+11       0     12       1     13       0     14       1     15       1    
+16       0     17       0     18       1     19       1     20       1    
+21       1    
+
