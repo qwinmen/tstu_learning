@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+  <describe zoomD="100" zoomN="100" modelX="2" modelY="1" modelType="FALSE">
+    <FileVersion>1.0</FileVersion>
+    <brick name="TWIDO1">
+      <base ref="TWDLMDA40DTK" xpos="326" ypos="217" label="Twido">
+      </base>
+      <leftModuleList>
+      </leftModuleList>
+      <expansionList>
+        <expansion ref="TM2DDI16DT" nmbr="1" Embedded="FALSE">
+          <optionList>
+          </optionList>
+          <portList>
+          </portList>
+        </expansion>
+        <expansion ref="TM2DDI16DT" nmbr="2" Embedded="FALSE">
+          <optionList>
+          </optionList>
+          <portList>
+          </portList>
+        </expansion>
+        <expansion ref="TM2DRA16RT" nmbr="3" Embedded="FALSE">
+          <optionList>
+          </optionList>
+          <portList>
+          </portList>
+        </expansion>
+      </expansionList>
+      <optionList>
+      </optionList>
+      <portList>
+        <port nmbr="1">
+          <address>1</address>
+          <protocol>LDISTANTE</protocol>
+          <IsModBusMaster>0</IsModBusMaster>
+        </port>
+      </portList>
+    </brick>
+    <networkElementList>
+    </networkElementList>
+    <networkList>
+    </networkList>
+    <postItList>
+    </postItList>
+  </describe>
+
+

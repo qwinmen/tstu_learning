@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+  <describe>
+    <FileVersion>2.20</FileVersion>
+    <brick name="TWIDO1">
+      <base ref="TWDLMDA40DTK" label="My Twido" OnlineConf="4">
+      </base>
+      <leftModuleList>
+      </leftModuleList>
+      <expansionList>
+        <expansion ref="TM2DDI16DT" nmbr="1" Embedded="FALSE" OnlineConf="3">
+          <optionList>
+          </optionList>
+          <portList>
+          </portList>
+        </expansion>
+        <expansion ref="TM2DDI16DT" nmbr="2" Embedded="FALSE" OnlineConf="3">
+          <optionList>
+          </optionList>
+          <portList>
+          </portList>
+        </expansion>
+        <expansion ref="TM2DRA16RT" nmbr="3" Embedded="FALSE" OnlineConf="3">
+          <optionList>
+          </optionList>
+          <portList>
+          </portList>
+        </expansion>
+      </expansionList>
+      <optionList>
+      </optionList>
+      <portList>
+        <port nmbr="1" OnlineConf="4">
+          <address>1</address>
+          <protocol>LDISTANTE</protocol>
+          <IsModBusMaster>0</IsModBusMaster>
+        </port>
+      </portList>
+    </brick>
+    <networkElementList>
+    </networkElementList>
+    <networkList>
+    </networkList>
+    <postItList>
+    </postItList>
+  </describe>
+
+

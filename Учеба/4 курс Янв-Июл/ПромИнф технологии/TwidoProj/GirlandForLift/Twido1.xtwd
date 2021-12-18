@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+  <TwidoApplication>
+    <FileVersion>5.0</FileVersion>
+    <CodePage>1251</CodePage>
+    <SymbolTable>
+      <Symbol>
+        <Address>%M1</Address>
+        <Attribute>$</Attribute>
+        <SymbolName>DOWN_FLAG</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>1</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>5</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <SymbCreatedBy>1</SymbCreatedBy>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%TM1</Address>
+        <Attribute>$</Attribute>
+        <SymbolName>TON_1S_DWN</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>7</NumAttributes>
+        <XAddress>1</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>9</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>7</InfoFlags>
+        <SortOrder>3300</SortOrder>
+        <SymbCreatedBy>1</SymbCreatedBy>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%TM0</Address>
+        <Attribute>$</Attribute>
+        <SymbolName>TON_1S_UP</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>7</NumAttributes>
+        <XAddress>0</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>9</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>7</InfoFlags>
+        <SortOrder>3300</SortOrder>
+        <SymbCreatedBy>1</SymbCreatedBy>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%M0</Address>
+        <Attribute>$</Attribute>
+        <SymbolName>UP_FLAG</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>0</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>5</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <SymbCreatedBy>1</SymbCreatedBy>
+        <Comment>$</Comment>
+      </Symbol>
+    </SymbolTable>
+    <Resources>
+      <MODEM>
+        <HAYES_INIT_COMMAND>$</HAYES_INIT_COMMAND>
+      </MODEM>
+      <AppTable>
+        <AppTableVersion>3</AppTableVersion>
+        <CompatibilityFlags>10</CompatibilityFlags>
+        <LevelChosen>255</LevelChosen>
+        <Password>$</Password>
+        <AppName>My Twido</AppName>
+        <AppVersion>1</AppVersion>
+        <AppSignature>15976</AppSignature>
+        <AppMaxCycleTime>250</AppMaxCycleTime>
+        <AppMinCycleTime>0</AppMinCycleTime>
+        <Protection>0</Protection>
+        <Autoload>0</Autoload>
+        <AppReadyToRun>1</AppReadyToRun>
+        <LenListIdTableModBuffer>4780</LenListIdTableModBuffer>
+        <AppIntModBufferLength>24848</AppIntModBufferLength>
+        <AppMaxModsAllowed>1553</AppMaxModsAllowed>
+        <AppDiffLadderSize>0</AppDiffLadderSize>
+        <AppNumExtLabel>2</AppNumExtLabel>
+        <AppNumModsUsedInt>0</AppNumModsUsedInt>
+        <LangVersion>1</LangVersion>
+        <CompilerVersion>1</CompilerVersion>
+        <CompilerSettings>0</CompilerSettings>
+        <HardwarePartNumber>TWDLMDA40DTK</HardwarePartNumber>
+        <HardwareID>2228</HardwareID>
+        <HWOptionsStatus>0</HWOptionsStatus>
+        <AppTableChksum>62225</AppTableChksum>
+        <AppStructChksum>53512</AppStructChksum>
+      </AppTable>
+      <KWTable>
+      </KWTable>
+      <CfgTable>
+        <CfgTableVersion>6</CfgTableVersion>
+      </CfgTable>
+      <SwObjList>
+        <Timer>
+          <TMIndex>0</TMIndex>
+          <PresetValue>500</PresetValue>
+          <TimeBase>0</TimeBase>
+          <TimeType>0</TimeType>
+          <ModifyFlag>1</ModifyFlag>
+        </Timer>
+        <Timer>
+          <TMIndex>1</TMIndex>
+          <PresetValue>500</PresetValue>
+          <TimeBase>0</TimeBase>
+          <TimeType>0</TimeType>
+          <ModifyFlag>1</ModifyFlag>
+        </Timer>
+        <BaseDigInput>
+          <BDI12Filter>0</BDI12Filter>
+          <BDI3Filter>255</BDI3Filter>
+          <BDICapture>0</BDICapture>
+          <BDIRunStop>0</BDIRunStop>
+          <BDINumInputs>24</BDINumInputs>
+          <BDIIsDedicated>0</BDIIsDedicated>
+        </BaseDigInput>
+        <BaseDigOutput>
+          <BDONumOutputs>16</BDONumOutputs>
+          <BDOOutputStat>0</BDOOutputStat>
+          <BDOIsDedicated>0</BDOIsDedicated>
+        </BaseDigOutput>
+        <BaseAnalogInput>
+          <BAINumInputs>2</BAINumInputs>
+          <BAIPrecision>0</BAIPrecision>
+        </BaseAnalogInput>
+        <ExpansionModule>
+          <ExpModulePartNumber>TM2DDI16DT</ExpModulePartNumber>
+          <ExpModuleType>32768</ExpModuleType>
+          <ExpModuleNumInputs>16</ExpModuleNumInputs>
+          <ExpModuleNumOutputs>0</ExpModuleNumOutputs>
+          <ExpModuleKind>0</ExpModuleKind>
+          <ExpModuleIndex>1</ExpModuleIndex>
+        </ExpansionModule>
+        <ExpansionModule>
+          <ExpModulePartNumber>TM2DDI16DT</ExpModulePartNumber>
+          <ExpModuleType>32768</ExpModuleType>
+          <ExpModuleNumInputs>16</ExpModuleNumInputs>
+          <ExpModuleNumOutputs>0</ExpModuleNumOutputs>
+          <ExpModuleKind>0</ExpModuleKind>
+          <ExpModuleIndex>2</ExpModuleIndex>
+        </ExpansionModule>
+        <ExpansionModule>
+          <ExpModulePartNumber>TM2DRA16RT</ExpModulePartNumber>
+          <ExpModuleType>32769</ExpModuleType>
+          <ExpModuleNumInputs>0</ExpModuleNumInputs>
+          <ExpModuleNumOutputs>16</ExpModuleNumOutputs>
+          <ExpModuleKind>0</ExpModuleKind>
+          <ExpModuleIndex>3</ExpModuleIndex>
+        </ExpansionModule>
+        <CommObj>
+          <CmDeviceRemote>0</CmDeviceRemote>
+          <CmDeviceTypeRemote>0</CmDeviceTypeRemote>
+          <CmIndex>0</CmIndex>
+          <CmPort1Address>1</CmPort1Address>
+          <CmPort1LnCfg>0</CmPort1LnCfg>
+          <CmPort1Protocol>1</CmPort1Protocol>
+          <CmPort1MbTimeout>1</CmPort1MbTimeout>
+          <CmPort1RespTimeout>1</CmPort1RespTimeout>
+          <CmPort1EndOfFrame>10</CmPort1EndOfFrame>
+          <CmPort2Address>1</CmPort2Address>
+          <CmPort2LnCfg>180</CmPort2LnCfg>
+          <CmPort2Protocol>0</CmPort2Protocol>
+          <CmPort2MbTimeout>10</CmPort2MbTimeout>
+          <CmPort2RespTimeout>10</CmPort2RespTimeout>
+          <CmPort2EndOfFrame>10</CmPort2EndOfFrame>
+          <CmPort1StartOfFrame>0</CmPort1StartOfFrame>
+          <CmPort1SecondEndOfFrame>0</CmPort1SecondEndOfFrame>
+          <CmPort1SizeASCIIFrame>0</CmPort1SizeASCIIFrame>
+          <CmPort2StartOfFrame>0</CmPort2StartOfFrame>
+          <CmPort2SecondEndOfFrame>0</CmPort2SecondEndOfFrame>
+          <CmPort2SizeASCIIFrame>0</CmPort2SizeASCIIFrame>
+          <CmFlagSilenceUsed>0</CmFlagSilenceUsed>
+          <CmAsciiEofTxEnabler>0</CmAsciiEofTxEnabler>
+          <CmPunitLnCfg>132</CmPunitLnCfg>
+          <CmPunitMbTimeout>20</CmPunitMbTimeout>
+        </CommObj>
+      </SwObjList>
+      <MacCfgList>
+      </MacCfgList>
+    </Resources>
+    <Program>
+      <Section SType="0" Display="0" SectionNum="1">
+        <ListInstruction>LD    1</ListInstruction>
+        <ListInstruction>[ %MW0 := 0 ]</ListInstruction>
+        <ListInstruction>[ %MW1 := 0 ]</ListInstruction>
+        <ListInstruction>[ %MW2 := 0 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := 1 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    %I0.0.1</ListInstruction>
+        <ListInstruction>[ %MW0 := 1 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.2</ListInstruction>
+        <ListInstruction>[ %MW0 := 2 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.3</ListInstruction>
+        <ListInstruction>[ %MW0 := 3 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.4</ListInstruction>
+        <ListInstruction>[ %MW0 := 4 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.5</ListInstruction>
+        <ListInstruction>[ %MW0 := 5 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.6</ListInstruction>
+        <ListInstruction>[ %MW0 := 6 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.7</ListInstruction>
+        <ListInstruction>[ %MW0 := 7 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.8</ListInstruction>
+        <ListInstruction>[ %MW0 := 8 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.9</ListInstruction>
+        <ListInstruction>[ %MW0 := 9 ]</ListInstruction>
+        <ListInstruction>LD    %I0.0.10</ListInstruction>
+        <ListInstruction>[ %MW0 := 10 ]</ListInstruction>
+        <ListInstruction>(* --------------------------*)</ListInstruction>
+        <ListInstruction>LD    %I0.2.1</ListInstruction>
+        <ListInstruction>[ %MW2 := 1 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.2</ListInstruction>
+        <ListInstruction>[ %MW2 := 2 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.3</ListInstruction>
+        <ListInstruction>[ %MW2 := 3 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.4</ListInstruction>
+        <ListInstruction>[ %MW2 := 4 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.5</ListInstruction>
+        <ListInstruction>[ %MW2 := 5 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.6</ListInstruction>
+        <ListInstruction>[ %MW2 := 6 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.7</ListInstruction>
+        <ListInstruction>[ %MW2 := 7 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.8</ListInstruction>
+        <ListInstruction>[ %MW2 := 8 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.9</ListInstruction>
+        <ListInstruction>[ %MW2 := 9 ]</ListInstruction>
+        <ListInstruction>LD    %I0.2.10</ListInstruction>
+        <ListInstruction>[ %MW2 := 10 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    %I0.1.1</ListInstruction>
+        <ListInstruction>[ %MW1 := 1 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.2</ListInstruction>
+        <ListInstruction>[ %MW1 := 2 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.3</ListInstruction>
+        <ListInstruction>[ %MW1 := 3 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.4</ListInstruction>
+        <ListInstruction>[ %MW1 := 4 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.5</ListInstruction>
+        <ListInstruction>[ %MW1 := 5 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.6</ListInstruction>
+        <ListInstruction>[ %MW1 := 6 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.7</ListInstruction>
+        <ListInstruction>[ %MW1 := 7 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.8</ListInstruction>
+        <ListInstruction>[ %MW1 := 8 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.9</ListInstruction>
+        <ListInstruction>[ %MW1 := 9 ]</ListInstruction>
+        <ListInstruction>LD    %I0.1.10</ListInstruction>
+        <ListInstruction>[ %MW1 := 10 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 1 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 1 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 2 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 2 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 3 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 3 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 4 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 4 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 5 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 5 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 6 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 6 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 7 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 7 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 8 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 8 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 9 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 9 ) ]</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = 10 ]</ListInstruction>
+        <ListInstruction>[ %MW3 := SHL( %MW3, 10 ) ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    %I0.1.0</ListInstruction>
+        <ListInstruction>[ %MW7 := %MW1 ]</ListInstruction>
+        <ListInstruction>LDN   %I0.1.0</ListInstruction>
+        <ListInstruction>[ %MW7 := %MW2 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    [ %MW0 &lt; %MW7 ]</ListInstruction>
+        <ListInstruction>AND   [ %MW7 > 0 ]</ListInstruction>
+        <ListInstruction>S     %M0</ListInstruction>
+        <ListInstruction>R     %M1</ListInstruction>
+        <ListInstruction>LD    [ %MW0 > %MW7 ]</ListInstruction>
+        <ListInstruction>AND   [ %MW7 > 0 ]</ListInstruction>
+        <ListInstruction>S     %M1</ListInstruction>
+        <ListInstruction>R     %M0</ListInstruction>
+        <ListInstruction>LD    [ %MW5 = %MW7 ]</ListInstruction>
+        <ListInstruction>R     %M0</ListInstruction>
+        <ListInstruction>R     %M1</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    [ %MW4 > 0 ]</ListInstruction>
+        <ListInstruction>[ %Q0.3.0:11 := %MW3 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    [ %MW7 = 0 ]</ListInstruction>
+        <ListInstruction>ANDN  %M0</ListInstruction>
+        <ListInstruction>[ %MW5 := %MW0 ]</ListInstruction>
+        <ListInstruction>[ %MW4 := %MW0 ]</ListInstruction>
+        <ListInstruction>[ %TM0.P := 5000 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    [ %MW0 > 0 ]</ListInstruction>
+        <ListInstruction>AND   [ %MW7 = 0 ]</ListInstruction>
+        <ListInstruction>ANDN  %M1</ListInstruction>
+        <ListInstruction>[ %MW5 := %MW0 ]</ListInstruction>
+        <ListInstruction>[ %MW4 := %MW0 ]</ListInstruction>
+        <ListInstruction>[ %TM1.P := 5000 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>BLK   %TM0</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = %MW5 ]         (* WHILE(MW4&lt;MW2)*)</ListInstruction>
+        <ListInstruction>AND   [ %MW7 > 0 ]</ListInstruction>
+        <ListInstruction>AND   %M0</ListInstruction>
+        <ListInstruction>IN</ListInstruction>
+        <ListInstruction>OUT_BLK</ListInstruction>
+        <ListInstruction>LD    Q</ListInstruction>
+        <ListInstruction>[ %MW5 := %MW4 ]</ListInstruction>
+        <ListInstruction>[ INC %MW4 ]                  (* DO MW4++ *)</ListInstruction>
+        <ListInstruction>END_BLK</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>BLK   %TM0</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = %MW5 ]         (* WHILE(MW4&lt;MW2)*)</ListInstruction>
+        <ListInstruction>AND   [ %MW7 > 0 ]</ListInstruction>
+        <ListInstruction>AND   [ %MW4 &lt;> %MW7 ]</ListInstruction>
+        <ListInstruction>AND   %M0</ListInstruction>
+        <ListInstruction>IN</ListInstruction>
+        <ListInstruction>OUT_BLK</ListInstruction>
+        <ListInstruction>LD    Q</ListInstruction>
+        <ListInstruction>[ %MW5 := %MW4 ]</ListInstruction>
+        <ListInstruction>[ INC %MW4 ]                  (* DO MW4++ *)</ListInstruction>
+        <ListInstruction>END_BLK</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>BLK   %TM1</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = %MW5 ]         (* WHILE(MW4&lt;MW2)*)</ListInstruction>
+        <ListInstruction>AND   [ %MW7 > 0 ]</ListInstruction>
+        <ListInstruction>AND   %M1</ListInstruction>
+        <ListInstruction>IN</ListInstruction>
+        <ListInstruction>OUT_BLK</ListInstruction>
+        <ListInstruction>LD    Q</ListInstruction>
+        <ListInstruction>[ %MW5 := %MW4 ]</ListInstruction>
+        <ListInstruction>[ DEC %MW4 ]                  (* DO MW4-- *)</ListInstruction>
+        <ListInstruction>END_BLK</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>BLK   %TM1</ListInstruction>
+        <ListInstruction>LD    [ %MW4 = %MW5 ]         (* WHILE(MW4&lt;MW2)*)</ListInstruction>
+        <ListInstruction>AND   [ %MW7 > 0 ]</ListInstruction>
+        <ListInstruction>AND   [ %MW4 &lt;> %MW7 ]</ListInstruction>
+        <ListInstruction>AND   %M1</ListInstruction>
+        <ListInstruction>IN</ListInstruction>
+        <ListInstruction>OUT_BLK</ListInstruction>
+        <ListInstruction>LD    Q</ListInstruction>
+        <ListInstruction>[ %MW5 := %MW4 ]</ListInstruction>
+        <ListInstruction>[ DEC %MW4 ]                  (* DO MW4-- *)</ListInstruction>
+        <ListInstruction>END_BLK</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>(* %MW5= [START.->.END]++ OR -- *)</ListInstruction>
+        <ListInstruction>LD    [ %MW5 &lt; %MW8 ]         (* ÂÂÅÐÕ\\ ÇÀÌÅÄËÈÒÜ START+1 *)</ListInstruction>
+        <ListInstruction>AND   %M0</ListInstruction>
+        <ListInstruction>S     %Q0.0.3</ListInstruction>
+        <ListInstruction>LD    [ %MW5 = %MW8 ]</ListInstruction>
+        <ListInstruction>AND   %M0</ListInstruction>
+        <ListInstruction>R     %Q0.0.3</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>(* %MW6= %MW7-1 OR %MW7+1*)</ListInstruction>
+        <ListInstruction>LD    %M0                     (* ÂÂÅÐÕ\\ ÇÀÌÅÄËÈÒÜ END-1 *)</ListInstruction>
+        <ListInstruction>AND   [ %MW6 = %MW5 ]</ListInstruction>
+        <ListInstruction>S     %Q0.0.3</ListInstruction>
+        <ListInstruction>LD    [ %MW5 = %MW7 ]</ListInstruction>
+        <ListInstruction>R     %Q0.0.3</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    [ %TM1.P = 500 ]        (* ÂÍÈÇ\\ ÇÀÌÅÄËÈÒÜ END+1*)</ListInstruction>
+        <ListInstruction>AND   [ %MW5 &lt; %MW8 ]</ListInstruction>
+        <ListInstruction>R     %Q0.0.3</ListInstruction>
+        <ListInstruction>LD    [ %MW5 = %MW8 ]</ListInstruction>
+        <ListInstruction>AND   %M1</ListInstruction>
+        <ListInstruction>S     %Q0.0.3</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>(* %MW9= %MW0-1*)</ListInstruction>
+        <ListInstruction>LD    %M1                     (* ÂÍÈÇ\\ ÇÀÌÅÄËÈÒÜ START-1 *)</ListInstruction>
+        <ListInstruction>AND   [ %MW0 = %MW5 ]</ListInstruction>
+        <ListInstruction>S     %Q0.0.3</ListInstruction>
+        <ListInstruction>LD    %M1</ListInstruction>
+        <ListInstruction>AND   [ %MW5 &lt; %MW0 ]</ListInstruction>
+        <ListInstruction>AND   [ %MW5 = %MW9 ]</ListInstruction>
+        <ListInstruction>R     %Q0.0.3</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>(* MW7= MW1 OR MW2*)</ListInstruction>
+        <ListInstruction>LD    1</ListInstruction>
+        <ListInstruction>[ %MW5 := %MW4 ]</ListInstruction>
+        <ListInstruction>LD    %M0</ListInstruction>
+        <ListInstruction>[ %MW8 := %MW0 + 1 ]</ListInstruction>
+        <ListInstruction>LD    %M1</ListInstruction>
+        <ListInstruction>[ %MW8 := %MW7 + 1 ]</ListInstruction>
+        <ListInstruction>[ %MW9 := %MW0 - 1 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    %M0</ListInstruction>
+        <ListInstruction>[ %MW6 := %MW7 - 1 ]</ListInstruction>
+        <ListInstruction>[ %TM0.P := 500 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    %M1</ListInstruction>
+        <ListInstruction>[ %MW6 := %MW7 + 1 ]</ListInstruction>
+        <ListInstruction>[ %TM1.P := 500 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>(* ÇÀÌÅÄËÈÒÅËÈ\ÓÑÊÎÐÈÒÅËÈ ÄÎ ÝÒÀÆÀ*)</ListInstruction>
+        <ListInstruction>LD    [ %MW6 = %MW5 ]</ListInstruction>
+        <ListInstruction>AND   %M0</ListInstruction>
+        <ListInstruction>[ %TM0.P := 5000 ]</ListInstruction>
+        <ListInstruction>LD    [ %MW5 = %MW7 ]</ListInstruction>
+        <ListInstruction>AND   %M0</ListInstruction>
+        <ListInstruction>[ %TM0.P := 500 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>LD    [ %MW6 = %MW5 ]</ListInstruction>
+        <ListInstruction>AND   %M1</ListInstruction>
+        <ListInstruction>[ %TM1.P := 5000 ]</ListInstruction>
+        <ListInstruction>LD    [ %MW5 = %MW7 ]</ListInstruction>
+        <ListInstruction>AND   %M1</ListInstruction>
+        <ListInstruction>[ %TM1.P := 500 ]</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>$</ListInstruction>
+        <ListInstruction>END</ListInstruction>
+      </Section>
+      <ProgramValidated>TRUE</ProgramValidated>
+      <ProgramForceValidation>FALSE</ProgramForceValidation>
+    </Program>
+    <Context>
+      <LgthObjTableUsed>0</LgthObjTableUsed>
+      <ConstantConfiguredTag>0</ConstantConfiguredTag>
+      <CounterConfiguredTag>0</CounterConfiguredTag>
+      <DrumConfiguredTag>0</DrumConfiguredTag>
+      <FCounterConfiguredTag>0</FCounterConfiguredTag>
+      <LifoFifoConfiguredTag>0</LifoFifoConfiguredTag>
+      <WordConfiguredTag>0</WordConfiguredTag>
+      <PlsConfiguredTag>0</PlsConfiguredTag>
+      <ShiftBitRegConfiguredTag>0</ShiftBitRegConfiguredTag>
+      <ScheduleBlockConfiguredTag>0</ScheduleBlockConfiguredTag>
+      <StepCounterConfiguredTag>0</StepCounterConfiguredTag>
+      <TimerConfiguredTag>0</TimerConfiguredTag>
+      <VFastCounterConfiguredTag>0</VFastCounterConfiguredTag>
+      <ZoomViewer>ADJUSTED</ZoomViewer>
+      <ZoomEditor>ADJUSTED</ZoomEditor>
+      <ZoomLadder>2</ZoomLadder>
+    </Context>
+    <PrintSettings>
+      <HardwareSettings>
+        <Print>TRUE</Print>
+        <Base>
+          <Reference>TRUE</Reference>
+          <Description>FALSE</Description>
+          <Inputs>FALSE</Inputs>
+          <Outputs>FALSE</Outputs>
+          <OnlyUsed>FALSE</OnlyUsed>
+        </Base>
+        <Modules>
+          <Reference>TRUE</Reference>
+          <Description>FALSE</Description>
+          <ModuleConfig>FALSE</ModuleConfig>
+          <Inputs>FALSE</Inputs>
+          <Outputs>FALSE</Outputs>
+          <OnlyUsed>FALSE</OnlyUsed>
+        </Modules>
+        <PrintSerialPort>FALSE</PrintSerialPort>
+        <PrintModem>FALSE</PrintModem>
+        <PrintEthernet>FALSE</PrintEthernet>
+        <PrintEtherPort>FALSE</PrintEtherPort>
+        <PrintRTC>FALSE</PrintRTC>
+        <PrintCartridge>FALSE</PrintCartridge>
+      </HardwareSettings>
+      <ObjectsSettings>
+        <Print>TRUE</Print>
+        <AllSimple>TRUE</AllSimple>
+        <PrintConstantDouble>FALSE</PrintConstantDouble>
+        <PrintConstantWord>FALSE</PrintConstantWord>
+        <PrintConstantFloat>FALSE</PrintConstantFloat>
+        <PrintMemoryDouble>FALSE</PrintMemoryDouble>
+        <PrintMemoryWord>FALSE</PrintMemoryWord>
+        <PrintMemoryFloat>FALSE</PrintMemoryFloat>
+        <PrintMemoryBit>FALSE</PrintMemoryBit>
+        <AllBlocks>TRUE</AllBlocks>
+        <PrintTimers>FALSE</PrintTimers>
+        <PrintCounters>FALSE</PrintCounters>
+        <PrintFastCounter>FALSE</PrintFastCounter>
+        <PrintVeryFastCounter>FALSE</PrintVeryFastCounter>
+        <PrintSchedulerBlock>FALSE</PrintSchedulerBlock>
+        <PrintDrums>FALSE</PrintDrums>
+        <PrintPID>FALSE</PrintPID>
+        <PrintPLSPWM>FALSE</PrintPLSPWM>
+        <PrintLIFOFIFO>FALSE</PrintLIFOFIFO>
+        <AllExterns>TRUE</AllExterns>
+        <PrintMacroComm>FALSE</PrintMacroComm>
+        <PrintMacroDrive>FALSE</PrintMacroDrive>
+        <PrintMacroTesys>FALSE</PrintMacroTesys>
+        <PrintMacroOtb>FALSE</PrintMacroOtb>
+        <PrintObjectsOnlyUsed>TRUE</PrintObjectsOnlyUsed>
+        <PrintObjectsIndicateMax>FALSE</PrintObjectsIndicateMax>
+      </ObjectsSettings>
+      <MemoryReportSettings>
+        <Print>TRUE</Print>
+        <PrintMemStat>TRUE</PrintMemStat>
+        <PrintMemAlloc>TRUE</PrintMemAlloc>
+      </MemoryReportSettings>
+      <ApplicationSettings>
+        <Print>FALSE</Print>
+      </ApplicationSettings>
+      <ProgramSettings>
+        <Print>TRUE</Print>
+        <ProgramAllSectionsToList>FALSE</ProgramAllSectionsToList>
+        <ProgramSectionRange>0</ProgramSectionRange>
+        <ProgramSectionStart>1</ProgramSectionStart>
+        <ProgramSectionEnd>9999</ProgramSectionEnd>
+        <ProgramLinesRungsRange>0</ProgramLinesRungsRange>
+        <ProgramLinesRungsStart>0</ProgramLinesRungsStart>
+        <ProgramLinesRungsEnd>9999</ProgramLinesRungsEnd>
+        <PrintProgramLadder>
+          <ProgramRange>0</ProgramRange>
+          <ProgramStart>0</ProgramStart>
+          <ProgramEnd>9999</ProgramEnd>
+          <ProgramAddresses>FALSE</ProgramAddresses>
+          <ProgramSymbols>FALSE</ProgramSymbols>
+          <ProgramAddrSymb>TRUE</ProgramAddrSymb>
+          <ProgramEntireAddress>TRUE</ProgramEntireAddress>
+          <ProgramInfo>FALSE</ProgramInfo>
+        </PrintProgramLadder>
+        <PrintProgramList>
+          <ProgramRange>0</ProgramRange>
+          <ProgramStart>0</ProgramStart>
+          <ProgramEnd>9999</ProgramEnd>
+          <ProgramAddresses>TRUE</ProgramAddresses>
+          <ProgramSymbols>FALSE</ProgramSymbols>
+          <ProgramInfo>FALSE</ProgramInfo>
+          <ProgramRealMacroCode>FALSE</ProgramRealMacroCode>
+        </PrintProgramList>
+      </ProgramSettings>
+      <SymbolsSettings>
+        <Print>TRUE</Print>
+        <PrintSortOrder>1</PrintSortOrder>
+      </SymbolsSettings>
+      <CrossRef>
+        <Print>TRUE</Print>
+        <AllCrossRef>TRUE</AllCrossRef>
+        <CrossRefElements>0</CrossRefElements>
+        <CrossRefSort>0</CrossRefSort>
+        <CrossRefAllSection>FALSE</CrossRefAllSection>
+        <CrossRefRangeSection>FALSE</CrossRefRangeSection>
+        <CrossRefOneSection>FALSE</CrossRefOneSection>
+        <CrossRefFirstAsapSection>1</CrossRefFirstAsapSection>
+        <CrossRefLastAsapSection>9999</CrossRefLastAsapSection>
+        <CrossRefAllLinesRungs>FALSE</CrossRefAllLinesRungs>
+        <CrossRefFirstAsapLineRung>1</CrossRefFirstAsapLineRung>
+        <CrossRefLastAsapLineRung>9999</CrossRefLastAsapLineRung>
+      </CrossRef>
+      <Behavior>
+        <Print>TRUE</Print>
+        <BehaviorFunctionaLevels>TRUE</BehaviorFunctionaLevels>
+        <BehaviorScanMode>TRUE</BehaviorScanMode>
+        <BehaviorStart>TRUE</BehaviorStart>
+        <BehaviorAutomaticSave>TRUE</BehaviorAutomaticSave>
+      </Behavior>
+      <AnimTable>
+        <Print>TRUE</Print>
+      </AnimTable>
+      <RootNode>
+        <RootNodeTwido>TRUE</RootNodeTwido>
+        <RootNodeConfiguration>TRUE</RootNodeConfiguration>
+        <RootNodeProgram>TRUE</RootNodeProgram>
+      </RootNode>
+    </PrintSettings>
+    <TwidoDisconnection>
+      <AutomatedBackup>TRUE</AutomatedBackup>
+    </TwidoDisconnection>
+  </TwidoApplication>
+
+

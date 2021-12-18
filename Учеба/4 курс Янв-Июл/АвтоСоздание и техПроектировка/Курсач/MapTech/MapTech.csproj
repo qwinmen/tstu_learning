@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1105E991-CB49-45DA-B2CD-BDAEF23EBC94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MapTech</RootNamespace>
+    <AssemblyName>MapTech</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>CONSTRUC_ICO_0.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b" />
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b" />
+    <Reference Include="DevComponents.Instrumentation, Version=11.3.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0" />
+    <Reference Include="DevComponents.TreeGX, Version=11.3.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1" />
+    <Reference Include="FastColoredTextBox, Version=2.14.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 9.0\VC#\DllAddon\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="unvell.ReoGrid, Version=1.2.1.0, Culture=neutral, PublicKeyToken=0a947d9ccc179105, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 9.0\VC#\DllAddon\ReoGrid-1.2.1-Minimum\ReoGrid-1.2.1-Release\unvell.ReoGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.0.9.41461, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 9.0\VC#\DllAddon\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clDataBaseStatic.cs" />
+    <Compile Include="clDBExec.cs" />
+    <Compile Include="clProcess.cs" />
+    <Compile Include="clTablica.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fОхранаТруда.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fОхранаТруда.Designer.cs">
+      <DependentUpon>fОхранаТруда.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrinterNull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrinterNull.designer.cs">
+      <DependentUpon>PrinterNull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fОхранаТруда.resx">
+      <DependentUpon>fОхранаТруда.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrinterNull.resx">
+      <DependentUpon>PrinterNull.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCelement.resx">
+      <DependentUpon>UCelement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCNeLogik.resx">
+      <DependentUpon>UCNeLogik.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCOptimizm.resx">
+      <DependentUpon>UCOptimizm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCParametrs.resx">
+      <DependentUpon>UCParametrs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCКодПроф.resx">
+      <DependentUpon>UCКодПроф.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCКодУсловийТруда.resx">
+      <DependentUpon>UCКодУсловийТруда.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCРазрядРаботы.resx">
+      <DependentUpon>UCРазрядРаботы.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCСтепеньМеханизац.resx">
+      <DependentUpon>UCСтепеньМеханизац.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCТехОснастка.resx">
+      <DependentUpon>UCТехОснастка.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UCelement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCelement.Designer.cs">
+      <DependentUpon>UCelement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCNeLogik.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCNeLogik.designer.cs">
+      <DependentUpon>UCNeLogik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCOptimizm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCOptimizm.designer.cs">
+      <DependentUpon>UCOptimizm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCParametrs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCParametrs.designer.cs">
+      <DependentUpon>UCParametrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCКодПроф.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCКодПроф.designer.cs">
+      <DependentUpon>UCКодПроф.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCКодУсловийТруда.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCКодУсловийТруда.designer.cs">
+      <DependentUpon>UCКодУсловийТруда.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCРазрядРаботы.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCРазрядРаботы.designer.cs">
+      <DependentUpon>UCРазрядРаботы.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCСтепеньМеханизац.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCСтепеньМеханизац.designer.cs">
+      <DependentUpon>UCСтепеньМеханизац.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCТехОснастка.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCТехОснастка.designer.cs">
+      <DependentUpon>UCТехОснастка.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Агломератор.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Дробилка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Конвеер.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Контеинер.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Магнит.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Сушилка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Экструдер.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\AecBaseRes.png" />
+    <None Include="bin\Debug\image\printer.png" />
+    <None Include="bin\Debug\image\clear.bmp" />
+    <None Include="bin\Debug\image\FirstPg_Help.png" />
+    <None Include="bin\Debug\image\SecndPg_Help.png" />
+    <None Include="bin\Debug\image\ThirdPg_Help.png" />
+    <None Include="bin\Debug\image\ForthPg_Help.png" />
+    <Content Include="CONSTRUC_ICO_0.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

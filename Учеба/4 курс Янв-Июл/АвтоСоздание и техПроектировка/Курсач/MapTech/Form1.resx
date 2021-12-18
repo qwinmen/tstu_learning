@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>149, 17</value>
+  </metadata>
+  <metadata name="columnHeader1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>401, 17</value>
+  </metadata>
+  <metadata name="columnHeader2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>539, 17</value>
+  </metadata>
+  <metadata name="columnHeader3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>677, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>304, 17</value>
+  </metadata>
+  <data name="label4.Text" xml:space="preserve">
+    <value>При запуске программы пользователь видит окно, изображенное на Рисунке 1.
+● В верхней его части расположен элемент поле, позволяющий размещать внутри себя компоненты планируемой линии.
+● Доступно два режима работы с картой поля, в первом - ручном доступное оборудование будет высвечиваться в нижней таблице,
+ тогда как автоматическое размещение создаст линию самостоятельно, выбрав критерием одно из условий, 
+ в данном случае это максимальная стоимость будущего оборудования.
+● Если построенная линия не устаивает пользователя, он может удалить её путем нажатия правой кнопки мыши на карте. 
+В появившемся контекстном меню доступны два поля, Очистить поле, выполнит стирание компонентов на карте, вторым полем 
+расположен пункт Печать, который дает возможность печати текущего проекта на бунажном насителе (Должен быть подключен принтер!).</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Рисунок 2 - Вкладка Проектирование.
+● Справо расположенно поле меню, в нем расположены основные элементы управления, это: 
+● Kнопка А - отвечает за раздел с таким же названием и полями:
+Номер цеха, участка, рабочего места, где выполняется операция, номер операции, 
+код и наименование операции, обозначение документов, применяемых при выполнении операции;
+● Kнопка Б - отвечает за раздел с полями:
+Код, наименование оборудования и информация по трудозатратам;
+● Kнопка О - отвечает за содержание операции (перехода);
+● Kнопка T - отвечает за информацию о применяемой при выполнении операции технологической оснастке;
+● Kнопка 00 - выполнит вставку пустой строки в результирующий отчет-карту;
+● Kнопка c изображением пунктов - таблица операций, отображена на рисунке 1;
+● Kнопка c изображением галки - выполняет внесение содержимого всех полей предыдущих разделов в отчет-карту;
+
+
+</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Вкладка Маршрутная Карта - Рисунок 3, содержит всю технологическую информацию предыдущих пунктов Справки.
+Доступны операции удаления содержимого ячейки, перемещения выделенной ячейки или группы, есть возможность копировать.
+Печать содержимого карты выполняется указанием из раздела 1 Справки.
+
+</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Вкладка Оптимизация - рисунок 4. 
+В данном разделе выполняется расчет оборудования для получения гранул - агломератора. 
+Входящими параметрами являются габариты аппарата, его тип - трубчатый или обычный. 
+Расчет производится по временному критерию и получения наибольшего количества выходного продукта.
+
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>47</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAIAAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYAACBAAAAgYAAAIIAAACCgAAAg
+        wAAAIOAAAEAAAABAIAAAQEAAAEBgAABAgAAAQKAAAEDAAABA4AAAYAAAAGAgAABgQAAAYGAAAGCAAABg
+        oAAAYMAAAGDgAACAAAAAgCAAAIBAAACAYAAAgIAAAICgAACAwAAAgOAAAKAAAACgIAAAoEAAAKBgAACg
+        gAAAoKAAAKDAAACg4AAAwAAAAMAgAADAQAAAwGAAAMCAAADAoAAAwMAAAMDgAADgAAAA4CAAAOBAAADg
+        YAAA4IAAAOCgAADgwAAA4OAAQAAAAEAAIABAAEAAQABgAEAAgABAAKAAQADAAEAA4ABAIAAAQCAgAEAg
+        QABAIGAAQCCAAEAgoABAIMAAQCDgAEBAAABAQCAAQEBAAEBAYABAQIAAQECgAEBAwABAQOAAQGAAAEBg
+        IABAYEAAQGBgAEBggABAYKAAQGDAAEBg4ABAgAAAQIAgAECAQABAgGAAQICAAECAoABAgMAAQIDgAECg
+        AABAoCAAQKBAAECgYABAoIAAQKCgAECgwABAoOAAQMAAAEDAIABAwEAAQMBgAEDAgABAwKAAQMDAAEDA
+        4ABA4AAAQOAgAEDgQABA4GAAQOCAAEDgoABA4MAAQODgAIAAAACAACAAgABAAIAAYACAAIAAgACgAIAA
+        wACAAOAAgCAAAIAgIACAIEAAgCBgAIAggACAIKAAgCDAAIAg4ACAQAAAgEAgAIBAQACAQGAAgECAAIBA
+        oACAQMAAgEDgAIBgAACAYCAAgGBAAIBgYACAYIAAgGCgAIBgwACAYOAAgIAAAICAIACAgEAAgIBgAICA
+        gACAgKAAgIDAAICA4ACAoAAAgKAgAICgQACAoGAAgKCAAICgoACAoMAAgKDgAIDAAACAwCAAgMBAAIDA
+        YACAwIAAgMCgAIDAwACAwOAAgOAAAIDgIACA4EAAgOBgAIDggACA4KAAgODAAIDg4ADAAAAAwAAgAMAA
+        QADAAGAAwACAAMAAoADAAMAAwADgAMAgAADAICAAwCBAAMAgYADAIIAAwCCgAMAgwADAIOAAwEAAAMBA
+        IADAQEAAwEBgAMBAgADAQKAAwEDAAMBA4ADAYAAAwGAgAMBgQADAYGAAwGCAAMBgoADAYMAAwGDgAMCA
+        AADAgCAAwIBAAMCAYADAgIAAwICgAMCAwADAgOAAwKAAAMCgIADAoEAAwKBgAMCggADAoKAAwKDAAMCg
+        4ADAwAAAwMAgAMDAQADAwGAAwMCAAMDAoADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD7A/sD+wP7AwMDAwAAAAD7+wP7AwAAAAAAAAAAAPsD+wP7A/sDAwMDAwMD
+        AAMA+/sDAwADAwAAAAAAAAADAwMDAAAAAAAAAAAAAAADAPv7APsD+wMDAwAAAAAAAAMDAwP7B/sHAwcD
+        AwMDAAMD+/v7+wMDAwMDAAAAAAAAAAMDAwMDAwMDAwMDAwD7A/sD+/sDA/sD+wP7AAAAAAAAAPsD+wP7
+        AwMDAwMDAPsD+wMD+wP7+/sDAwMAAAAA+wP7A/sD+wP7AwMDAwMA+wP7AwMD+/v7AwMD+wAAAAMDAwMA
+        AAAAAAAAAAAAAAD7A/sDA/v7+/v7A/sDAAAAAwAAAAAA+wP7A/sDAwMDAPsD+wMDA/v7APsDA/sAAAAA
+        AwD7A/sD+wP7A/sDAwMA+wP7AwMD+/v7+wP7AwAAAAMAAwMDAwMDAwMDAwMDAwD7AwMDAwP7+/sD+wP7
+        AAAAAAADAAAA+wcHBwMHAwcDAPv7AwMDAwMDAwP7+wAAAAAAAAADAwMDAAAAAAAAAAAAAPsDA/sDAwMD
+        +/sDAAAAAAAAAwMAAAD7A/sD+wP7A/sA+/sDAwMDAPv7+wAAAAAAAAAAAPsD+wP7A/sD+wP7A/sA+/sD
+        A/sD+/sAAAAAAAAAAAADAwMDAwMDAwMDAwMDAwMAAPsDAwMDAAAAAAAAAAAAAAMAAAD7+/sHAwcDBwMH
+        AwAAAAMAAAAAAAAAAAAAAAAAAAMDAwMDBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAwMHAAAA+wP7
+        A/sD+wP7A/sAAAAAAAAAAAAAAAAAAAADAwD7A/sD+wP7A/sD+wP7A/sDAwAAAAAAAAAAAAAAAAAAAwMD
+        A////////wMDAwMDAwMDAwAAAAAAAAAAAAAAAAADAAcH+/v7+wP7A/sD+wMAAAADAAAAAAAAAAAAAAAA
+        AAADAwMDA/v7+/v7A/sD+wMDAwAAAAAAAAAAAAAAAAAAAwMD+wP7A/v7+/v7A/sD+wMDAwAAAAAAAAAA
+        AAAAAAAAAwMD+wP7+/v7+/v7AwMDAwMAAAAAAAAAAAAAAAAAAAAAAAAD+wP7A/v/////+wAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP/////+ADwf8AAAD+AAAAfAAAADwAAAA8AAAAHAAAABgAAAAQAAAAEAAAABAAAAAQAA
+        AAGAAAADwAAAA8AAAAfgAAAP4AAAH+AAAP/gAAD/4AAAf/AAAD/4AAAf/AAAH/wAAB/8AAAf/gAAP/8A
+        AH//4AP/////////////////
+</value>
+  </data>
+</root>
